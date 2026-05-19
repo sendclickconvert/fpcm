@@ -112,23 +112,18 @@ const testimonials = [
         <h3 class="eyebrow-crimson">Faith in Action: Live Services, Events &amp; Teachings</h3>
       </div>
 
-      <!-- 3 info boxes — same card style as life categories -->
-      <div class="grid md:grid-cols-3 gap-5">
-        {infoBoxes.map((box, i) => (
+      <!-- 3 info boxes — leaf/eye shape with indigo overlay -->
+      <div class="grid md:grid-cols-3 gap-6 lg:gap-8">
+        {infoBoxes.map((box) => (
           <a
             href={box.href}
-            class:list={[
-              'group relative aspect-[5/4] overflow-hidden block',
-              i === 0 ? 'rounded-tl-[80px]' : '',
-              i === 1 ? 'rounded-tr-[80px]' : '',
-              i === 2 ? 'rounded-br-[80px]' : '',
-            ]}
+            class="group relative aspect-[4/5] overflow-hidden block rounded-tl-[180px] rounded-br-[180px]"
           >
             <img src={box.image} alt="" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
-            <div class="absolute inset-0 bg-navy/65 group-hover:bg-navy/55 transition-colors"></div>
+            <div class="absolute inset-0" style="background-color: rgba(72, 71, 168, 0.72);"></div>
             <div class="relative h-full flex flex-col items-center justify-center text-center text-white p-6 gap-5">
-              <h3 class="display-md text-white">{box.title}</h3>
-              <span class="btn btn-crimson">Learn More</span>
+              <h3 class="font-display text-2xl md:text-[1.65rem] leading-tight text-white max-w-[14ch]">{box.title}</h3>
+              <span class="btn btn-crimson text-xs px-5 py-2.5">Learn More</span>
             </div>
           </a>
         ))}

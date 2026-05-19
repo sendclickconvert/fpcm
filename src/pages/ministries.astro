@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import PageHero from '../components/PageHero.astro';
 import GetNotified from '../components/GetNotified.astro';
 import AlternatingSection from '../components/AlternatingSection.astro';
 import { CHURCH, MINISTRIES_LIST } from '../data/site';
@@ -11,11 +10,33 @@ const description = `Ministries at First Presbyterian Church of Montgomery — B
 
 <BaseLayout title={title} description={description}>
 
-  <PageHero
-    title="Ministries"
-    image="/images/bg-ministries.jpg"
-    size="lg"
-  />
+  <!-- Ministries hero with dual CTAs -->
+  <section
+    class="relative flex items-center justify-center text-white text-center px-6 min-h-[560px] md:min-h-[640px]"
+    style="background-image: linear-gradient(180deg, rgba(38,40,128,0.78) 0%, rgba(38,40,128,0.82) 100%), url('/images/bg-ministries.jpg'); background-size: cover; background-position: center;"
+  >
+    <div class="relative max-w-3xl mx-auto py-16">
+      <h1 class="display-xl text-white mb-10">Ministries</h1>
+
+      <div class="flex flex-wrap items-center justify-center gap-5">
+        <a href="/events" class="btn btn-crimson">Explore Events</a>
+
+        <a
+          href="https://www.youtube.com/@fpcmontgomery"
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-3 font-mono text-sm tracking-wide text-white hover:opacity-90 transition-opacity"
+        >
+          <span>View More</span>
+          <span class="inline-flex items-center justify-center w-9 h-7 bg-[#FF0000] rounded-md" aria-hidden="true">
+            <svg width="14" height="10" viewBox="0 0 24 17" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.5 2.6c-.3-1-1-1.8-2-2C19.7 0 12 0 12 0S4.3 0 2.5.6c-1 .2-1.7 1-2 2C0 4.4 0 8.5 0 8.5s0 4 .5 5.9c.3 1 1 1.8 2 2C4.3 17 12 17 12 17s7.7 0 9.5-.6c1-.2 1.7-1 2-2 .5-1.8.5-5.9.5-5.9s0-4-.5-5.9zM9.5 12V5l6.5 3.5L9.5 12z"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
 
   <!-- Intro -->
   <section class="triangle-pattern py-16 md:py-20">

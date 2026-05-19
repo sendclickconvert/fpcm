@@ -168,7 +168,7 @@ export const COMMITTEES = [
 
 // Sunday Services Livestream — homepage video grid.
 export const LIVESTREAM = {
-  cta: { label: 'Watch More Here', href: 'https://www.youtube.com/@fpcmontgomery' },
+  cta: { label: 'Watch More Sermons on YouTube', href: 'https://www.youtube.com/@fpcmontgomery' },
   main: {
     title: 'Sabbath Evening Worship',
     subtitle: 'First Pres Montgomery',
@@ -220,7 +220,7 @@ export const WORSHIP_SACRAMENTS = [
     body: 'Baptism is a sacrament of belonging — a public sign of God\'s grace and the welcome of our community. We baptize infants, children, and adults at First Presbyterian. If you or your child are considering baptism, please reach out to start the conversation.',
     image: '/images/worship-baptism.jpg',
     bg: 'navy',
-    primaryCta: { label: 'Click here for more info', href: '/contact?topic=baptism' },
+    primaryCta: { label: 'Learn more about Baptism', href: '/contact?topic=baptism' },
     secondaryCta: { label: 'Baptism Application', href: '/contact?topic=baptism-application' },
   },
   {
@@ -228,7 +228,7 @@ export const WORSHIP_SACRAMENTS = [
     body: 'The Lord\'s Supper is celebrated on the first Sunday of each month and at other significant moments in the church year. All who profess faith in Jesus Christ are welcome at the table.',
     image: '/images/worship-communion.jpg',
     bg: 'cream',
-    primaryCta: { label: 'Click here for more info', href: '/contact?topic=communion' },
+    primaryCta: { label: 'Learn more about Communion', href: '/contact?topic=communion' },
     secondaryCta: { label: 'Communion Application', href: '/contact?topic=communion-application' },
   },
   {
@@ -236,7 +236,7 @@ export const WORSHIP_SACRAMENTS = [
     body: 'Confirmation is a milestone for our youth — a chance to publicly profess faith and step into membership. Our Christian Education team walks alongside students through study, prayer, and service.',
     image: '/images/worship-confirmation.jpg',
     bg: 'cream',
-    primaryCta: { label: 'More Info Here', href: '/contact?topic=confirmation' },
+    primaryCta: { label: 'Learn more about Confirmation', href: '/contact?topic=confirmation' },
     secondaryCta: { label: 'Confirmation Application', href: '/contact?topic=confirmation-application' },
   },
   {
@@ -244,7 +244,7 @@ export const WORSHIP_SACRAMENTS = [
     body: 'In times of loss, we walk with families through grief and remembrance. Funeral and memorial services at First Presbyterian honor the life of the loved one and proclaim the hope of the resurrection.',
     image: '/images/worship-funerals.jpg',
     bg: 'cream',
-    primaryCta: { label: 'More Info Here', href: '/contact?topic=funerals' },
+    primaryCta: { label: 'Learn more about Funeral Services', href: '/contact?topic=funerals' },
     secondaryCta: { label: 'Funerals Application', href: '/contact?topic=funerals-application' },
   },
   {
@@ -252,7 +252,7 @@ export const WORSHIP_SACRAMENTS = [
     body: 'We rejoice in celebrating the marriages of those connected to First Presbyterian. Our pastor and worship committee will guide you through preparation, planning, and the service itself.',
     image: '/images/worship-weddings.jpg',
     bg: 'navy',
-    primaryCta: { label: 'More Info Here', href: '/contact?topic=weddings' },
+    primaryCta: { label: 'Learn more about Weddings', href: '/contact?topic=weddings' },
     secondaryCta: { label: 'Weddings Application', href: '/contact?topic=weddings-application' },
   },
   {
@@ -260,7 +260,7 @@ export const WORSHIP_SACRAMENTS = [
     body: 'Honoring a loved one or marking a special occasion through flowers and memorial gifts is a meaningful way to participate in worship. Contact the office to schedule a Sunday dedication.',
     image: '/images/worship-flowers.jpg',
     bg: 'cream',
-    primaryCta: { label: 'More Info Here', href: '/contact?topic=chancel' },
+    primaryCta: { label: 'Learn more about Chancel Flowers', href: '/contact?topic=chancel' },
     secondaryCta: { label: 'Dedication Form', href: '/contact?topic=chancel-dedication' },
   },
 ];

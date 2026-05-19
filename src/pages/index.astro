@@ -117,6 +117,7 @@ const testimonials = [
         {infoBoxes.map((box) => (
           <a
             href={box.href}
+            aria-label={`Learn more about ${box.title}`}
             class="group relative aspect-[4/5] overflow-hidden block rounded-tl-[180px] rounded-br-[180px]"
           >
             <img src={box.image} alt="" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
@@ -236,6 +237,7 @@ const testimonials = [
         {LIFE_CATEGORIES.map((cat, i) => (
           <a
             href={cat.href}
+            aria-label={`Learn more about ${cat.title} at First Presbyterian`}
             class:list={[
               'group relative aspect-[5/6] overflow-hidden block',
               i === 0 ? 'rounded-tl-[80px]' : '',
@@ -263,7 +265,7 @@ const testimonials = [
         <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft mb-8 max-w-prose">
           Everything you need to worship, connect, serve, and grow — all in one place.
         </p>
-        <a href="/events" class="btn btn-crimson">Learn More</a>
+        <a href="/events" class="btn btn-crimson">Explore Life at First Presbyterian</a>
       </div>
     </div>
   </section>

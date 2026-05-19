@@ -88,20 +88,14 @@ const testimonials = [
           </div>
         </div>
 
-        <!-- Right: portrait with crimson caption -->
-        <div class="md:col-span-5 relative">
-          <div class="relative">
-            <img
-              src={PASTOR.avatar}
-              alt={`Photo of ${PASTOR.name}`}
-              class="w-full aspect-[4/5] object-cover rounded-tl-[120px] rounded-br-[120px] bg-rule"
-              loading="lazy"
-            />
-            <div class="absolute bottom-8 left-0 right-10 bg-crimson text-white px-5 py-3 shadow-lg">
-              <p class="font-display text-xl leading-tight">{PASTOR.name}</p>
-              <p class="font-mono text-[0.62rem] tracking-wider uppercase text-white/85 mt-1">{PASTOR.title}</p>
-            </div>
-          </div>
+        <!-- Right: portrait (caption is baked into the source image) -->
+        <div class="md:col-span-5">
+          <img
+            src={PASTOR.avatar}
+            alt={`Rev. Neill McKay, Senior Pastor of First Presbyterian Church of Montgomery`}
+            class="w-full max-w-md mx-auto object-contain"
+            loading="lazy"
+          />
         </div>
       </div>
 

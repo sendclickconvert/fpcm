@@ -80,7 +80,7 @@ export const HERO = {
   headline: 'Grace Has Been Waiting For You',
   body: 'No matter where you are in life, you are welcome here.\nCome worship, connect, and grow with us at\nFirst Presbyterian Church of Montgomery.',
   cta: { label: 'Join Us Here', href: '/im-new' },
-  bgImage: '/images/hero-choir.png',
+  bgImage: '/images/bg-1-scaled.jpg',
 };
 
 // Upcoming event red bar.
@@ -103,13 +103,13 @@ export const UPCOMING_EVENT = {
  * to a named pastor by editing this object.
  */
 export const PASTOR = {
-  heading: 'Our Elders',
-  name: 'The Session',
-  title: 'Leading Our Pastoral Search',
-  bio: 'The Session of Elders, currently leading the congregation through our pastoral search.',
-  avatar: '/images/elders-message.jpg',
+  heading: 'The Pastor',
+  name: 'The Pastor',
+  title: 'First Presbyterian Church of Montgomery',
+  bio: 'Leading the congregation with faith, vision, and a heart for the Montgomery community.',
+  avatar: '/images/Frame-25.png',
   quote:
-    '"Our sanctuary is more than a building — it is where God has called us together. We are in a season of pastoral transition, and our vision for First Presbyterian in 2026 is simple: to grow together, nurture our youth, deepen our relationships, and build a faithful partnership between elders, congregation, and community. We look forward to welcoming a new pastor — and to doing God\'s work together here in Montgomery."',
+    '"Our sanctuary is more than a building — it is where God brought me, and where I am called to serve. My vision for First Presbyterian in 2026 is simple — to grow together, nurture our youth, deepen our relationships, and build a faithful partnership between pastor, church, and community. I am truly honored to serve you, and I look forward to many years of doing God\'s work together right here in Montgomery."',
   cta: 'Join Us this Sunday – All are Welcome!',
 };
 
@@ -126,11 +126,11 @@ export const MISSION = {
 
 // Staff — roles corrected against Handbook2025.pdf "CHURCH STAFF" section.
 export const STAFF = [
-  { name: 'Carol Jellema', role: 'Secretary', avatar: '/images/staff-carol.jpg' },
-  { name: 'Heather Benedict', role: 'Financial Secretary', avatar: '/images/staff-heather.jpg' },
-  { name: 'Marcia Woodall', role: 'Music Director / Organist', avatar: '/images/staff-marcia.jpg' },
-  { name: 'Wendy McNutt', role: 'Treasurer (Volunteer)', avatar: '/images/staff-wendy.jpg' },
-  { name: 'Cynthia Nokland', role: 'Clerk of Session', avatar: '/images/staff-cynthia.jpg' },
+  { name: 'Carol Jellema', role: 'Secretary', avatar: '/images/Ellipse-4.png' },
+  { name: 'Heather Benedict', role: 'Financial Secretary', avatar: '/images/Ellipse-9.png' },
+  { name: 'Marcia Woodall', role: 'Music Director / Organist', avatar: '/images/Ellipse-10.png' },
+  { name: 'Wendy McNutt', role: 'Treasurer (Volunteer)', avatar: '/images/Ellipse-7.png' },
+  { name: 'Cynthia Nokland', role: 'Clerk of Session', avatar: '/images/Ellipse-11.png' },
 ];
 
 // Elders — from the About page mockup.

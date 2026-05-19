@@ -5,35 +5,31 @@ const isActive = (href: string) =>
   href === '/' ? pathname === '/' : pathname === href || pathname.startsWith(href + '/');
 ---
 
-<header id="site-header" class="sticky top-0 z-50 bg-navy text-white transition-shadow duration-200">
+<header id="site-header" class="sticky top-0 z-50 bg-white shadow-sm transition-shadow duration-200">
   <div class="max-w-container mx-auto px-6 lg:px-8 py-3 flex items-center justify-between gap-4">
 
-    <!-- Logo: steeple roundel + wordmark -->
-    <a href="/" class="flex items-center gap-3 flex-shrink-0" aria-label={`${CHURCH.name} — Home`}>
-      <img src="/images/logo-steeple.svg" alt="" width="54" height="54" class="h-12 w-12 md:h-14 md:w-14" />
-      <div class="leading-tight">
-        <div class="font-display text-[1.05rem] md:text-[1.25rem] font-medium tracking-[0.14em] text-white">FIRST PRESBYTERIAN</div>
-        <div class="font-mono text-[0.55rem] md:text-[0.62rem] tracking-[0.22em] text-white/75">CHURCH OF MONTGOMERY</div>
-      </div>
+    <!-- Logo: LOGO-1.png -->
+    <a href="/" class="flex items-center flex-shrink-0" aria-label={`${CHURCH.name} — Home`}>
+      <img src="/images/LOGO-1.png" alt="First Presbyterian Church of Montgomery" class="h-12 md:h-[56px] w-auto" />
     </a>
 
     <!-- Right side: social + donate above nav -->
     <div class="hidden lg:flex flex-col items-end gap-2">
       <!-- Top row: socials + donate button -->
       <div class="flex items-center gap-4">
-        <a href={CHURCH.social.facebook} target="_blank" rel="noopener" aria-label="Facebook" class="text-white/85 hover:text-white transition-colors">
+        <a href={CHURCH.social.facebook} target="_blank" rel="noopener" aria-label="Facebook" class="text-navy/70 hover:text-navy transition-colors">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.5-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0 0 22 12z"/></svg>
         </a>
-        <a href={CHURCH.social.youtube} target="_blank" rel="noopener" aria-label="YouTube" class="text-white/85 hover:text-white transition-colors">
+        <a href={CHURCH.social.youtube} target="_blank" rel="noopener" aria-label="YouTube" class="text-navy/70 hover:text-navy transition-colors">
           <svg width="16" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.6 3.6 12 3.6 12 3.6s-7.6 0-9.4.5A3 3 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3 3 0 0 0 2.1 2.1c1.8.5 9.4.5 9.4.5s7.6 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.6V8.4l6.4 3.6-6.4 3.6z"/></svg>
         </a>
-        <a href={CHURCH.social.twitter} target="_blank" rel="noopener" aria-label="X" class="text-white/85 hover:text-white transition-colors">
+        <a href={CHURCH.social.twitter} target="_blank" rel="noopener" aria-label="X" class="text-navy/70 hover:text-navy transition-colors">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.658l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25h6.83l4.713 6.231L18.244 2.25Z"/></svg>
         </a>
-        <a href={CHURCH.social.instagram} target="_blank" rel="noopener" aria-label="Instagram" class="text-white/85 hover:text-white transition-colors">
+        <a href={CHURCH.social.instagram} target="_blank" rel="noopener" aria-label="Instagram" class="text-navy/70 hover:text-navy transition-colors">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
         </a>
-        <a href={CHURCH.social.linkedin} target="_blank" rel="noopener" aria-label="LinkedIn" class="text-white/85 hover:text-white transition-colors">
+        <a href={CHURCH.social.linkedin} target="_blank" rel="noopener" aria-label="LinkedIn" class="text-navy/70 hover:text-navy transition-colors">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.61 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
         </a>
         <a href="/giving" class="ml-2 inline-flex items-center bg-crimson hover:bg-crimson-deep text-white font-sans text-[0.7rem] font-semibold tracking-[0.08em] uppercase px-4 py-2 transition-colors">
@@ -48,7 +44,7 @@ const isActive = (href: string) =>
             href={item.href}
             class:list={[
               'font-sans text-[0.78rem] font-semibold tracking-[0.08em] uppercase transition-colors whitespace-nowrap',
-              isActive(item.href) ? 'text-crimson' : 'text-white hover:text-crimson',
+              isActive(item.href) ? 'text-crimson' : 'text-navy hover:text-crimson',
             ]}
           >
             {item.label}
@@ -62,7 +58,7 @@ const isActive = (href: string) =>
       <a href="/giving" class="bg-crimson text-white font-sans text-[0.68rem] font-semibold tracking-[0.08em] uppercase px-3 py-2">
         Donate
       </a>
-      <button id="mobile-menu-btn" class="p-1.5 text-white" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-menu">
+      <button id="mobile-menu-btn" class="p-1.5 text-navy" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mobile-menu">
         <svg id="icon-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" /></svg>
         <svg id="icon-close" class="hidden" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" /></svg>
       </button>
@@ -70,21 +66,21 @@ const isActive = (href: string) =>
   </div>
 
   <!-- Mobile drawer -->
-  <div id="mobile-menu" class="hidden lg:hidden bg-navy-deep border-t border-white/10 px-6 py-6">
+  <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-rule px-6 py-6">
     <nav class="flex flex-col gap-1" aria-label="Mobile">
       {NAV.map((item) => (
         <a
           href={item.href}
           class:list={[
-            'font-sans text-sm font-semibold tracking-wider uppercase py-2.5 border-b border-white/10 transition-colors',
-            isActive(item.href) ? 'text-crimson' : 'text-white hover:text-crimson',
+            'font-sans text-sm font-semibold tracking-wider uppercase py-2.5 border-b border-rule transition-colors',
+            isActive(item.href) ? 'text-crimson' : 'text-navy hover:text-crimson',
           ]}
         >
           {item.label}
         </a>
       ))}
     </nav>
-    <div class="flex items-center gap-5 mt-6 text-white/80">
+    <div class="flex items-center gap-5 mt-6 text-navy/60">
       <a href={CHURCH.social.facebook} target="_blank" rel="noopener" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.5-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0 0 22 12z"/></svg></a>
       <a href={CHURCH.social.youtube} target="_blank" rel="noopener" aria-label="YouTube"><svg width="20" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.6 3.6 12 3.6 12 3.6s-7.6 0-9.4.5A3 3 0 0 0 .5 6.2C0 8 0 12 0 12s0 4 .5 5.8a3 3 0 0 0 2.1 2.1c1.8.5 9.4.5 9.4.5s7.6 0 9.4-.5a3 3 0 0 0 2.1-2.1C24 16 24 12 24 12s0-4-.5-5.8zM9.6 15.6V8.4l6.4 3.6-6.4 3.6z"/></svg></a>
       <a href={CHURCH.social.twitter} target="_blank" rel="noopener" aria-label="X"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.658l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25h6.83l4.713 6.231L18.244 2.25Z"/></svg></a>
@@ -98,7 +94,6 @@ const isActive = (href: string) =>
   const menu = document.getElementById('mobile-menu');
   const iconMenu = document.getElementById('icon-menu');
   const iconClose = document.getElementById('icon-close');
-  const header = document.getElementById('site-header');
 
   btn?.addEventListener('click', () => {
     const willOpen = menu?.classList.contains('hidden');
@@ -107,11 +102,4 @@ const isActive = (href: string) =>
     iconClose?.classList.toggle('hidden', !willOpen);
     btn?.setAttribute('aria-expanded', String(!!willOpen));
   });
-
-  const updateShadow = () => {
-    if (window.scrollY > 40) header?.classList.add('shadow-lg', 'shadow-black/40');
-    else header?.classList.remove('shadow-lg', 'shadow-black/40');
-  };
-  window.addEventListener('scroll', updateShadow, { passive: true });
-  updateShadow();
 </script>

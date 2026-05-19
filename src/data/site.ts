@@ -193,10 +193,10 @@ export const NEW_HERE = {
 
 // 4 category cards on the homepage.
 export const LIFE_CATEGORIES = [
-  { title: 'Ministries', image: '/images/ministries-1.jpg', href: '/ministries' },
-  { title: 'Worship', image: '/images/worship-1.jpg', href: '/worship' },
-  { title: 'Events & Gallery', image: '/images/events-1-1.jpg', href: '/events' },
-  { title: 'Giving', image: '/images/giving-1.webp', href: '/giving' },
+  { title: 'Ministries', image: '/images/ministries-1.jpg', href: '/ministries', styled: true },
+  { title: 'Worship', image: '/images/worship-1.jpg', href: '/worship', styled: false },
+  { title: 'Events & Gallery', image: '/images/events-1-1.jpg', href: '/events', styled: true },
+  { title: 'Giving', image: '/images/giving-1.webp', href: '/giving', styled: false },
 ];
 
 export const FEATURED_REVIEW = {

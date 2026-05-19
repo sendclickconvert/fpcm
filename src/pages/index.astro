@@ -240,12 +240,16 @@ const testimonials = [
               i === 3 ? 'rounded-br-[80px]' : '',
             ]}
           >
-            <img src={cat.image} alt="" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
-            <div class="absolute inset-0 bg-navy/65 group-hover:bg-navy/55 transition-colors"></div>
-            <div class="relative h-full flex flex-col items-center justify-center text-center text-white p-5 gap-4">
-              <h3 class="display-md text-white">{cat.title}</h3>
-              <span class="btn btn-crimson">Learn More</span>
-            </div>
+            <img src={cat.image} alt={cat.title} class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+            {!cat.styled && (
+              <>
+                <div class="absolute inset-0 bg-navy/65 group-hover:bg-navy/55 transition-colors"></div>
+                <div class="relative h-full flex flex-col items-center justify-center text-center text-white p-5 gap-4">
+                  <h3 class="display-md text-white">{cat.title}</h3>
+                  <span class="btn btn-crimson">Learn More</span>
+                </div>
+              </>
+            )}
           </a>
         ))}
       </div>

@@ -1,0 +1,107 @@
+---
+/**
+ * Shared contact / membership inquiry form.
+ * Used on /im-new ("Become Part of Something Great") and /contact.
+ *
+ * Posts to /api/submit-form which forwards to CRM webhook
+ * (never named by brand per doctrine).
+ */
+interface Props {
+  /** Optional pre-set topic (e.g. for /contact?topic=baptism). */
+  topic?: string;
+  /** Render on navy bg with white card (Contact) vs cream (I'm New). */
+  variant?: 'cream' | 'navy';
+}
+const { topic, variant = 'cream' } = Astro.props;
+
+const isNavy = variant === 'navy';
+---
+
+<form
+  action="/api/submit-form"
+  method="POST"
+  class:list={[
+    'rounded-tl-[80px] rounded-br-[80px] max-w-3xl mx-auto p-6 md:p-10 space-y-5',
+    isNavy ? 'bg-white' : 'bg-transparent',
+  ]}
+>
+  <!-- Honeypot -->
+  <input type="text" name="_hp" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
+  {topic && <input type="hidden" name="topic" value={topic} />}
+
+  <div class="grid sm:grid-cols-2 gap-4">
+    <label class="block">
+      <span class="sr-only">First Name</span>
+      <input type="text" name="firstName" required placeholder="First Name *" class="field !border-navy/30 w-full" />
+    </label>
+    <label class="block">
+      <span class="sr-only">Last Name</span>
+      <input type="text" name="lastName" required placeholder="Last Name *" class="field !border-navy/30 w-full" />
+    </label>
+  </div>
+
+  <div class="grid sm:grid-cols-2 gap-4">
+    <label class="block">
+      <span class="sr-only">Email</span>
+      <input type="email" name="email" required placeholder="Email *" class="field !border-navy/30 w-full" />
+    </label>
+    <label class="block">
+      <span class="sr-only">Phone</span>
+      <input type="tel" name="phone" placeholder="Phone *" class="field !border-navy/30 w-full" />
+    </label>
+  </div>
+
+  <label class="block">
+    <span class="sr-only">Address</span>
+    <input type="text" name="address" placeholder="Address *" class="field !border-navy/30 w-full" />
+  </label>
+
+  <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+    <label class="block">
+      <span class="sr-only">City</span>
+      <input type="text" name="city" placeholder="City *" class="field !border-navy/30 w-full" />
+    </label>
+    <label class="block">
+      <span class="sr-only">State</span>
+      <select name="state" class="field !border-navy/30 w-full appearance-none">
+        <option value="">State</option>
+        <option value="NY">NY</option>
+        <option value="NJ">NJ</option>
+        <option value="CT">CT</option>
+        <option value="PA">PA</option>
+        <option value="other">Other</option>
+      </select>
+    </label>
+    <label class="block">
+      <span class="sr-only">Zip</span>
+      <input type="text" name="zip" placeholder="Zip *" class="field !border-navy/30 w-full" />
+    </label>
+  </div>
+
+  <fieldset class="space-y-2 pt-2">
+    <legend class="eyebrow mb-3 text-ink">About *</legend>
+    {[
+      'I am new to the community',
+      'I would like to know more about FPC',
+      'I am interested in learning more about church membership',
+      'I would like to receive the emailed monthly newsletter',
+      'I would like to receive weekly email updates on events at FPC',
+      'I would like to receive the weekly Christian Education newsletter',
+      'Please send me a pledge card',
+    ].map((label) => (
+      <label class="flex items-start gap-3 font-mono text-[0.82rem] text-ink-soft cursor-pointer">
+        <input type="checkbox" name="interests" value={label} class="mt-1 accent-crimson" />
+        <span>{label}</span>
+      </label>
+    ))}
+  </fieldset>
+
+  <label class="block">
+    <span class="eyebrow mb-2 block text-ink">Other Information or Questions</span>
+    <textarea name="message" rows="4" class="field !border-navy/30 w-full resize-y"></textarea>
+  </label>
+
+  <div class="pt-2">
+    <button type="submit" class="btn btn-crimson">Submit</button>
+  </div>
+</form>

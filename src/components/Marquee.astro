@@ -1,0 +1,27 @@
+---
+/**
+ * Marquee strip — navy band with continuously scrolling text and gold dots.
+ * Pulls items from site.ts; loops for seamless animation.
+ */
+import { MARQUEE_ITEMS } from '../data/site';
+
+const items = Astro.props.items ?? MARQUEE_ITEMS;
+const looped = [...items, ...items, ...items, ...items];
+---
+
+<div class="bg-navy text-white py-6 marquee relative overflow-hidden" aria-hidden="true">
+  <!-- Ghosted backdrop text -->
+  <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+    <span class="font-display text-5xl md:text-6xl tracking-[0.18em] text-white/[0.06] whitespace-nowrap">FIRST PRESBYTERIAN</span>
+  </div>
+
+  <!-- Foreground scrolling track -->
+  <div class="relative marquee__track font-display text-2xl md:text-3xl tracking-wider">
+    {looped.map((label) => (
+      <span class="inline-flex items-center gap-10 px-6">
+        {label}
+        <span class="text-[#D4A642]">•</span>
+      </span>
+    ))}
+  </div>
+</div>

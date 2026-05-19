@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import GetNotified from '../components/GetNotified.astro';
+import { CHURCH } from '../data/site';
+
+const title = `Giving | ${CHURCH.name}`;
+const description = `Support the mission of First Presbyterian Church of Montgomery — donations, pledges, in-kind needs, and volunteer opportunities.`;
+---
+
+<BaseLayout title={title} description={description}>
+
+  <PageHero
+    title="Giving"
+    subtitle="Support Our Mission"
+    image="/images/giving-hero.jpg"
+    size="lg"
+  />
+
+  <section class="triangle-pattern py-20 md:py-28">
+    <div class="max-w-3xl mx-auto px-6">
+      <p class="eyebrow mb-3 text-center">Ways to Give</p>
+      <h2 class="display-lg text-center mb-10">Your Gift, Our Shared Mission</h2>
+
+      <p class="font-mono text-[0.92rem] leading-relaxed text-ink-soft mb-10 text-center max-w-prose mx-auto">
+        Your generosity sustains the worship, ministries, and outreach of First Presbyterian Church of Montgomery. Every gift — whether of time, talent, or treasure — helps us feed, nurture, and provide refuge for those in need.
+      </p>
+
+      <div class="grid sm:grid-cols-2 gap-6 mb-10">
+        <div class="bg-white border border-rule p-6">
+          <h3 class="font-display text-2xl mb-2">Online &amp; Recurring</h3>
+          <p class="font-mono text-[0.85rem] text-ink-soft mb-4">Coming soon — secure online giving and pledge management.</p>
+          <p class="font-mono text-[0.8rem] text-ink-mute">Currently giving by QR code is supported; please contact the office for the link.</p>
+        </div>
+        <div class="bg-white border border-rule p-6">
+          <h3 class="font-display text-2xl mb-2">Mail or In-Person</h3>
+          <p class="font-mono text-[0.85rem] text-ink-soft mb-2">Checks may be mailed to:</p>
+          <address class="not-italic font-mono text-[0.85rem] text-ink">
+            First Presbyterian Church<br />
+            {CHURCH.address.street}<br />
+            {CHURCH.address.city}, {CHURCH.address.region} {CHURCH.address.postalCode}
+          </address>
+        </div>
+      </div>
+
+      <div class="text-center">
+        <a href="/contact?topic=giving" class="btn btn-crimson">Request a Pledge Card</a>
+      </div>
+    </div>
+  </section>
+
+  <GetNotified />
+</BaseLayout>

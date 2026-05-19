@@ -1,0 +1,28 @@
+---
+/**
+ * Get Notified — crimson newsletter signup band shown above the footer
+ * on every page (per mockup).
+ *
+ * Form posts to /api/subscribe (writes to CRM webhook — never name the
+ * brand per doctrine).
+ */
+---
+
+<section class="bg-crimson text-white py-14 md:py-16">
+  <div class="max-w-3xl mx-auto px-6 text-center">
+    <p class="eyebrow-light text-white/80 mb-2">Sign Up</p>
+    <h2 class="display-lg text-white mb-3">Get Notified</h2>
+    <p class="font-mono text-sm text-white/85 mb-7">
+      Sign up below for the latest news and updates from Presbyterian.
+    </p>
+
+    <form action="/api/submit-form" method="POST" class="flex flex-col sm:flex-row gap-3 max-w-2xl mx-auto">
+      <input type="text" name="_hp" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
+      <label class="sr-only" for="notify-name">Full Name</label>
+      <input id="notify-name" type="text" name="name" required placeholder="Full Name *" class="field flex-1" />
+      <label class="sr-only" for="notify-email">Email Address</label>
+      <input id="notify-email" type="email" name="email" required placeholder="Email Address *" class="field flex-1" />
+      <button type="submit" class="btn btn-dark">Sign Up</button>
+    </form>
+  </div>
+</section>

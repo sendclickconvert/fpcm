@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import GetNotified from '../components/GetNotified.astro';
+import { CHURCH } from '../data/site';
+
+const title = `Events & Gallery | ${CHURCH.name}`;
+const description = 'Upcoming events, calendar, and gallery from First Presbyterian Church of Montgomery.';
+---
+
+<BaseLayout title={title} description={description}>
+
+  <PageHero
+    title="Events & Gallery"
+    subtitle="What's Happening at FPC"
+    image="/images/events-hero.jpg"
+    size="lg"
+  />
+
+  <section class="triangle-pattern py-24 md:py-32">
+    <div class="max-w-2xl mx-auto px-6 text-center">
+      <p class="eyebrow mb-3">Coming Soon</p>
+      <h2 class="display-lg mb-5">Calendar &amp; Gallery</h2>
+      <p class="font-mono text-[0.92rem] leading-relaxed text-ink-soft mb-8">
+        Our full events calendar and photo gallery are coming soon. In the meantime, follow us on Facebook for the latest news and event announcements, or reach out to the office.
+      </p>
+      <div class="flex flex-wrap gap-3 justify-center">
+        <a href={CHURCH.social.facebook} target="_blank" rel="noopener" class="btn btn-crimson">Visit our Facebook</a>
+        <a href="/contact" class="btn border border-navy text-navy hover:bg-navy hover:text-white">Contact Office</a>
+      </div>
+    </div>
+  </section>
+
+  <GetNotified />
+</BaseLayout>

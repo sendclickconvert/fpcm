@@ -1,0 +1,100 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import GetNotified from '../components/GetNotified.astro';
+import ContactForm from '../components/ContactForm.astro';
+import { CHURCH, NEW_HERE, IM_NEW_FAQS } from '../data/site';
+
+const title = `I'm New | ${CHURCH.name}`;
+const description = 'New to First Presbyterian Church of Montgomery? Whether you are exploring faith, new to the area, or finding your way back — there is a place here for you. Plan your visit.';
+---
+
+<BaseLayout title={title} description={description}>
+
+  <!-- ============ HERO ============ -->
+  <PageHero
+    title="I'm New!"
+    subtitle="Welcome to First Presbyterian Church!"
+    image="/images/im-new-hero.jpg"
+    size="lg"
+  />
+
+  <!-- ============ NEW HERE? ============ -->
+  <section class="triangle-pattern py-20 md:py-28">
+    <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-10 lg:gap-16 items-center">
+      <div class="md:col-span-5">
+        <img
+          src={NEW_HERE.image}
+          alt="First Presbyterian Church of Montgomery building"
+          class="w-full aspect-[4/5] object-cover rounded-tr-[110px] rounded-bl-[110px] bg-rule"
+          loading="lazy"
+        />
+      </div>
+      <div class="md:col-span-7">
+        <p class="eyebrow mb-3">{NEW_HERE.eyebrow}</p>
+        <h2 class="display-xl mb-6">{NEW_HERE.headline}</h2>
+        <p class="font-mono text-[0.92rem] leading-relaxed text-ink-soft max-w-prose">
+          We're so glad you're here. Wherever you are on your faith journey,
+          we believe you'll find a warm, welcoming community at FPC — a place
+          to grow closer to God, build meaningful relationships, and engage
+          with the world around you. We invite you to join us for worship,
+          fellowship, and more. Below, you'll find helpful links and
+          information to get to know us better. If you have any questions or
+          need assistance, please don't hesitate to reach out to one of our
+          elders or staff members.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ YOUR GUIDE TO — FAQ accordion on navy ============ -->
+  <section class="bg-navy text-white py-16 md:py-20">
+    <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-10 lg:gap-14">
+
+      <div class="md:col-span-5">
+        <p class="eyebrow-light mb-3">Your Guide to</p>
+        <h2 class="display-xl text-white mb-5">Worship &amp; Community</h2>
+        <p class="font-mono text-[0.85rem] text-white/80">
+          Learn more about the different areas of our amazing building, our worship services, and the ways you can connect.
+        </p>
+      </div>
+
+      <div class="md:col-span-7">
+        <ul class="divide-y divide-white/15 border-y border-white/15">
+          {IM_NEW_FAQS.map((item, idx) => (
+            <li>
+              <details class="group py-1" open={idx === 0}>
+                <summary class="flex items-center justify-between cursor-pointer list-none py-4 font-display text-xl md:text-2xl text-white">
+                  {item.q}
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="transition-transform group-open:rotate-180">
+                    <polyline points="6 9 12 15 18 9" />
+                  </svg>
+                </summary>
+                <div class="pb-5 pr-8 font-mono text-[0.85rem] leading-relaxed text-white/80">
+                  {item.a}
+                </div>
+              </details>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BECOME PART OF SOMETHING GREAT ============ -->
+  <section class="triangle-pattern py-20 md:py-28">
+    <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-10 lg:gap-14">
+
+      <div class="md:col-span-5">
+        <h2 class="display-xl mb-5">Become Part of Something Great</h2>
+        <p class="font-mono text-[0.85rem] text-ink-soft">Ready to Join? Fill Out the Form</p>
+      </div>
+
+      <div class="md:col-span-7">
+        <ContactForm variant="cream" />
+      </div>
+    </div>
+  </section>
+
+  <GetNotified />
+</BaseLayout>

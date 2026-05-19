@@ -1,0 +1,85 @@
+---
+import { UPCOMING_EVENT } from '../data/site';
+const ev = UPCOMING_EVENT;
+---
+
+<section class="bg-crimson text-white py-7 md:py-8" aria-labelledby="upcoming-event-title">
+  <div class="max-w-container mx-auto px-6 lg:px-8 grid grid-cols-1 md:grid-cols-12 items-center gap-6">
+
+    <!-- Date block + title + meta -->
+    <div class="md:col-span-7 lg:col-span-8 flex items-center gap-5">
+      <!-- White date square -->
+      <div class="bg-white text-crimson flex flex-col items-center justify-center w-[88px] h-[88px] flex-shrink-0">
+        <div class="font-display text-3xl leading-none">{ev.dateDay}</div>
+        <div class="font-mono text-[0.65rem] tracking-[0.18em] mt-1">{ev.dateMonth}</div>
+      </div>
+
+      <!-- Title + meta -->
+      <div class="flex-1 min-w-0">
+        <p class="eyebrow-light text-white/85 mb-1">{ev.eyebrow}</p>
+        <h2 id="upcoming-event-title" class="display-md text-white mb-2 leading-tight">{ev.title}</h2>
+        <ul class="flex flex-col sm:flex-row sm:flex-wrap gap-x-5 gap-y-1 font-mono text-[0.78rem] text-white/85">
+          <li class="inline-flex items-center gap-2">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+            {ev.startTime}
+          </li>
+          <li class="inline-flex items-center gap-2">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            {ev.location}
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Countdown -->
+    <div class="md:col-span-5 lg:col-span-4 flex justify-start md:justify-end">
+      <div class="font-display flex items-baseline gap-3 md:gap-5" data-countdown data-target={ev.startISO}>
+        <div class="flex flex-col items-center">
+          <span class="text-3xl md:text-5xl leading-none tabular-nums" data-countdown-hours>000</span>
+          <span class="font-mono text-[0.6rem] tracking-[0.18em] mt-1 text-white/80">Hours</span>
+        </div>
+        <span class="text-3xl md:text-5xl leading-none">:</span>
+        <div class="flex flex-col items-center">
+          <span class="text-3xl md:text-5xl leading-none tabular-nums" data-countdown-mins>00</span>
+          <span class="font-mono text-[0.6rem] tracking-[0.18em] mt-1 text-white/80">Mins</span>
+        </div>
+        <span class="text-3xl md:text-5xl leading-none">:</span>
+        <div class="flex flex-col items-center">
+          <span class="text-3xl md:text-5xl leading-none tabular-nums" data-countdown-secs>00</span>
+          <span class="font-mono text-[0.6rem] tracking-[0.18em] mt-1 text-white/80">Secs</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  const root = document.querySelector('[data-countdown]') as HTMLElement | null;
+  if (root) {
+    const target = new Date(root.dataset.target ?? '').getTime();
+    const elH = root.querySelector('[data-countdown-hours]') as HTMLElement | null;
+    const elM = root.querySelector('[data-countdown-mins]') as HTMLElement | null;
+    const elS = root.querySelector('[data-countdown-secs]') as HTMLElement | null;
+    const pad = (n: number, len = 2) => String(n).padStart(len, '0');
+
+    const tick = () => {
+      const diff = target - Date.now();
+      if (diff <= 0) {
+        if (elH) elH.textContent = '000';
+        if (elM) elM.textContent = '00';
+        if (elS) elS.textContent = '00';
+        return;
+      }
+      const totalSecs = Math.floor(diff / 1000);
+      const hours = Math.floor(totalSecs / 3600);
+      const mins = Math.floor((totalSecs % 3600) / 60);
+      const secs = totalSecs % 60;
+      if (elH) elH.textContent = pad(hours, 3);
+      if (elM) elM.textContent = pad(mins);
+      if (elS) elS.textContent = pad(secs);
+    };
+
+    tick();
+    setInterval(tick, 1000);
+  }
+</script>

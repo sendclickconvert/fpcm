@@ -1,0 +1,76 @@
+---
+/**
+ * Alternating image + text row. Reused on /worship (sacraments)
+ * and /ministries (programs).
+ *
+ * Three configurable axes:
+ *  - `bg`: cream (with triangle pattern) or navy
+ *  - `align`: image on left or right
+ *  - `image` cornering: asymmetric rounded corners that flip per row
+ */
+interface CTA { label: string; href: string; }
+
+interface Props {
+  title: string;
+  body: string;
+  image: string;
+  bg?: 'cream' | 'navy';
+  align?: 'left' | 'right';
+  primaryCta?: CTA;
+  secondaryCta?: CTA;
+  /** Row index — used to alternate which corners are rounded. */
+  index?: number;
+}
+
+const { title, body, image, bg = 'cream', align = 'left', primaryCta, secondaryCta, index = 0 } = Astro.props;
+
+const wrapperBg = bg === 'navy' ? 'bg-navy text-white' : 'triangle-pattern';
+const titleClass = bg === 'navy' ? 'text-white' : '';
+const bodyClass = bg === 'navy' ? 'text-white/85' : 'text-ink-soft';
+
+// Image is on the LEFT when align === 'left'.
+const imageOnLeft = align === 'left';
+
+// Alternate rounded corners — top-right + bottom-left for one row,
+// top-left + bottom-right for the next.
+const cornerClass = index % 2 === 0
+  ? 'rounded-tr-[90px] rounded-bl-[90px]'
+  : 'rounded-tl-[90px] rounded-br-[90px]';
+---
+
+<section class:list={[wrapperBg, 'py-14 md:py-20']}>
+  <div class:list={['max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-8 lg:gap-14 items-center', !imageOnLeft && 'md:[direction:rtl]']}>
+
+    <!-- Image -->
+    <div class:list={['md:col-span-5', !imageOnLeft && 'md:[direction:ltr]']}>
+      <img
+        src={image}
+        alt=""
+        class:list={['w-full aspect-[4/5] object-cover bg-rule', cornerClass]}
+        loading="lazy"
+      />
+    </div>
+
+    <!-- Text -->
+    <div class:list={['md:col-span-7', !imageOnLeft && 'md:[direction:ltr]']}>
+      <h2 class:list={['display-lg mb-5', titleClass]}>{title}</h2>
+      <p class:list={['font-mono text-[0.92rem] leading-relaxed mb-6 max-w-prose', bodyClass]}>{body}</p>
+
+      {(primaryCta || secondaryCta) && (
+        <div class="flex flex-wrap gap-3">
+          {primaryCta && (
+            <a href={primaryCta.href} class="btn btn-crimson">{primaryCta.label}</a>
+          )}
+          {secondaryCta && (
+            <a
+              href={secondaryCta.href}
+              class:list={['btn', bg === 'navy' ? 'btn-outline-white' : 'border border-navy text-navy hover:bg-navy hover:text-white']}
+            >
+              {secondaryCta.label}
+            </a>
+          )}
+        </div>
+      )}
+    </div>
+  </div>
+</section>

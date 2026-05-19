@@ -1,0 +1,270 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import UpcomingEvent from '../components/UpcomingEvent.astro';
+import Marquee from '../components/Marquee.astro';
+import GetNotified from '../components/GetNotified.astro';
+import {
+  CHURCH, HERO, PASTOR, LIVESTREAM, NEW_HERE, STAFF,
+  LIFE_CATEGORIES, FEATURED_REVIEW,
+} from '../data/site';
+import { homepageSchema } from '../lib/seo';
+
+const title = `${CHURCH.name} | Worship in Montgomery, NY`;
+const description = `${CHURCH.shortName} — Sunday worship at 10:00 AM. ${CHURCH.address.street}, ${CHURCH.address.city}, ${CHURCH.address.region}. ${HERO.body.split('\n')[0]}`;
+---
+
+<BaseLayout title={title} description={description} schema={homepageSchema()}>
+
+  <!-- ============================================================
+       1. HERO — full-bleed photo + center copy + single CTA
+       ============================================================ -->
+  <section
+    class="relative text-white"
+    style={`background-image: linear-gradient(180deg, rgba(15,18,40,0.45) 0%, rgba(15,18,40,0.7) 100%), url('${HERO.bgImage}'); background-size: cover; background-position: center;`}
+  >
+    <div class="max-w-container mx-auto px-6 lg:px-8 py-32 md:py-44 lg:py-52 flex flex-col items-start md:items-start text-left">
+      <h1 class="display-xl text-white max-w-[14ch] mb-8">{HERO.headline}</h1>
+      <p class="font-mono text-sm md:text-base text-white/90 leading-relaxed mb-10 max-w-xl whitespace-pre-line">{HERO.body}</p>
+      <a href={HERO.cta.href} class="btn btn-crimson">{HERO.cta.label}</a>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       2. UPCOMING EVENT — red bar with date block + countdown
+       ============================================================ -->
+  <UpcomingEvent />
+
+  <!-- ============================================================
+       3. MESSAGE FROM THE PASTOR — cream + triangle pattern
+       ============================================================ -->
+  <section class="triangle-pattern py-20 md:py-28">
+    <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-10 lg:gap-16 items-center">
+
+      <!-- Left: copy -->
+      <div class="md:col-span-7">
+        <p class="eyebrow mb-3">Message from</p>
+        <h2 class="display-xl mb-8">{PASTOR.heading}</h2>
+
+        <blockquote class="font-mono text-[0.95rem] leading-relaxed text-ink-soft mb-7 max-w-prose">
+          {PASTOR.quote}
+        </blockquote>
+
+        <div class="border-l-2 border-crimson pl-4 max-w-prose">
+          <p class="font-mono text-sm text-ink">{PASTOR.cta}</p>
+        </div>
+      </div>
+
+      <!-- Right: pastor portrait with asymmetric rounded corner + red caption -->
+      <div class="md:col-span-5 relative">
+        <div class="relative">
+          <img
+            src={PASTOR.avatar}
+            alt={`Photo of ${PASTOR.name}, ${PASTOR.title}`}
+            class="w-full aspect-[4/5] object-cover rounded-tl-[140px] rounded-br-[140px] bg-rule"
+          />
+          <!-- Caption band -->
+          <div class="absolute bottom-10 left-0 right-12 bg-crimson text-white px-5 py-3 shadow-lg">
+            <p class="font-display text-xl leading-tight">{PASTOR.name}</p>
+            <p class="font-mono text-[0.65rem] tracking-wider uppercase text-white/85 mt-1">{PASTOR.title}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       4. SUNDAY SERVICES LIVESTREAM — navy, 1 big + 2 small
+       ============================================================ -->
+  <section class="bg-navy text-white py-16 md:py-20">
+    <div class="max-w-container mx-auto px-6 lg:px-8">
+
+      <!-- Title row -->
+      <header class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-10">
+        <h2 class="display-lg text-white">Sunday Services Livestream</h2>
+        <a href={LIVESTREAM.cta.href} target="_blank" rel="noopener" class="btn btn-crimson self-start md:self-auto">
+          {LIVESTREAM.cta.label}
+        </a>
+      </header>
+
+      <!-- 1 big + 2 small -->
+      <div class="grid md:grid-cols-3 gap-5">
+        <!-- Main -->
+        <a href={LIVESTREAM.main.href} target="_blank" rel="noopener" class="group md:col-span-2 relative block overflow-hidden">
+          <!-- decorative corner marks -->
+          <span class="absolute top-2 left-2 z-10 w-5 h-5 border-t border-l border-white/60 pointer-events-none"></span>
+          <span class="absolute top-2 right-2 z-10 w-5 h-5 border-t border-r border-white/60 pointer-events-none"></span>
+          <span class="absolute bottom-2 left-2 z-10 w-5 h-5 border-b border-l border-white/60 pointer-events-none"></span>
+          <span class="absolute bottom-2 right-2 z-10 w-5 h-5 border-b border-r border-white/60 pointer-events-none"></span>
+
+          <img src={LIVESTREAM.main.image} alt="" class="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-[1.02]" loading="lazy" />
+          <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-navy/40 flex items-center justify-center">
+            <span class="bg-white inline-flex items-center justify-center w-16 h-16 md:w-20 md:h-20 shadow-xl">
+              <svg width="22" height="26" viewBox="0 0 24 28" fill="#B12A33" aria-hidden="true"><polygon points="4,2 22,14 4,26"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- Side stack -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 gap-5">
+          {LIVESTREAM.side.map((v) => (
+            <a href={v.href} target="_blank" rel="noopener" class="group relative block overflow-hidden">
+              <span class="absolute top-2 right-2 z-10 w-4 h-4 border-t border-r border-white/60 pointer-events-none"></span>
+              <span class="absolute bottom-2 left-2 z-10 w-4 h-4 border-b border-l border-white/60 pointer-events-none"></span>
+
+              <img src={v.image} alt="" class="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-[1.02]" loading="lazy" />
+              <div class="absolute inset-0 flex items-center justify-center">
+                <span class="bg-white inline-flex items-center justify-center w-12 h-12 shadow-lg">
+                  <svg width="14" height="18" viewBox="0 0 24 28" fill="#B12A33" aria-hidden="true"><polygon points="4,2 22,14 4,26"/></svg>
+                </span>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       5. NEW HERE? — cream + triangle pattern + church photo
+       ============================================================ -->
+  <section class="triangle-pattern py-20 md:py-28">
+    <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-10 lg:gap-16 items-center">
+
+      <div class="md:col-span-6">
+        <p class="eyebrow mb-3">{NEW_HERE.eyebrow}</p>
+        <h2 class="display-xl mb-6">{NEW_HERE.headline}</h2>
+        <p class="font-display italic text-2xl text-crimson mb-5">{NEW_HERE.subhead}</p>
+        <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft mb-8 max-w-prose">{NEW_HERE.body}</p>
+        <a href={NEW_HERE.cta.href} class="btn btn-crimson">{NEW_HERE.cta.label}</a>
+      </div>
+
+      <!-- Church exterior with asymmetric rounded corners -->
+      <div class="md:col-span-6">
+        <img
+          src={NEW_HERE.image}
+          alt="First Presbyterian Church of Montgomery — exterior view"
+          class="w-full aspect-[4/5] md:aspect-[5/6] object-cover rounded-tr-[140px] rounded-bl-[140px] bg-rule"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       6. STAFF & LEADERSHIP — crimson red band, 5 circular portraits
+       ============================================================ -->
+  <section class="bg-crimson text-white py-16 md:py-20">
+    <div class="max-w-container mx-auto px-6 lg:px-8">
+
+      <header class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-8">
+        <h2 class="display-lg text-white">Staff &amp; Leadership</h2>
+        <a href="/about" class="btn btn-outline-white self-start md:self-auto">Learn More About Us</a>
+      </header>
+
+      <hr class="border-white/30 mb-12" />
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 md:gap-4">
+        {STAFF.map((person) => (
+          <div class="flex flex-col items-center text-center">
+            <div class="w-28 h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full bg-white/10 border-2 border-white/50 overflow-hidden mb-3">
+              <img src={person.avatar} alt={`Photo of ${person.name}, ${person.role}`} class="w-full h-full object-cover" loading="lazy" />
+            </div>
+            <p class="font-display text-lg md:text-xl text-white leading-tight">{person.name}</p>
+            <p class="font-mono text-[0.7rem] tracking-wider uppercase text-white/80 mt-1">{person.role}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       7. LIFE AT FIRST PRESBYTERIAN — explore-more grid
+       ============================================================ -->
+  <section class="triangle-pattern py-20 md:py-28">
+    <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-10 lg:gap-14 items-center">
+
+      <!-- Card grid -->
+      <div class="md:col-span-7 grid grid-cols-2 gap-5">
+        {LIFE_CATEGORIES.map((cat, i) => (
+          <a
+            href={cat.href}
+            class={[
+              'group relative aspect-[5/6] overflow-hidden block',
+              i === 0 ? 'rounded-tl-[80px]' : '',
+              i === 1 ? 'rounded-tr-[80px]' : '',
+              i === 2 ? 'rounded-bl-[80px]' : '',
+              i === 3 ? 'rounded-br-[80px]' : '',
+            ].filter(Boolean).join(' ')}
+          >
+            <img src={cat.image} alt="" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-navy/65 group-hover:bg-navy/55 transition-colors"></div>
+            <div class="relative h-full flex flex-col items-center justify-center text-center text-white p-5 gap-4">
+              <h3 class="display-md text-white">{cat.title}</h3>
+              <span class="btn btn-crimson">Learn More</span>
+            </div>
+          </a>
+        ))}
+      </div>
+
+      <!-- Right side: Explore More copy -->
+      <div class="md:col-span-5">
+        <p class="eyebrow mb-3">Explore More</p>
+        <h2 class="display-xl mb-6">
+          Life at First<br />Presbyterian
+        </h2>
+        <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft mb-8 max-w-prose">
+          Everything you need to worship, connect, serve, and grow — all in one place.
+        </p>
+        <a href="/events" class="btn btn-crimson">Explore More Events</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       8. REVIEWS — navy with featured testimonial + B&W portrait
+       ============================================================ -->
+  <section class="bg-navy text-white py-20 md:py-24 relative overflow-hidden">
+    <div class="absolute inset-0 triangle-pattern-navy opacity-50 pointer-events-none"></div>
+    <div class="relative max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-10 lg:gap-16 items-center">
+
+      <!-- Left: heading + quote -->
+      <div class="md:col-span-6">
+        <div class="flex items-center gap-3 mb-6">
+          <span class="w-2 h-2 rounded-full bg-crimson"></span>
+          <h2 class="display-lg text-white !mb-0">Reviews</h2>
+        </div>
+
+        <svg width="38" height="28" viewBox="0 0 38 28" fill="rgba(255,255,255,0.25)" class="mb-5" aria-hidden="true">
+          <path d="M0 28V14C0 6.3 4.3 1.2 12 0v5c-3.5.7-5 2.6-5 5.5h5v17.5H0zm21 0V14c0-7.7 4.3-12.8 12-14v5c-3.5.7-5 2.6-5 5.5h5v17.5H21z"/>
+        </svg>
+
+        <blockquote class="font-mono text-lg md:text-xl leading-relaxed text-white/95 mb-6 max-w-prose">
+          {FEATURED_REVIEW.quote}
+        </blockquote>
+
+        <p class="font-mono text-[0.78rem] tracking-wider uppercase text-white/65">— {FEATURED_REVIEW.attribution}</p>
+      </div>
+
+      <!-- Right: B&W portrait -->
+      <div class="md:col-span-6">
+        <img
+          src={FEATURED_REVIEW.image}
+          alt="Member of First Presbyterian Church of Montgomery"
+          class="w-full aspect-[4/5] object-cover grayscale bg-white/5"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       9. MARQUEE — navy band, gold dots
+       ============================================================ -->
+  <Marquee />
+
+  <!-- ============================================================
+       10. GET NOTIFIED — crimson signup band (then Footer)
+       ============================================================ -->
+  <GetNotified />
+
+</BaseLayout>

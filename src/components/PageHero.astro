@@ -1,0 +1,35 @@
+---
+/**
+ * PageHero — full-bleed navy hero with photo + dark overlay used on
+ * About, Worship, I'm New, Contact, etc. (NOT the homepage hero,
+ * which is a split layout.)
+ *
+ * Pass image as a background path; falls back to a navy gradient.
+ */
+interface Props {
+  title: string;
+  subtitle?: string;
+  image?: string;
+  /** Height variant — 'sm' for inner pages, 'lg' for landing pages. */
+  size?: 'sm' | 'md' | 'lg';
+}
+const { title, subtitle, image, size = 'md' } = Astro.props;
+
+const heightClass = {
+  sm: 'min-h-[320px] md:min-h-[380px]',
+  md: 'min-h-[400px] md:min-h-[480px]',
+  lg: 'min-h-[520px] md:min-h-[600px]',
+}[size];
+---
+
+<section
+  class:list={['relative flex items-center justify-center text-white text-center px-6', heightClass]}
+  style={image
+    ? `background-image: linear-gradient(180deg, rgba(30,40,86,0.78) 0%, rgba(22,29,64,0.86) 100%), url('${image}'); background-size: cover; background-position: center;`
+    : 'background-color: #1E2856;'}
+>
+  <div class="relative max-w-3xl mx-auto py-12">
+    {subtitle && <p class="eyebrow-light mb-4">{subtitle}</p>}
+    <h1 class="display-xl text-white">{title}</h1>
+  </div>
+</section>

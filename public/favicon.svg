@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <circle cx="32" cy="32" r="30" fill="#1E2856"/>
+  <!-- simplified steeple silhouette -->
+  <path d="M32 12 L32 8 M30 8 L34 8" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M27 14 L37 14 L34 20 L30 20 Z" fill="#fff"/>
+  <rect x="28" y="22" width="8" height="10" fill="#fff"/>
+  <rect x="25" y="32" width="14" height="18" fill="#fff"/>
+  <rect x="29" y="38" width="2" height="6" fill="#1E2856"/>
+  <rect x="33" y="38" width="2" height="6" fill="#1E2856"/>
+</svg>

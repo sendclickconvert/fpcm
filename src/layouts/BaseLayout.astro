@@ -1,0 +1,98 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { CHURCH } from '../data/site';
+import { canonical, absoluteOgImage } from '../lib/seo';
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  noindex?: boolean;
+  /** JSON-LD object or array — passed straight into the head. */
+  schema?: object;
+}
+
+const {
+  title,
+  description = CHURCH.description,
+  ogImage = '/images/og-default.jpg',
+  noindex = false,
+  schema,
+} = Astro.props;
+
+const canonicalURL = canonical(Astro.url.pathname);
+const ogImageURL = absoluteOgImage(ogImage);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonicalURL} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={ogImageURL} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={CHURCH.name} />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL} />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Sitemap -->
+    <link rel="sitemap" href="/sitemap-index.xml" />
+
+    <!-- JSON-LD Schema (set by page; LocalBusiness/Church on homepage ONLY per doctrine) -->
+    {schema && (
+      <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+    )}
+  </head>
+  <body class="bg-bone text-ink min-h-screen flex flex-col">
+    <Header />
+    <main class="flex-1">
+      <slot />
+    </main>
+    <Footer />
+
+    <!-- Graceful fallback: missing images swap to branded placeholder -->
+    <script is:inline>
+      (function () {
+        const fallback = '/images/placeholder.svg';
+        function attach(img) {
+          if (img.src.endsWith('placeholder.svg')) return;
+          img.addEventListener('error', function handler() {
+            img.removeEventListener('error', handler);
+            img.src = fallback;
+          });
+        }
+        document.querySelectorAll('img').forEach(attach);
+        // Also catch dynamically-inserted images
+        new MutationObserver((muts) => {
+          muts.forEach((m) => m.addedNodes.forEach((n) => {
+            if (n.nodeType === 1) {
+              if (n.tagName === 'IMG') attach(n);
+              else n.querySelectorAll && n.querySelectorAll('img').forEach(attach);
+            }
+          }));
+        }).observe(document.body, { childList: true, subtree: true });
+      })();
+    </script>
+  </body>
+</html>

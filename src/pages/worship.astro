@@ -1,0 +1,121 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import GetNotified from '../components/GetNotified.astro';
+import AlternatingSection from '../components/AlternatingSection.astro';
+import { CHURCH, WORSHIP_SACRAMENTS, HOLIDAY_SERVICES, LIVESTREAM } from '../data/site';
+
+const title = `Worship | ${CHURCH.name}`;
+const description = `Sunday worship at First Presbyterian Church of Montgomery — service at 10:00 AM, livestream, baptism, communion, confirmation, weddings, funerals, and holiday services.`;
+
+// Icon SVGs for the holiday strip — outline style.
+const holidayIcon = {
+  snowflake: 'M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93L4.93 19.07',
+  egg: 'M12 2c-4 0-7 6-7 12a7 7 0 0 0 14 0c0-6-3-12-7-12z',
+  leaf: 'M11 20A7 7 0 0 1 4 13c0-5 4-9 9-9 1.5 0 3 .5 4 1.5C20 8 22 14 18 18s-7 2-7 2z',
+  cross: 'M12 2v20M5 9h14',
+  crown: 'M3 20h18M5 8l2 9h10l2-9-4 4-3-7-3 7-4-4z',
+} as Record<string, string>;
+---
+
+<BaseLayout title={title} description={description}>
+
+  <!-- ============ HERO ============ -->
+  <PageHero
+    title="Worship"
+    image="/images/worship-hero.jpg"
+    size="lg"
+  />
+
+  <!-- ============ SUNDAY SERVICES + LIVESTREAM ============ -->
+  <section class="triangle-pattern py-20 md:py-24">
+    <div class="max-w-container mx-auto px-6 lg:px-8">
+      <div class="grid md:grid-cols-12 gap-10 items-start">
+        <div class="md:col-span-5">
+          <h2 class="display-xl mb-3">Sunday Services</h2>
+          <p class="inline-flex items-center gap-2 text-crimson font-mono text-sm">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+            (Worship at FPC — {CHURCH.service.time})
+          </p>
+        </div>
+
+        <div class="md:col-span-7">
+          <h3 class="display-md mb-5">Livestream</h3>
+
+          <!-- Main livestream embed placeholder -->
+          <a href={LIVESTREAM.main.href} target="_blank" rel="noopener" class="block relative aspect-video bg-navy-deep overflow-hidden group">
+            <img src={LIVESTREAM.main.image} alt={LIVESTREAM.main.title} class="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity" />
+            <span class="absolute inset-0 flex items-center justify-center">
+              <span class="bg-white inline-flex items-center justify-center w-16 h-16 shadow-xl">
+                <svg width="20" height="24" viewBox="0 0 24 28" fill="#B12A33"><polygon points="4,2 22,14 4,26" /></svg>
+              </span>
+            </span>
+          </a>
+
+          <a href={LIVESTREAM.main.href} target="_blank" rel="noopener" class="btn btn-crimson mt-4">
+            Videos not working? Click here
+          </a>
+
+          <!-- 4 recent video thumbs -->
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mt-8">
+            {[1, 2, 3, 4].map((n) => (
+              <a href={LIVESTREAM.main.href} target="_blank" rel="noopener" class="block">
+                <div class="aspect-video bg-navy-deep relative overflow-hidden">
+                  <span class="absolute inset-0 flex items-center justify-center">
+                    <span class="bg-white/95 inline-flex items-center justify-center w-9 h-9">
+                      <svg width="12" height="14" viewBox="0 0 24 28" fill="#B12A33"><polygon points="4,2 22,14 4,26" /></svg>
+                    </span>
+                  </span>
+                </div>
+                <p class="mt-2 font-mono text-[0.78rem] text-ink-soft">May {n}, 2025 Video</p>
+              </a>
+            ))}
+          </div>
+
+          <div class="mt-6 text-center md:text-left">
+            <a href={LIVESTREAM.cta.href} target="_blank" rel="noopener" class="btn btn-crimson">More Videos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SACRAMENTS & SERVICES ============ -->
+  {WORSHIP_SACRAMENTS.map((s, i) => (
+    <AlternatingSection
+      title={s.title}
+      body={s.body}
+      image={s.image}
+      bg={s.bg as 'cream' | 'navy'}
+      align={i % 2 === 0 ? 'left' : 'right'}
+      primaryCta={s.primaryCta}
+      secondaryCta={s.secondaryCta}
+      index={i}
+    />
+  ))}
+
+  <!-- ============ HOLIDAY SERVICES strip ============ -->
+  <section class="triangle-pattern py-16 md:py-20">
+    <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-8 items-center">
+      <div class="md:col-span-3">
+        <h2 class="display-lg">
+          Holiday<br />Services
+        </h2>
+      </div>
+      <div class="md:col-span-9">
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 md:gap-4">
+          {HOLIDAY_SERVICES.map((h) => (
+            <div class="flex items-center gap-3 justify-center md:justify-start">
+              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#B12A33" stroke-width="1.5" class="flex-shrink-0">
+                <path d={holidayIcon[h.icon]} />
+              </svg>
+              <span class="eyebrow-crimson">{h.name}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <GetNotified />
+</BaseLayout>

@@ -1,0 +1,240 @@
+/* ---------------------------------------------------------------
+   FPC Montgomery — global styles
+   Cormorant Garamond (display) · DM Sans (ui) · DM Mono (body)
+   --------------------------------------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---------------- base ---------------- */
+@layer base {
+  html {
+    font-family: 'DM Mono', ui-monospace, monospace;
+    color: #1F1B1A;
+    background-color: #FAF7F0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    line-height: 1.05;
+    color: #1F1B1A;
+  }
+
+  /* Body copy in DM Mono looks dense — relax leading. */
+  p {
+    line-height: 1.75;
+  }
+
+  ::selection {
+    background: #1E2856;
+    color: #fff;
+  }
+}
+
+/* ---------------- decorative triangle pattern ----------------
+   Reused on cream sections (Pastor, YouTube, Facebook, footer overlay).
+   Subtle, large-scale, low contrast — does NOT compete with content. */
+@layer components {
+  .triangle-pattern {
+    background-color: #F7F4EE;
+    background-image:
+      linear-gradient(135deg, rgba(30, 40, 86, 0.045) 25%, transparent 25%),
+      linear-gradient(225deg, rgba(30, 40, 86, 0.045) 25%, transparent 25%),
+      linear-gradient(45deg, rgba(30, 40, 86, 0.045) 25%, transparent 25%),
+      linear-gradient(315deg, rgba(30, 40, 86, 0.045) 25%, transparent 25%);
+    background-position: 80px 0, 80px 0, 0 0, 0 0;
+    background-size: 160px 160px;
+    background-repeat: repeat;
+  }
+
+  .triangle-pattern-navy {
+    background-color: #1E2856;
+    background-image:
+      linear-gradient(135deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%),
+      linear-gradient(225deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%),
+      linear-gradient(45deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%),
+      linear-gradient(315deg, rgba(255, 255, 255, 0.04) 25%, transparent 25%);
+    background-position: 80px 0, 80px 0, 0 0, 0 0;
+    background-size: 160px 160px;
+    background-repeat: repeat;
+  }
+}
+
+/* ---------------- buttons ---------------- */
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM Sans', system-ui, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 0.875rem 1.75rem;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: background-color .18s, color .18s, border-color .18s, transform .15s;
+    border-radius: 2px;
+  }
+
+  .btn-crimson {
+    background: #B12A33;
+    color: #ffffff;
+  }
+  .btn-crimson:hover {
+    background: #8E1F26;
+    transform: translateY(-1px);
+  }
+
+  .btn-dark {
+    background: #1F1B1A;
+    color: #ffffff;
+  }
+  .btn-dark:hover {
+    background: #000;
+    transform: translateY(-1px);
+  }
+
+  .btn-outline-white {
+    border: 1.5px solid rgba(255,255,255,0.7);
+    color: #ffffff;
+    background: transparent;
+  }
+  .btn-outline-white:hover {
+    background: rgba(255,255,255,0.1);
+    border-color: #ffffff;
+    transform: translateY(-1px);
+  }
+}
+
+/* ---------------- typographic helpers ---------------- */
+@layer components {
+  .eyebrow {
+    font-family: 'DM Mono', ui-monospace, monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #4A4744;
+  }
+
+  .eyebrow-crimson {
+    font-family: 'DM Mono', ui-monospace, monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #B12A33;
+  }
+
+  .eyebrow-light {
+    font-family: 'DM Mono', ui-monospace, monospace;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+  }
+
+  /* Editorial serif used on "What's On" hero, "The Pastor", "Reviews", "Get Notified" */
+  .display-xl {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(2.75rem, 5.5vw, 4.5rem);
+    line-height: 1.04;
+    letter-spacing: -0.015em;
+  }
+
+  .display-lg {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(2.25rem, 4vw, 3.25rem);
+    line-height: 1.08;
+    letter-spacing: -0.01em;
+  }
+
+  .display-md {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(1.75rem, 2.5vw, 2.25rem);
+    line-height: 1.15;
+  }
+}
+
+/* ---------------- marquee ---------------- */
+@layer components {
+  .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .marquee__track {
+    display: inline-flex;
+    gap: 3rem;
+    animation: marquee 40s linear infinite;
+    will-change: transform;
+  }
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .marquee__track { animation: none; }
+  }
+}
+
+/* ---------------- form fields ---------------- */
+@layer components {
+  .field {
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    border: 1.5px solid rgba(255,255,255,0.85);
+    color: #1F1B1A;
+    font-family: 'DM Mono', ui-monospace, monospace;
+    font-size: 0.875rem;
+    padding: 0.875rem 1rem;
+    border-radius: 2px;
+    transition: border-color .18s, box-shadow .18s;
+  }
+  .field:focus {
+    outline: none;
+    border-color: #1F1B1A;
+    box-shadow: 0 0 0 3px rgba(31,27,26,0.12);
+  }
+  .field::placeholder {
+    color: #7A7672;
+    font-family: 'DM Mono', ui-monospace, monospace;
+  }
+}
+
+/* ---------------- author byline (E-E-A-T per doctrine) ---------------- */
+@layer components {
+  .byline {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-family: 'DM Mono', ui-monospace, monospace;
+    font-size: 0.8125rem;
+    color: #4A4744;
+  }
+  .byline__avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: #E6E1D7;
+  }
+  .byline__name {
+    font-weight: 500;
+    color: #1F1B1A;
+  }
+}

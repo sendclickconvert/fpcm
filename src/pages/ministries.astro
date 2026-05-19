@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import GetNotified from '../components/GetNotified.astro';
+import AlternatingSection from '../components/AlternatingSection.astro';
+import { CHURCH, MINISTRIES_LIST } from '../data/site';
+
+const title = `Ministries | ${CHURCH.name}`;
+const description = `Ministries at First Presbyterian Church of Montgomery — Bible study, Christian education, Westminster Guild, Men's Fellowship, Town of Montgomery Food Pantry, community outreach, and more.`;
+---
+
+<BaseLayout title={title} description={description}>
+
+  <PageHero
+    title="Ministries"
+    image="/images/ministries-hero.jpg"
+    size="lg"
+  />
+
+  <!-- Intro -->
+  <section class="triangle-pattern py-16 md:py-20">
+    <div class="max-w-container mx-auto px-6 lg:px-8 max-w-3xl text-center">
+      <p class="eyebrow mb-3">How we serve</p>
+      <h2 class="display-lg mb-5">A Place to Connect, Serve, and Grow</h2>
+      <p class="font-mono text-[0.92rem] leading-relaxed text-ink-soft">
+        Our ministries reflect the heart of First Presbyterian — to feed, nurture, and provide refuge for those in need. Below are the ways we gather, learn, and serve together throughout the year. There is a place for every age and every season of life.
+      </p>
+    </div>
+  </section>
+
+  <!-- Alternating ministry rows -->
+  {MINISTRIES_LIST.map((m, i) => (
+    <AlternatingSection
+      title={m.title}
+      body={m.body}
+      image={m.image}
+      bg={i % 2 === 0 ? 'cream' : 'cream'}
+      align={m.align as 'left' | 'right'}
+      primaryCta={{ label: 'Click here for more info', href: `/contact?topic=${m.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}` }}
+      index={i}
+    />
+  ))}
+
+  <GetNotified />
+</BaseLayout>

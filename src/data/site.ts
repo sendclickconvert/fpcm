@@ -104,8 +104,8 @@ export const UPCOMING_EVENT = {
  */
 export const PASTOR = {
   heading: 'The Pastor',
-  name: 'The Pastor',
-  title: 'First Presbyterian Church of Montgomery',
+  name: 'Rev. Neill McKay',
+  title: 'Senior Pastor, First Presbyterian Church of Montgomery',
   bio: 'Leading the congregation with faith, vision, and a heart for the Montgomery community.',
   avatar: '/images/Frame-25.png',
   quote:
@@ -193,17 +193,17 @@ export const NEW_HERE = {
 
 // 4 category cards on the homepage.
 export const LIFE_CATEGORIES = [
-  { title: 'Ministries', image: '/images/life-ministries.jpg', href: '/ministries' },
-  { title: 'Worship', image: '/images/life-worship.jpg', href: '/worship' },
-  { title: 'Events & Gallery', image: '/images/life-events.jpg', href: '/events' },
-  { title: 'Giving', image: '/images/life-giving.jpg', href: '/giving' },
+  { title: 'Ministries', image: '/images/ministries-1.jpg', href: '/ministries' },
+  { title: 'Worship', image: '/images/worship-1.jpg', href: '/worship' },
+  { title: 'Events & Gallery', image: '/images/events-1-1.jpg', href: '/events' },
+  { title: 'Giving', image: '/images/giving-1.webp', href: '/giving' },
 ];
 
 export const FEATURED_REVIEW = {
   quote:
     'From the moment I walked through the doors, I felt welcomed and at home. The messages are powerful and rooted in the Word, and the community is genuinely loving and supportive.',
   attribution: 'A First Presbyterian member',
-  image: '/images/review-portrait.jpg',
+  image: '/images/Component-11.jpg',
 };
 
 export const MARQUEE_ITEMS = [

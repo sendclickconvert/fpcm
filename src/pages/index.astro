@@ -1,7 +1,11 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import UpcomingEvent from '../components/UpcomingEvent.astro';
-import { CHURCH, HERO, PASTOR, STAFF } from '../data/site';
+import GetNotified from '../components/GetNotified.astro';
+import {
+  CHURCH, HERO, PASTOR, STAFF, NEW_HERE,
+  LIFE_CATEGORIES, FEATURED_REVIEW,
+} from '../data/site';
 import { homepageSchema } from '../lib/seo';
 
 const title = `First Presbyterian Church – Church Of Montgomery`;
@@ -10,21 +14,9 @@ const description = `${CHURCH.shortName} — Sunday worship at 10:00 AM. ${CHURC
 const YOUTUBE_ID = 'HJRzUQMhJMQ';
 
 const infoBoxes = [
-  {
-    title: 'Inclusion Statement',
-    image: '/images/inc-statement-1.webp',
-    href: '/about',
-  },
-  {
-    title: 'Supporting Families & Community',
-    image: '/images/faith-1.webp',
-    href: '/ministries',
-  },
-  {
-    title: 'About Our Faith',
-    image: '/images/faith-2.webp',
-    href: '/about',
-  },
+  { title: 'Inclusion Statement',            image: '/images/inc-statement-1.webp', href: '/about' },
+  { title: 'Supporting Families & Community', image: '/images/faith-1.webp',         href: '/ministries' },
+  { title: 'About Our Faith',                image: '/images/faith-2.webp',         href: '/about' },
 ];
 
 const testimonials = [
@@ -55,11 +47,11 @@ const testimonials = [
 <BaseLayout title={title} description={description} schema={homepageSchema()}>
 
   <!-- ============================================================
-       1. HERO — full-bleed church exterior photo + left-aligned copy
+       1. HERO — full-bleed church exterior photo + left copy
        ============================================================ -->
   <section
     class="relative text-white"
-    style={`background-image: linear-gradient(180deg, rgba(10,14,36,0.38) 0%, rgba(10,14,36,0.62) 100%), url('${HERO.bgImage}'); background-size: cover; background-position: center top;`}
+    style={`background-image: linear-gradient(180deg, rgba(10,14,36,0.38) 0%, rgba(10,14,36,0.62) 100%), url('${HERO.bgImage}'); background-size: cover; background-position: center top; min-height: 520px;`}
   >
     <div class="max-w-container mx-auto px-8 lg:px-16 py-36 md:py-52 lg:py-64 flex flex-col items-start text-left max-w-2xl">
       <h1 class="display-xl text-white max-w-[13ch] mb-6 leading-[1.02]">{HERO.headline}</h1>
@@ -69,90 +61,99 @@ const testimonials = [
   </section>
 
   <!-- ============================================================
-       2. UPCOMING EVENT — crimson bar with date block + countdown
+       2. UPCOMING EVENT — crimson bar, Days:Hours:Mins:Secs
        ============================================================ -->
   <UpcomingEvent />
 
   <!-- ============================================================
-       3. MESSAGE FROM THE PASTOR + FAITH IN ACTION
+       3. MESSAGE FROM THE PASTOR — cream triangle-pattern bg
        ============================================================ -->
-  <section
-    class="relative text-white"
-    style="background-image: linear-gradient(rgba(10,14,36,0.7), rgba(10,14,36,0.7)), url('/images/worship-bg.jpg'); background-size: cover; background-position: center;"
-  >
-    <div class="max-w-container mx-auto px-6 lg:px-8 py-20 md:py-28">
+  <section class="triangle-pattern py-20 md:py-28">
+    <div class="max-w-container mx-auto px-6 lg:px-8">
 
       <!-- Pastor message + portrait -->
-      <div class="grid md:grid-cols-2 gap-10 lg:gap-16 items-center mb-16">
+      <div class="grid md:grid-cols-12 gap-10 lg:gap-16 items-center mb-16">
+
         <!-- Left: copy -->
-        <div>
-          <p class="font-mono text-[0.72rem] tracking-[0.2em] uppercase text-white/70 mb-2">Message from</p>
-          <h2 class="display-xl text-white mb-8">{PASTOR.heading}</h2>
-          <blockquote class="font-mono text-[0.92rem] leading-relaxed text-white/90 mb-7 max-w-prose">
+        <div class="md:col-span-7">
+          <p class="eyebrow mb-3">Message from</p>
+          <h2 class="display-xl mb-8">{PASTOR.heading}</h2>
+          <blockquote class="font-mono text-[0.92rem] leading-relaxed text-ink-soft mb-7 max-w-prose">
             {PASTOR.quote}
           </blockquote>
-          <div class="border-l-2 border-white/40 pl-4">
-            <a href="/im-new" class="font-mono text-sm text-white/80 hover:text-white transition-colors">
-              <span class="mr-2 font-bold">|</span> {PASTOR.cta}
+          <div class="border-l-2 border-crimson pl-4">
+            <a href="/im-new" class="font-mono text-sm text-ink hover:text-crimson transition-colors">
+              | {PASTOR.cta}
             </a>
           </div>
         </div>
 
-        <!-- Right: portrait -->
-        <div class="flex justify-center">
-          <img
-            src={PASTOR.avatar}
-            alt="Message from the Pastor"
-            class="w-full max-w-sm object-contain"
-            loading="lazy"
-          />
+        <!-- Right: portrait with crimson caption -->
+        <div class="md:col-span-5 relative">
+          <div class="relative">
+            <img
+              src={PASTOR.avatar}
+              alt={`Photo of ${PASTOR.name}`}
+              class="w-full aspect-[4/5] object-cover rounded-tl-[120px] rounded-br-[120px] bg-rule"
+              loading="lazy"
+            />
+            <div class="absolute bottom-8 left-0 right-10 bg-crimson text-white px-5 py-3 shadow-lg">
+              <p class="font-display text-xl leading-tight">{PASTOR.name}</p>
+              <p class="font-mono text-[0.62rem] tracking-wider uppercase text-white/85 mt-1">{PASTOR.title}</p>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- Walk in Faith on YouTube heading -->
-      <div class="text-center mb-12">
-        <h2 class="display-lg text-white mb-3">Walk in Faith with Us on YouTube</h2>
-        <hr class="border-white/25 max-w-xs mx-auto mb-3" />
-        <h3 class="font-mono text-[0.72rem] tracking-[0.2em] uppercase text-white/75">Faith in Action: Live Services, Events &amp; Teachings</h3>
+      <!-- Walk in Faith on YouTube + info boxes -->
+      <div class="text-center mb-10">
+        <h2 class="display-lg mb-3">Walk in Faith with Us on YouTube</h2>
+        <hr class="border-rule max-w-xs mx-auto mb-3" />
+        <h3 class="eyebrow-crimson">Faith in Action: Live Services, Events &amp; Teachings</h3>
       </div>
 
-      <!-- 3 info boxes -->
-      <div class="grid md:grid-cols-3 gap-6">
-        {infoBoxes.map((box) => (
-          <div
-            class="relative overflow-hidden group"
-            style={`background-image: linear-gradient(rgba(10,14,36,0.62), rgba(10,14,36,0.62)), url('${box.image}'); background-size: cover; background-position: center;`}
+      <!-- 3 info boxes — same card style as life categories -->
+      <div class="grid md:grid-cols-3 gap-5">
+        {infoBoxes.map((box, i) => (
+          <a
+            href={box.href}
+            class:list={[
+              'group relative aspect-[5/4] overflow-hidden block',
+              i === 0 ? 'rounded-tl-[80px]' : '',
+              i === 1 ? 'rounded-tr-[80px]' : '',
+              i === 2 ? 'rounded-br-[80px]' : '',
+            ]}
           >
-            <div class="p-10 flex flex-col items-center text-center min-h-[200px] justify-center gap-6">
+            <img src={box.image} alt="" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-navy/65 group-hover:bg-navy/55 transition-colors"></div>
+            <div class="relative h-full flex flex-col items-center justify-center text-center text-white p-6 gap-5">
               <h3 class="display-md text-white">{box.title}</h3>
-              <a href={box.href} class="btn btn-crimson text-sm px-6 py-3">Learn More</a>
+              <span class="btn btn-crimson">Learn More</span>
             </div>
-          </div>
+          </a>
         ))}
       </div>
     </div>
   </section>
 
   <!-- ============================================================
-       4. SUNDAY SERVICES LIVESTREAM — navy, YouTube embeds
+       4. SUNDAY SERVICES LIVESTREAM — navy, two YouTube embeds
        ============================================================ -->
   <section class="bg-navy text-white py-16 md:py-20">
     <div class="max-w-container mx-auto px-6 lg:px-8">
 
-      <!-- Title row -->
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-10">
         <h2 class="display-lg text-white">Sunday Services Livestream</h2>
-        <a href={`https://www.youtube.com/@fpcmontgomery`} target="_blank" rel="noopener" class="btn btn-crimson self-start md:self-auto">
+        <a href="https://www.youtube.com/@fpcmontgomery" target="_blank" rel="noopener" class="btn btn-crimson self-start md:self-auto">
           Watch More Here
         </a>
       </div>
 
-      <!-- Two YouTube embeds side by side -->
       <div class="grid md:grid-cols-2 gap-6 mb-10">
         <div class="aspect-video w-full">
           <iframe
             class="w-full h-full"
-            src={`https://www.youtube.com/embed/${YOUTUBE_ID}?rel=0&controls=1&modestbranding=0`}
+            src={`https://www.youtube.com/embed/${YOUTUBE_ID}?rel=0`}
             title="First Presbyterian Church Sunday Service"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
@@ -162,7 +163,7 @@ const testimonials = [
         <div class="aspect-video w-full">
           <iframe
             class="w-full h-full"
-            src={`https://www.youtube.com/embed/${YOUTUBE_ID}?rel=0&controls=1&modestbranding=0`}
+            src={`https://www.youtube.com/embed/${YOUTUBE_ID}?rel=0`}
             title="First Presbyterian Church Sunday Service"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
@@ -171,10 +172,9 @@ const testimonials = [
         </div>
       </div>
 
-      <!-- Share row + Frame-32 photo -->
+      <!-- Share row + Frame-32 collage -->
       <div class="flex flex-col md:flex-row items-center gap-8">
-        <!-- Share buttons -->
-        <div class="flex items-center gap-4">
+        <div class="flex items-center gap-3">
           <a href={`https://www.facebook.com/sharer.php?u=${encodeURIComponent('https://fpcmontgomery.org/')}`} target="_blank" rel="noopener" aria-label="Share on Facebook"
             class="inline-flex items-center justify-center w-10 h-10 bg-[#1877F2] text-white hover:opacity-90 transition-opacity">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.5-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0 0 22 12z"/></svg>
@@ -188,36 +188,62 @@ const testimonials = [
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.61 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
           </a>
         </div>
-
-        <!-- Frame-32 collage -->
         <div class="flex-1 flex justify-end">
-          <img src="/images/Frame-32.png" alt="First Presbyterian Church community" class="max-h-48 w-auto object-contain" loading="lazy" />
+          <img src="/images/Frame-32.png" alt="First Presbyterian Church community" class="max-h-44 w-auto object-contain" loading="lazy" />
         </div>
       </div>
     </div>
   </section>
 
   <!-- ============================================================
-       5. STAFF & LEADERSHIP — white section, 5 circles
+       5. NEW HERE? — cream triangle-pattern, church photo right
        ============================================================ -->
-  <section class="bg-white py-16 md:py-20">
+  <section class="triangle-pattern py-20 md:py-28">
+    <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-10 lg:gap-16 items-center">
+
+      <div class="md:col-span-6">
+        <p class="eyebrow mb-3">{NEW_HERE.eyebrow}</p>
+        <h2 class="display-xl mb-4">{NEW_HERE.headline}</h2>
+        <p class="font-display italic text-2xl text-crimson mb-5">{NEW_HERE.subhead}</p>
+        <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft mb-8 max-w-prose">{NEW_HERE.body}</p>
+        <div class="flex flex-wrap items-center gap-3">
+          <a href="/events" class="btn btn-crimson">Explore More Events</a>
+          <a href="/contact" class="btn btn-outline-white border-navy/30 !text-navy hover:!bg-navy/5">Contact Us</a>
+        </div>
+      </div>
+
+      <div class="md:col-span-6">
+        <img
+          src={NEW_HERE.image}
+          alt="First Presbyterian Church of Montgomery — exterior view"
+          class="w-full aspect-[4/5] md:aspect-[5/6] object-cover rounded-tr-[120px] rounded-bl-[120px] bg-rule"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       6. STAFF & LEADERSHIP — crimson band, 5 circle photos
+       ============================================================ -->
+  <section class="bg-crimson text-white py-16 md:py-20">
     <div class="max-w-container mx-auto px-6 lg:px-8">
 
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-4">
-        <h2 class="display-lg">Staff &amp; Leadership</h2>
-        <a href="/about" class="btn btn-crimson self-start md:self-auto">Learn More About Us</a>
+        <h2 class="display-lg text-white">Staff &amp; Leadership</h2>
+        <a href="/about" class="btn btn-outline-white self-start md:self-auto">Learn More About Us</a>
       </div>
 
-      <hr class="border-rule mb-12" />
+      <hr class="border-white/30 mb-12" />
 
-      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 md:gap-6">
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8 md:gap-4">
         {STAFF.map((person) => (
           <div class="flex flex-col items-center text-center">
-            <div class="w-28 h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full overflow-hidden mb-4 border border-rule bg-cream">
+            <div class="w-28 h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full overflow-hidden mb-3 border-2 border-white/50 bg-white/10">
               <img src={person.avatar} alt={`Photo of ${person.name}`} class="w-full h-full object-cover" loading="lazy" />
             </div>
-            <p class="font-display text-lg md:text-xl text-ink leading-tight">{person.name}</p>
-            <p class="font-mono text-[0.68rem] tracking-wider uppercase text-ink-mute mt-1">{person.role}</p>
+            <p class="font-display text-lg md:text-xl text-white leading-tight">{person.name}</p>
+            <p class="font-mono text-[0.68rem] tracking-wider uppercase text-white/80 mt-1">{person.role}</p>
           </div>
         ))}
       </div>
@@ -225,34 +251,41 @@ const testimonials = [
   </section>
 
   <!-- ============================================================
-       6. LIFE AT FIRST PRESBYTERIAN — bg photo, links + explore copy
+       7. LIFE AT FIRST PRESBYTERIAN — cream triangle-pattern, 2×2 grid
        ============================================================ -->
-  <section
-    class="relative text-white"
-    style="background-image: linear-gradient(rgba(10,14,36,0.7), rgba(10,14,36,0.7)), url('/images/bg-ministries.jpg'); background-size: cover; background-position: center;"
-  >
-    <div class="max-w-container mx-auto px-6 lg:px-8 py-20 md:py-28 grid md:grid-cols-2 gap-12 lg:gap-20 items-center">
+  <section class="triangle-pattern py-20 md:py-28">
+    <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-10 lg:gap-14 items-center">
 
-      <!-- Left: category links -->
-      <div class="flex flex-col gap-8">
-        {[
-          { label: 'Ministries', href: '/ministries' },
-          { label: 'Worship', href: '/worship' },
-          { label: 'Events & Gallery', href: '/events' },
-          { label: 'Giving', href: '/giving' },
-        ].map((cat) => (
-          <div class="border-b border-white/20 pb-6 last:border-0 last:pb-0">
-            <h3 class="display-md text-white mb-3">{cat.label}</h3>
-            <a href={cat.href} class="btn btn-crimson">Learn More</a>
-          </div>
+      <!-- Left: 2×2 image card grid -->
+      <div class="md:col-span-7 grid grid-cols-2 gap-5">
+        {LIFE_CATEGORIES.map((cat, i) => (
+          <a
+            href={cat.href}
+            class:list={[
+              'group relative aspect-[5/6] overflow-hidden block',
+              i === 0 ? 'rounded-tl-[80px]' : '',
+              i === 1 ? 'rounded-tr-[80px]' : '',
+              i === 2 ? 'rounded-bl-[80px]' : '',
+              i === 3 ? 'rounded-br-[80px]' : '',
+            ]}
+          >
+            <img src={cat.image} alt="" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" loading="lazy" />
+            <div class="absolute inset-0 bg-navy/65 group-hover:bg-navy/55 transition-colors"></div>
+            <div class="relative h-full flex flex-col items-center justify-center text-center text-white p-5 gap-4">
+              <h3 class="display-md text-white">{cat.title}</h3>
+              <span class="btn btn-crimson">Learn More</span>
+            </div>
+          </a>
         ))}
       </div>
 
       <!-- Right: Explore More copy -->
-      <div>
-        <p class="font-mono text-[0.72rem] tracking-[0.2em] uppercase text-white/70 mb-3">Explore More</p>
-        <h2 class="display-xl text-white mb-6">Life at First Presbyterian</h2>
-        <p class="font-mono text-[0.9rem] leading-relaxed text-white/85 mb-8 max-w-prose">
+      <div class="md:col-span-5">
+        <p class="eyebrow mb-3">Explore More</p>
+        <h2 class="display-xl mb-6">
+          Life at First<br />Presbyterian
+        </h2>
+        <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft mb-8 max-w-prose">
           Everything you need to worship, connect, serve, and grow — all in one place.
         </p>
         <a href="/events" class="btn btn-crimson">Learn More</a>
@@ -261,28 +294,36 @@ const testimonials = [
   </section>
 
   <!-- ============================================================
-       7. REVIEWS — white section, featured quote + portrait
+       8. REVIEWS — navy background, featured quote + portrait
        ============================================================ -->
-  <section class="bg-white py-16 md:py-20">
-    <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-2 gap-10 lg:gap-16 items-center">
+  <section class="bg-navy text-white py-20 md:py-24 relative overflow-hidden">
+    <div class="absolute inset-0 triangle-pattern-navy opacity-50 pointer-events-none"></div>
+    <div class="relative max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-10 lg:gap-16 items-center">
 
       <!-- Left: heading + quote -->
-      <div>
-        <h2 class="display-lg mb-6">
-          <span class="text-[#D4A642] mr-2">•</span> Reviews
-        </h2>
-        <blockquote class="font-mono text-[0.95rem] leading-relaxed text-ink-soft mb-6 max-w-prose">
-          "From the moment I walked through the doors, I felt welcomed and at home. The messages are powerful and rooted in the Word, and the community is genuinely loving and supportive."
+      <div class="md:col-span-6">
+        <div class="flex items-center gap-3 mb-6">
+          <span class="w-2.5 h-2.5 rounded-full bg-[#D4A642]"></span>
+          <h2 class="display-lg text-white !mb-0">Reviews</h2>
+        </div>
+
+        <svg width="38" height="28" viewBox="0 0 38 28" fill="rgba(255,255,255,0.25)" class="mb-5" aria-hidden="true">
+          <path d="M0 28V14C0 6.3 4.3 1.2 12 0v5c-3.5.7-5 2.6-5 5.5h5v17.5H0zm21 0V14c0-7.7 4.3-12.8 12-14v5c-3.5.7-5 2.6-5 5.5h5v17.5H21z"/>
+        </svg>
+
+        <blockquote class="font-mono text-lg md:text-xl leading-relaxed text-white/95 mb-6 max-w-prose">
+          "{FEATURED_REVIEW.quote}"
         </blockquote>
-        <img src="/images/unnamed-file.png" alt="5 star rating" class="h-8 w-auto" loading="lazy" />
+
+        <p class="font-mono text-[0.78rem] tracking-wider uppercase text-white/60">— {FEATURED_REVIEW.attribution}</p>
       </div>
 
-      <!-- Right: portrait photo -->
-      <div>
+      <!-- Right: B&W portrait -->
+      <div class="md:col-span-6">
         <img
-          src="/images/Component-11.jpg"
+          src={FEATURED_REVIEW.image}
           alt="Member of First Presbyterian Church of Montgomery"
-          class="w-full aspect-[4/5] object-cover"
+          class="w-full aspect-[4/5] object-cover grayscale rounded-br-[120px]"
           loading="lazy"
         />
       </div>
@@ -290,19 +331,17 @@ const testimonials = [
   </section>
 
   <!-- ============================================================
-       8. TESTIMONIAL CARDS — 3 community testimonials
+       9. TESTIMONIAL CARDS — 3 community cards
        ============================================================ -->
-  <section class="bg-cream py-16 md:py-20">
+  <section class="triangle-pattern py-16 md:py-20">
     <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-3 gap-6">
       {testimonials.map((t) => (
         <div class="bg-white shadow-sm p-6 flex flex-col gap-5">
-          <!-- Quote bubble -->
-          <div class="bg-cream p-5 relative flex-1">
+          <div class="bg-[#F7F4EE] p-5 relative flex-1">
             <span class="font-display text-5xl text-crimson leading-none absolute top-2 left-4 select-none">"</span>
             <p class="font-mono text-[0.85rem] leading-relaxed text-ink-soft pt-7">{t.quote}</p>
             <img src={t.platform} alt="" class="h-5 w-auto mt-4 ml-auto" loading="lazy" />
           </div>
-          <!-- Author -->
           <div class="flex items-center gap-4">
             <img src={t.photo} alt={t.name} class="w-12 h-12 rounded-full object-cover" loading="lazy" />
             <div>
@@ -314,5 +353,10 @@ const testimonials = [
       ))}
     </div>
   </section>
+
+  <!-- ============================================================
+       10. GET NOTIFIED — crimson signup band
+       ============================================================ -->
+  <GetNotified />
 
 </BaseLayout>

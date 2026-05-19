@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import PageHero from '../components/PageHero.astro';
 import GetNotified from '../components/GetNotified.astro';
 import ContactForm from '../components/ContactForm.astro';
 import { CHURCH, NEW_HERE, IM_NEW_FAQS } from '../data/site';
@@ -11,13 +10,36 @@ const description = 'New to First Presbyterian Church of Montgomery? Whether you
 
 <BaseLayout title={title} description={description}>
 
-  <!-- ============ HERO ============ -->
-  <PageHero
-    title="I'm New!"
-    subtitle="Welcome to First Presbyterian Church!"
-    image="/images/staff-group.jpg"
-    size="lg"
-  />
+  <!-- ============ HERO — flat navy, dual CTAs ============ -->
+  <section
+    class="relative flex items-center justify-center text-white text-center px-6 min-h-[480px] md:min-h-[560px]"
+    style="background-color: #262880;"
+  >
+    <div class="relative max-w-3xl mx-auto py-16">
+      <h1 class="display-xl text-white mb-4">I'm New!</h1>
+      <p class="font-mono text-sm md:text-base text-white/90 mb-10">
+        Welcome to First Presbyterian Church of Montgomery
+      </p>
+
+      <div class="flex flex-wrap items-center justify-center gap-5">
+        <a href="/events" class="btn btn-crimson">Explore Events</a>
+
+        <a
+          href="https://www.youtube.com/@fpcmontgomery"
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-3 font-mono text-sm tracking-wide text-white hover:opacity-90 transition-opacity"
+        >
+          <span>View More</span>
+          <span class="inline-flex items-center justify-center w-9 h-7 bg-[#FF0000] rounded-md" aria-hidden="true">
+            <svg width="14" height="10" viewBox="0 0 24 17" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.5 2.6c-.3-1-1-1.8-2-2C19.7 0 12 0 12 0S4.3 0 2.5.6c-1 .2-1.7 1-2 2C0 4.4 0 8.5 0 8.5s0 4 .5 5.9c.3 1 1 1.8 2 2C4.3 17 12 17 12 17s7.7 0 9.5-.6c1-.2 1.7-1 2-2 .5-1.8.5-5.9.5-5.9s0-4-.5-5.9zM9.5 12V5l6.5 3.5L9.5 12z"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
 
   <!-- ============ NEW HERE? ============ -->
   <section class="triangle-pattern py-20 md:py-28">

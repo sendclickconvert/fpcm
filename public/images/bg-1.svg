@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1928" height="849" viewBox="0 0 1928 849" fill="none">
+<g filter="url(#filter0_f_426_724)">
+<rect x="11.9004" y="11.9004" width="1904" height="825" fill="url(#pattern0_426_724)"/>
+</g>
+<rect x="11.9004" y="11.9004" width="1904" height="825" fill="url(#paint0_linear_426_724)" fill-opacity="0.8" style="mix-blend-mode:multiply"/>
+<defs>
+<filter id="filter0_f_426_724" x="0.000391006" y="0.000391006" width="1927.8" height="848.8" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="5.95" result="effect1_foregroundBlur_426_724"/>
+</filter>
+<pattern id="pattern0_426_724" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_426_724" transform="matrix(0.000488281 0 0 0.00112689 0 -0.199877)"/>
+</pattern>
+<linearGradient id="paint0_linear_426_724" x1="963.901" y1="11.9004" x2="963.901" y2="836.9" gradientUnits="userSpaceOnUse">
+<stop stop-color="#4643A3" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#211F60"/>
+</linearGradient>
+<image id="image0_426_724" width="2048" height="1365" preserveAspectRatio="none"/>
+</defs>
+</svg>

@@ -1,6 +1,5 @@
 ---
-import { UPCOMING_EVENT } from '../data/site';
-const ev = UPCOMING_EVENT;
+import { CHURCH } from '../data/site';
 ---
 
 <section class="bg-crimson text-white py-7 md:py-8" aria-labelledby="upcoming-event-title">
@@ -8,24 +7,24 @@ const ev = UPCOMING_EVENT;
 
     <!-- Date block + title + meta -->
     <div class="md:col-span-7 lg:col-span-8 flex items-center gap-5">
-      <!-- White date square -->
+      <!-- White date square — filled by JS -->
       <div class="bg-white text-crimson flex flex-col items-center justify-center w-[100px] h-[100px] flex-shrink-0">
-        <div class="font-display text-4xl leading-none font-semibold">{ev.dateDay}</div>
-        <div class="font-mono text-[0.7rem] tracking-[0.18em] mt-1 font-semibold">{ev.dateMonth}</div>
+        <div class="font-display text-4xl leading-none font-semibold" id="ev-day">--</div>
+        <div class="font-mono text-[0.7rem] tracking-[0.18em] mt-1 font-semibold" id="ev-month">---</div>
       </div>
 
       <!-- Title + meta -->
       <div class="flex-1 min-w-0">
-        <p class="eyebrow-light text-white/85 mb-1">{ev.eyebrow}</p>
-        <h2 id="upcoming-event-title" class="display-md text-white mb-2 leading-tight font-semibold">{ev.title}</h2>
+        <p class="eyebrow-light text-white/85 mb-1">Upcoming Event</p>
+        <h2 id="upcoming-event-title" class="display-md text-white mb-2 leading-tight font-semibold">Sunday Worship Service</h2>
         <ul class="flex flex-col sm:flex-row sm:flex-wrap gap-x-5 gap-y-1 font-mono text-[0.78rem] text-white/85">
           <li class="inline-flex items-center gap-2">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
-            {ev.startTime}
+            Start Time — 10:00 AM
           </li>
           <li class="inline-flex items-center gap-2">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            {ev.location}
+            137 Clinton Street, Montgomery, NY, 12549
           </li>
         </ul>
       </div>
@@ -33,24 +32,24 @@ const ev = UPCOMING_EVENT;
 
     <!-- Countdown: Days : Hours : Minutes : Seconds -->
     <div class="md:col-span-5 lg:col-span-4 flex justify-start md:justify-end">
-      <div class="flex items-center gap-2 md:gap-4" data-countdown data-target={ev.startISO}>
+      <div class="flex items-center gap-2 md:gap-4" id="ev-countdown">
         <div class="flex flex-col items-center">
-          <span class="font-display text-3xl md:text-5xl leading-none tabular-nums font-bold" data-countdown-days>00</span>
+          <span class="font-display text-3xl md:text-5xl leading-none tabular-nums font-bold" id="cd-days">00</span>
           <span class="font-mono text-[0.6rem] tracking-[0.15em] mt-1 text-white/80 uppercase">Day</span>
         </div>
         <span class="font-display text-3xl md:text-5xl leading-none font-bold mb-4">:</span>
         <div class="flex flex-col items-center">
-          <span class="font-display text-3xl md:text-5xl leading-none tabular-nums font-bold" data-countdown-hours>00</span>
+          <span class="font-display text-3xl md:text-5xl leading-none tabular-nums font-bold" id="cd-hours">00</span>
           <span class="font-mono text-[0.6rem] tracking-[0.15em] mt-1 text-white/80 uppercase">Hour</span>
         </div>
         <span class="font-display text-3xl md:text-5xl leading-none font-bold mb-4">:</span>
         <div class="flex flex-col items-center">
-          <span class="font-display text-3xl md:text-5xl leading-none tabular-nums font-bold" data-countdown-mins>00</span>
+          <span class="font-display text-3xl md:text-5xl leading-none tabular-nums font-bold" id="cd-mins">00</span>
           <span class="font-mono text-[0.6rem] tracking-[0.15em] mt-1 text-white/80 uppercase">Minute</span>
         </div>
         <span class="font-display text-3xl md:text-5xl leading-none font-bold mb-4">:</span>
         <div class="flex flex-col items-center">
-          <span class="font-display text-3xl md:text-5xl leading-none tabular-nums font-bold" data-countdown-secs>00</span>
+          <span class="font-display text-3xl md:text-5xl leading-none tabular-nums font-bold" id="cd-secs">00</span>
           <span class="font-mono text-[0.6rem] tracking-[0.15em] mt-1 text-white/80 uppercase">Second</span>
         </div>
       </div>
@@ -59,33 +58,58 @@ const ev = UPCOMING_EVENT;
 </section>
 
 <script>
-  const root = document.querySelector('[data-countdown]') as HTMLElement | null;
-  if (root) {
-    const target = new Date(root.dataset.target ?? '').getTime();
-    const elD = root.querySelector('[data-countdown-days]') as HTMLElement | null;
-    const elH = root.querySelector('[data-countdown-hours]') as HTMLElement | null;
-    const elM = root.querySelector('[data-countdown-mins]') as HTMLElement | null;
-    const elS = root.querySelector('[data-countdown-secs]') as HTMLElement | null;
-    const pad = (n: number) => String(n).padStart(2, '0');
+  const MONTHS = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+  const pad = (n: number) => String(n).padStart(2, '0');
+
+  function nextSunday(): Date {
+    const now = new Date();
+    // Build a candidate: this Sunday (or next) at 10:00 AM local time
+    const day = now.getDay(); // 0 = Sunday
+    const daysUntil = day === 0 ? 0 : 7 - day;
+    const candidate = new Date(now);
+    candidate.setDate(now.getDate() + daysUntil);
+    candidate.setHours(10, 0, 0, 0);
+    // If today is Sunday but the service has already started, jump to next Sunday
+    if (candidate.getTime() <= now.getTime()) {
+      candidate.setDate(candidate.getDate() + 7);
+    }
+    return candidate;
+  }
+
+  function init() {
+    const elDay   = document.getElementById('ev-day');
+    const elMonth = document.getElementById('ev-month');
+    const elD     = document.getElementById('cd-days');
+    const elH     = document.getElementById('cd-hours');
+    const elM     = document.getElementById('cd-mins');
+    const elS     = document.getElementById('cd-secs');
+    if (!elDay || !elMonth || !elD || !elH || !elM || !elS) return;
+
+    let target = nextSunday();
+
+    // Set the date label
+    elDay.textContent   = String(target.getDate());
+    elMonth.textContent = MONTHS[target.getMonth()];
 
     const tick = () => {
-      const diff = target - Date.now();
+      const diff = target.getTime() - Date.now();
       if (diff <= 0) {
-        [elD, elH, elM, elS].forEach(el => { if (el) el.textContent = '00'; });
+        // Recalculate for the following Sunday
+        target = nextSunday();
+        elDay.textContent   = String(target.getDate());
+        elMonth.textContent = MONTHS[target.getMonth()];
         return;
       }
       const totalSecs = Math.floor(diff / 1000);
-      const days = Math.floor(totalSecs / 86400);
-      const hours = Math.floor((totalSecs % 86400) / 3600);
-      const mins = Math.floor((totalSecs % 3600) / 60);
-      const secs = totalSecs % 60;
-      if (elD) elD.textContent = pad(days);
-      if (elH) elH.textContent = pad(hours);
-      if (elM) elM.textContent = pad(mins);
-      if (elS) elS.textContent = pad(secs);
+      elD.textContent = pad(Math.floor(totalSecs / 86400));
+      elH.textContent = pad(Math.floor((totalSecs % 86400) / 3600));
+      elM.textContent = pad(Math.floor((totalSecs % 3600) / 60));
+      elS.textContent = pad(totalSecs % 60);
     };
 
     tick();
     setInterval(tick, 1000);
   }
+
+  init();
 </script>

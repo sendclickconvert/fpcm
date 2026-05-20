@@ -1,0 +1,20 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "b08bXrNvc2kxQK2NTrCmx"
+uri = "file://public/images/review-margaret.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "62S-asZLRXX2njHE9FLZV"
+uri = "file://public/images/review-david.png"
+type = "image"
+title = "generated_image"
+
+[[generated]]
+id = "xF-d-5bNdWUYi9-4YyCI1"
+uri = "file://public/images/review-sarah.png"
+type = "image"
+title = "generated_image"

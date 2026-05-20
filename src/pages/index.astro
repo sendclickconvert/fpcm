@@ -23,21 +23,21 @@ const testimonials = [
   {
     quote: 'FPC has been my family for over 20 years. The warmth, the worship, and the community here are truly unlike anything I have ever experienced.',
     platform: '/images/google.png',
-    photo: '/images/Margaret.png',
+    photo: '/images/review-margaret.png',
     name: 'Margaret T.',
     role: 'Congregation Member',
   },
   {
     quote: 'I walked in not knowing anyone and left feeling like I belonged. This church changed my life.',
     platform: '/images/facebook.png',
-    photo: '/images/David.png',
+    photo: '/images/review-david.png',
     name: 'David R.',
     role: 'New Member',
   },
   {
     quote: 'The people here show up for each other in the most genuine way. FPC is not just a church — it is home.',
     platform: '/images/google.png',
-    photo: '/images/sarah.png',
+    photo: '/images/review-sarah.png',
     name: 'Sarah L.',
     role: 'Youth Ministry Parent',
   },
@@ -318,6 +318,7 @@ const testimonials = [
             <img src={t.platform} alt="" class="h-5 w-auto mt-4 self-end" loading="lazy" />
           </div>
           <div class="flex items-center gap-4">
+            <img src={t.photo} alt={t.name} class="w-12 h-12 rounded-full object-cover flex-shrink-0" loading="lazy" />
             <div>
               <p class="font-display text-lg leading-tight text-ink">{t.name}</p>
               <p class="font-mono text-[0.68rem] uppercase tracking-wider text-ink-mute">{t.role}</p>

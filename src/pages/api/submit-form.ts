@@ -38,26 +38,20 @@ export const POST: APIRoute = async ({ request, redirect, url }) => {
       return new Response('Missing email or phone', { status: 400 });
     }
 
-    const crmWebhookUrl = import.meta.env.CRM_WEBHOOK_URL;
-    if (crmWebhookUrl) {
-      try {
-        await fetch(crmWebhookUrl, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            ...payload,
-            source: 'fpcmontgomery.org',
-            endpoint: url.pathname,
-            submittedAt: new Date().toISOString(),
-          }),
-        });
-      } catch (err) {
-        // Don't block the user; log for ops.
-        console.error('CRM webhook failed — form still processed', err);
-      }
-    } else {
-      // Dev / no-webhook fallback: just log it.
-      console.log('[form submission]', url.pathname, payload);
+    const webhookUrl = 'https://services.leadconnectorhq.com/hooks/4aqSFaFFHXf5vD5GdZUj/webhook-trigger/fewQCn1OY9rf0aNxhBjC';
+    try {
+      await fetch(webhookUrl, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          ...payload,
+          source: 'fpcmontgomery.org',
+          endpoint: url.pathname,
+          submittedAt: new Date().toISOString(),
+        }),
+      });
+    } catch (err) {
+      console.error('CRM webhook failed — form still processed', err);
     }
 
     return redirect('/thank-you', 302);

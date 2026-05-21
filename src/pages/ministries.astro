@@ -5,12 +5,35 @@ import AlternatingSection from '../components/AlternatingSection.astro';
 import { CHURCH, MINISTRIES_LIST } from '../data/site';
 
 const title = `Ministries | ${CHURCH.name}`;
-const description = `Ministries at First Presbyterian Church of Montgomery — Bible study, Christian education, Westminster Guild, Men's Fellowship, Town of Montgomery Food Pantry, community outreach, and more.`;
+const description = `Ministries at First Presbyterian Church of Montgomery — Christian education, Men's Fellowship, Sunday School, family activities, community outreach, food pantry, and senior care.`;
+
+const OUTREACH_HIGHLIGHTS = [
+  {
+    image: '/images/Rectangle-41.jpg',
+    heading: 'Montgomery Food Pantry',
+    body: 'Operated quarterly, need has grown 200%',
+  },
+  {
+    image: '/images/Rectangle-42.jpg',
+    heading: 'Helped build 11+ homes, hosted Habitat talent show fundraiser',
+    body: 'Over 11 homes built and counting, putting faith into action for families in need.',
+  },
+  {
+    image: '/images/Rectangle-44.jpg',
+    heading: 'Sunday School Initiatives',
+    body: 'Habitat & pantry giving projects, crafts/cards for nursing homes, Souper Bowl Sunday food drive.',
+  },
+  {
+    image: '/images/Rectangle-46.jpg',
+    heading: "Deacons' Ministry Updates",
+    body: 'Moments for mission during services.',
+  },
+];
 ---
 
 <BaseLayout title={title} description={description}>
 
-  <!-- Ministries hero with dual CTAs -->
+  <!-- Hero with dual CTAs -->
   <section
     class="relative flex items-center justify-center text-white text-center px-6 min-h-[560px] md:min-h-[640px]"
     style="background-image: linear-gradient(180deg, rgba(38,40,128,0.78) 0%, rgba(38,40,128,0.82) 100%), url('/images/bg-ministries.jpg'); background-size: cover; background-position: center;"
@@ -38,29 +61,43 @@ const description = `Ministries at First Presbyterian Church of Montgomery — B
     </div>
   </section>
 
-  <!-- Intro -->
-  <section class="triangle-pattern py-16 md:py-20">
-    <div class="max-w-container mx-auto px-6 lg:px-8 max-w-3xl text-center">
-      <p class="eyebrow mb-3">How we serve</p>
-      <h2 class="display-lg mb-5">A Place to Connect, Serve, and Grow</h2>
-      <p class="font-mono text-[0.92rem] leading-relaxed text-ink-soft">
-        Our ministries reflect the heart of First Presbyterian — to feed, nurture, and provide refuge for those in need. Below are the ways we gather, learn, and serve together throughout the year. There is a place for every age and every season of life.
-      </p>
-    </div>
-  </section>
-
   <!-- Alternating ministry rows -->
   {MINISTRIES_LIST.map((m, i) => (
     <AlternatingSection
       title={m.title}
       body={m.body}
       image={m.image}
-      bg={i % 2 === 0 ? 'cream' : 'cream'}
+      bg="cream"
       align={m.align as 'left' | 'right'}
-      primaryCta={{ label: 'Click here for more info', href: `/contact?topic=${m.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}` }}
+      primaryCta={{ label: 'Learn More Here', href: `/contact?topic=${m.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}` }}
       index={i}
     />
   ))}
+
+  <!-- Community Outreach highlights grid -->
+  <section class="triangle-pattern-navy bg-navy py-16 md:py-20">
+    <div class="max-w-container mx-auto px-6 lg:px-8">
+      <h2 class="display-lg text-white mb-10">Community Outreach</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        {OUTREACH_HIGHLIGHTS.map((item) => (
+          <div class="bg-white/5 border border-white/10 overflow-hidden flex flex-col">
+            <div class="aspect-[4/3] overflow-hidden">
+              <img
+                src={item.image}
+                alt={item.heading}
+                class="w-full h-full object-cover"
+                loading="lazy"
+              />
+            </div>
+            <div class="p-4 flex flex-col gap-2 flex-1">
+              <h4 class="font-bold text-white text-sm leading-snug">{item.heading}</h4>
+              <p class="font-mono text-[0.8rem] text-white/75 leading-relaxed">{item.body}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
 
   <GetNotified />
 </BaseLayout>

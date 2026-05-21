@@ -38,7 +38,7 @@ export const POST: APIRoute = async ({ request, redirect, url }) => {
       return new Response('Missing email or phone', { status: 400 });
     }
 
-    const webhookUrl = 'https://services.leadconnectorhq.com/hooks/4aqSFaFFHXf5vD5GdZUj/webhook-trigger/fewQCn1OY9rf0aNxhBjC';
+    const webhookUrl = 'https://services.leadconnectorhq.com/hooks/4aqSFaFFHXf5vD5GdZUj/webhook-trigger/6ef6a556-1807-4f86-8c67-5323a29e1443';
     try {
       await fetch(webhookUrl, {
         method: 'POST',

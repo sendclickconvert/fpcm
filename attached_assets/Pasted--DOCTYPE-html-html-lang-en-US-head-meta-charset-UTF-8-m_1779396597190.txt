@@ -1,0 +1,1003 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<title>Worship &#8211; First Presbyterian Church</title>
+<meta name='robots' content='noindex, nofollow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="First Presbyterian Church &raquo; Feed" href="https://fpcmontgomery.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="First Presbyterian Church &raquo; Comments Feed" href="https://fpcmontgomery.org/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://fpcmontgomery.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffpcmontgomery.org%2Fworship%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://fpcmontgomery.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffpcmontgomery.org%2Fworship%2F&#038;format=xml" />
+<link rel="preload" href="https://fpcmontgomery.org/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="https://fpcmontgomery.org/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="https://fpcmontgomery.org/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--fl-heading-text: #333333;--wp--preset--color--fl-body-bg: #f2f2f2;--wp--preset--color--fl-body-text: #212121;--wp--preset--color--fl-accent: #2b7bb9;--wp--preset--color--fl-accent-hover: #2b7bb9;--wp--preset--color--fl-topbar-bg: #ffffff;--wp--preset--color--fl-topbar-text: #757575;--wp--preset--color--fl-topbar-link: #2b7bb9;--wp--preset--color--fl-topbar-hover: #2b7bb9;--wp--preset--color--fl-header-bg: #ffffff;--wp--preset--color--fl-header-text: #757575;--wp--preset--color--fl-header-link: #757575;--wp--preset--color--fl-header-hover: #2b7bb9;--wp--preset--color--fl-nav-bg: #ffffff;--wp--preset--color--fl-nav-link: #757575;--wp--preset--color--fl-nav-hover: #2b7bb9;--wp--preset--color--fl-content-bg: #ffffff;--wp--preset--color--fl-footer-widgets-bg: #ffffff;--wp--preset--color--fl-footer-widgets-text: #757575;--wp--preset--color--fl-footer-widgets-link: #2b7bb9;--wp--preset--color--fl-footer-widgets-hover: #2b7bb9;--wp--preset--color--fl-footer-bg: #ffffff;--wp--preset--color--fl-footer-text: #757575;--wp--preset--color--fl-footer-link: #2b7bb9;--wp--preset--color--fl-footer-hover: #2b7bb9;--wp--preset--color--primary: #211f60;--wp--preset--color--secondary: #9f1b30;--wp--preset--color--yellow: #f3b201;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-fl-heading-text-color{color: var(--wp--preset--color--fl-heading-text) !important;}.has-fl-body-bg-color{color: var(--wp--preset--color--fl-body-bg) !important;}.has-fl-body-text-color{color: var(--wp--preset--color--fl-body-text) !important;}.has-fl-accent-color{color: var(--wp--preset--color--fl-accent) !important;}.has-fl-accent-hover-color{color: var(--wp--preset--color--fl-accent-hover) !important;}.has-fl-topbar-bg-color{color: var(--wp--preset--color--fl-topbar-bg) !important;}.has-fl-topbar-text-color{color: var(--wp--preset--color--fl-topbar-text) !important;}.has-fl-topbar-link-color{color: var(--wp--preset--color--fl-topbar-link) !important;}.has-fl-topbar-hover-color{color: var(--wp--preset--color--fl-topbar-hover) !important;}.has-fl-header-bg-color{color: var(--wp--preset--color--fl-header-bg) !important;}.has-fl-header-text-color{color: var(--wp--preset--color--fl-header-text) !important;}.has-fl-header-link-color{color: var(--wp--preset--color--fl-header-link) !important;}.has-fl-header-hover-color{color: var(--wp--preset--color--fl-header-hover) !important;}.has-fl-nav-bg-color{color: var(--wp--preset--color--fl-nav-bg) !important;}.has-fl-nav-link-color{color: var(--wp--preset--color--fl-nav-link) !important;}.has-fl-nav-hover-color{color: var(--wp--preset--color--fl-nav-hover) !important;}.has-fl-content-bg-color{color: var(--wp--preset--color--fl-content-bg) !important;}.has-fl-footer-widgets-bg-color{color: var(--wp--preset--color--fl-footer-widgets-bg) !important;}.has-fl-footer-widgets-text-color{color: var(--wp--preset--color--fl-footer-widgets-text) !important;}.has-fl-footer-widgets-link-color{color: var(--wp--preset--color--fl-footer-widgets-link) !important;}.has-fl-footer-widgets-hover-color{color: var(--wp--preset--color--fl-footer-widgets-hover) !important;}.has-fl-footer-bg-color{color: var(--wp--preset--color--fl-footer-bg) !important;}.has-fl-footer-text-color{color: var(--wp--preset--color--fl-footer-text) !important;}.has-fl-footer-link-color{color: var(--wp--preset--color--fl-footer-link) !important;}.has-fl-footer-hover-color{color: var(--wp--preset--color--fl-footer-hover) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-yellow-color{color: var(--wp--preset--color--yellow) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-fl-heading-text-background-color{background-color: var(--wp--preset--color--fl-heading-text) !important;}.has-fl-body-bg-background-color{background-color: var(--wp--preset--color--fl-body-bg) !important;}.has-fl-body-text-background-color{background-color: var(--wp--preset--color--fl-body-text) !important;}.has-fl-accent-background-color{background-color: var(--wp--preset--color--fl-accent) !important;}.has-fl-accent-hover-background-color{background-color: var(--wp--preset--color--fl-accent-hover) !important;}.has-fl-topbar-bg-background-color{background-color: var(--wp--preset--color--fl-topbar-bg) !important;}.has-fl-topbar-text-background-color{background-color: var(--wp--preset--color--fl-topbar-text) !important;}.has-fl-topbar-link-background-color{background-color: var(--wp--preset--color--fl-topbar-link) !important;}.has-fl-topbar-hover-background-color{background-color: var(--wp--preset--color--fl-topbar-hover) !important;}.has-fl-header-bg-background-color{background-color: var(--wp--preset--color--fl-header-bg) !important;}.has-fl-header-text-background-color{background-color: var(--wp--preset--color--fl-header-text) !important;}.has-fl-header-link-background-color{background-color: var(--wp--preset--color--fl-header-link) !important;}.has-fl-header-hover-background-color{background-color: var(--wp--preset--color--fl-header-hover) !important;}.has-fl-nav-bg-background-color{background-color: var(--wp--preset--color--fl-nav-bg) !important;}.has-fl-nav-link-background-color{background-color: var(--wp--preset--color--fl-nav-link) !important;}.has-fl-nav-hover-background-color{background-color: var(--wp--preset--color--fl-nav-hover) !important;}.has-fl-content-bg-background-color{background-color: var(--wp--preset--color--fl-content-bg) !important;}.has-fl-footer-widgets-bg-background-color{background-color: var(--wp--preset--color--fl-footer-widgets-bg) !important;}.has-fl-footer-widgets-text-background-color{background-color: var(--wp--preset--color--fl-footer-widgets-text) !important;}.has-fl-footer-widgets-link-background-color{background-color: var(--wp--preset--color--fl-footer-widgets-link) !important;}.has-fl-footer-widgets-hover-background-color{background-color: var(--wp--preset--color--fl-footer-widgets-hover) !important;}.has-fl-footer-bg-background-color{background-color: var(--wp--preset--color--fl-footer-bg) !important;}.has-fl-footer-text-background-color{background-color: var(--wp--preset--color--fl-footer-text) !important;}.has-fl-footer-link-background-color{background-color: var(--wp--preset--color--fl-footer-link) !important;}.has-fl-footer-hover-background-color{background-color: var(--wp--preset--color--fl-footer-hover) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-yellow-background-color{background-color: var(--wp--preset--color--yellow) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-fl-heading-text-border-color{border-color: var(--wp--preset--color--fl-heading-text) !important;}.has-fl-body-bg-border-color{border-color: var(--wp--preset--color--fl-body-bg) !important;}.has-fl-body-text-border-color{border-color: var(--wp--preset--color--fl-body-text) !important;}.has-fl-accent-border-color{border-color: var(--wp--preset--color--fl-accent) !important;}.has-fl-accent-hover-border-color{border-color: var(--wp--preset--color--fl-accent-hover) !important;}.has-fl-topbar-bg-border-color{border-color: var(--wp--preset--color--fl-topbar-bg) !important;}.has-fl-topbar-text-border-color{border-color: var(--wp--preset--color--fl-topbar-text) !important;}.has-fl-topbar-link-border-color{border-color: var(--wp--preset--color--fl-topbar-link) !important;}.has-fl-topbar-hover-border-color{border-color: var(--wp--preset--color--fl-topbar-hover) !important;}.has-fl-header-bg-border-color{border-color: var(--wp--preset--color--fl-header-bg) !important;}.has-fl-header-text-border-color{border-color: var(--wp--preset--color--fl-header-text) !important;}.has-fl-header-link-border-color{border-color: var(--wp--preset--color--fl-header-link) !important;}.has-fl-header-hover-border-color{border-color: var(--wp--preset--color--fl-header-hover) !important;}.has-fl-nav-bg-border-color{border-color: var(--wp--preset--color--fl-nav-bg) !important;}.has-fl-nav-link-border-color{border-color: var(--wp--preset--color--fl-nav-link) !important;}.has-fl-nav-hover-border-color{border-color: var(--wp--preset--color--fl-nav-hover) !important;}.has-fl-content-bg-border-color{border-color: var(--wp--preset--color--fl-content-bg) !important;}.has-fl-footer-widgets-bg-border-color{border-color: var(--wp--preset--color--fl-footer-widgets-bg) !important;}.has-fl-footer-widgets-text-border-color{border-color: var(--wp--preset--color--fl-footer-widgets-text) !important;}.has-fl-footer-widgets-link-border-color{border-color: var(--wp--preset--color--fl-footer-widgets-link) !important;}.has-fl-footer-widgets-hover-border-color{border-color: var(--wp--preset--color--fl-footer-widgets-hover) !important;}.has-fl-footer-bg-border-color{border-color: var(--wp--preset--color--fl-footer-bg) !important;}.has-fl-footer-text-border-color{border-color: var(--wp--preset--color--fl-footer-text) !important;}.has-fl-footer-link-border-color{border-color: var(--wp--preset--color--fl-footer-link) !important;}.has-fl-footer-hover-border-color{border-color: var(--wp--preset--color--fl-footer-hover) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-yellow-border-color{border-color: var(--wp--preset--color--yellow) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='ultimate-icons-css' href='https://fpcmontgomery.org/wp-content/uploads/bb-plugin/icons/ultimate-icons/style.css?ver=2.10.2' media='all' />
+<link rel='stylesheet' id='font-awesome-5-css' href='https://fpcmontgomery.org/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css?ver=2.10.2' media='all' />
+<link rel='stylesheet' id='fl-builder-layout-192-css' href='https://fpcmontgomery.org/wp-content/uploads/bb-plugin/cache/192-layout.css?ver=237dfca74b7cce9c17098ab0717f44c0' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://fpcmontgomery.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://fpcmontgomery.org/wp-includes/css/dashicons.min.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='fl-builder-layout-bundle-cc939c3676bcdac7501a01ec29ca1fef-css' href='https://fpcmontgomery.org/wp-content/uploads/bb-plugin/cache/cc939c3676bcdac7501a01ec29ca1fef-layout-bundle.css?ver=2.10.2-1.5.2.4' media='all' />
+<link rel='stylesheet' id='jquery-magnificpopup-css' href='https://fpcmontgomery.org/wp-content/plugins/bb-plugin/css/jquery.magnificpopup.min.css?ver=2.10.2' media='all' />
+<link rel='stylesheet' id='base-css' href='https://fpcmontgomery.org/wp-content/themes/bb-theme/css/base.min.css?ver=1.7.19.2' media='all' />
+<link rel='stylesheet' id='fl-automator-skin-css' href='https://fpcmontgomery.org/wp-content/uploads/bb-theme/skin-69f89e4d22980.css?ver=1.7.19.2' media='all' />
+<link rel='stylesheet' id='fl-builder-google-fonts-bf40526b5ef78682c7de2deef89794f3-css' href='//fonts.googleapis.com/css?family=Poppins:400,300,700&#038;ver=7.0' media='all' />
+<script id="jquery-core-js" src="https://fpcmontgomery.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://fpcmontgomery.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="https://fpcmontgomery.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://fpcmontgomery.org/wp-json/wp/v2/pages/192" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fpcmontgomery.org/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0" />
+<link rel="canonical" href="https://fpcmontgomery.org/worship/" />
+<link rel='shortlink' href='https://fpcmontgomery.org/?p=192' />
+<link rel="icon" href="https://fpcmontgomery.org/wp-content/uploads/2026/04/FBCM_Steeple_ROUND-1.png" sizes="32x32" />
+<link rel="icon" href="https://fpcmontgomery.org/wp-content/uploads/2026/04/FBCM_Steeple_ROUND-1.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://fpcmontgomery.org/wp-content/uploads/2026/04/FBCM_Steeple_ROUND-1.png" />
+<meta name="msapplication-TileImage" content="https://fpcmontgomery.org/wp-content/uploads/2026/04/FBCM_Steeple_ROUND-1.png" />
+</head>
+<body class="wp-singular page-template-default page page-id-192 wp-theme-bb-theme fl-builder fl-builder-2-10-2 fl-themer-1-5-2-4 fl-theme-1-7-19-2 fl-no-js fl-theme-builder-header fl-theme-builder-header-header fl-theme-builder-footer fl-theme-builder-footer-footer fl-framework-base fl-preset-default fl-full-width fl-search-active" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<a aria-label="Skip to content" class="fl-screen-reader-text" href="#fl-main-content">Skip to content</a><div class="fl-page">
+	<header class="fl-builder-content fl-builder-content-14 fl-builder-global-templates-locked" data-post-id="14" data-type="header" data-sticky="1" data-sticky-on="" data-sticky-breakpoint="medium" data-shrink="1" data-overlay="1" data-overlay-bg="default" data-shrink-image-height="50px" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader"><div  class="fl-module fl-module-box fl-node-ezu4adr5f7k1 fl-visible-mobile" data-node="ezu4adr5f7k1">
+	<div class="fl-module fl-module-icon-group fl-node-f6ahpqtl4gks" data-node="f6ahpqtl4gks">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-group">
+	<span class="fl-icon">
+				<i class="fab fa-facebook-f" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="ua-icon ua-icon-basket" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="dashicons dashicons-before dashicons-youtube" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="fab fa-linkedin" aria-hidden="true"></i>
+					</span>
+	</div>
+	</div>
+</div>
+<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-wikodbrzfj32" data-node="wikodbrzfj32">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">DONATE HERE</span>
+					</a>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-frphknyo749u fl-row-default-height fl-row-align-center" data-node="frphknyo749u">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-l8kq3j6xa1o7 fl-col-group-equal-height fl-col-group-align-center fl-col-group-custom-width" data-node="l8kq3j6xa1o7">
+			<div class="fl-col fl-node-aso7zbjper2c fl-col-bg-color fl-col-small fl-col-small-custom-width" data-node="aso7zbjper2c">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-image-icon fl-node-cg58rjs37vdx" data-node="cg58rjs37vdx">
+	<div class="fl-module-content fl-node-content">
+		<div class="uabb-module-content uabb-imgicon-wrap">		
+					<div class="uabb-image
+		 uabb-image-crop-simple		" itemscope itemtype="https://schema.org/ImageObject">
+			<div class="uabb-image-content">
+				<img loading="lazy" decoding="async" width="560" height="120" class="uabb-photo-img wp-image-20 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/LOGO-1.png" alt="LOGO (1)" title="LOGO (1)" itemprop="image" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/LOGO-1.png 560w, https://fpcmontgomery.org/wp-content/uploads/2026/04/LOGO-1-300x64.png 300w" sizes="auto, (max-width: 560px) 100vw, 560px" />
+			</div>
+		</div>
+
+		</div>	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-uc1b2ge3ai5n fl-col-bg-color fl-col-small-custom-width fl-col-has-cols" data-node="uc1b2ge3ai5n">
+	<div class="fl-col-content fl-node-content">
+<div class="fl-col-group fl-node-ht9kpjldu5x7 fl-col-group-nested" data-node="ht9kpjldu5x7">
+			<div class="fl-col fl-node-g60j1het94yu fl-col-bg-color" data-node="g60j1het94yu">
+	<div class="fl-col-content fl-node-content"><div  class="fl-module fl-module-box fl-node-ku736zqjwe20" data-node="ku736zqjwe20">
+	<div class="fl-module fl-module-icon-group fl-node-xvwna8d01pug fl-visible-desktop fl-visible-large fl-visible-medium" data-node="xvwna8d01pug">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-group">
+	<span class="fl-icon">
+				<i class="fab fa-facebook-f" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="ua-icon ua-icon-basket" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="dashicons dashicons-before dashicons-youtube" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="fab fa-linkedin" aria-hidden="true"></i>
+					</span>
+	</div>
+	</div>
+</div>
+<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-p8bw7f9ua0y1 fl-visible-desktop fl-visible-large fl-visible-medium" data-node="p8bw7f9ua0y1">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">DONATE HERE</span>
+					</a>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+<div class="fl-module fl-module-menu fl-node-qztjpe76x9hu" data-node="qztjpe76x9hu">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-menu fl-menu-responsive-toggle-mobile">
+	<button class="fl-menu-mobile-toggle hamburger fl-content-ui-button" aria-haspopup="menu" aria-label="Menu"><span class="fl-menu-icon svg-container"><svg version="1.1" class="hamburger-menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+<rect class="fl-hamburger-menu-top" width="512" height="102"/>
+<rect class="fl-hamburger-menu-middle" y="205" width="512" height="102"/>
+<rect class="fl-hamburger-menu-bottom" y="410" width="512" height="102"/>
+</svg>
+</span></button>	<div class="fl-clear"></div>
+	<nav aria-label="Navigation Menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement"><ul id="menu-main" class="menu fl-menu-horizontal fl-toggle-arrows"><li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home"><a  href="https://fpcmontgomery.org/">Home</a></li><li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://fpcmontgomery.org/im-new/">I&#8217;m New</a></li><li id="menu-item-174" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://fpcmontgomery.org/about-us/">About Us</a></li><li id="menu-item-212" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-192 current_page_item"><a  href="https://fpcmontgomery.org/worship/" aria-current="page">Worship</a></li><li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://fpcmontgomery.org/ministries/">Ministries</a></li><li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://fpcmontgomery.org/events-and-gallery/">Events &amp; Gallery</a></li><li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://fpcmontgomery.org/contact-us/">Contact Us</a></li></ul></nav></div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</header><div class="uabb-js-breakpoint" style="display: none;"></div>	<div id="fl-main-content" class="fl-page-content" itemprop="mainContentOfPage" role="main">
+
+		
+<div class="fl-content-full container">
+	<div class="row">
+		<div class="fl-content col-md-12">
+			<article class="fl-post post-192 page type-page status-publish hentry" id="fl-post-192" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+
+			<div class="fl-post-content clearfix" itemprop="text">
+		<div class="fl-builder-content fl-builder-content-192 fl-builder-content-primary fl-builder-global-templates-locked" data-post-id="192"><div class="fl-row fl-row-full-width fl-row-bg-multiple fl-node-0kgbwfnls2am fl-row-custom-height fl-row-align-center" data-node="0kgbwfnls2am">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-jbkztlifq2p9" data-node="jbkztlifq2p9">
+			<div class="fl-col fl-node-0s7xe2lr5cfk fl-col-bg-color" data-node="0s7xe2lr5cfk">
+	<div class="fl-col-content fl-node-content"><h1  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-eadk4co5fj07" data-node="eadk4co5fj07">
+			Worship	</h1>
+<div  class="fl-module fl-module-box fl-node-mpkgos7vz2d6" data-node="mpkgos7vz2d6">
+	<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-button-has-icon fl-node-l7j84kmndhfi" data-node="l7j84kmndhfi">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">View More</span>
+						<i class="fl-button-icon fl-button-icon-after ua-icon ua-icon-youtube" aria-hidden="true"></i>
+			</a>
+	</div>
+<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-z4h2rsy6u8bv" data-node="z4h2rsy6u8bv">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">Explore Events</span>
+					</a>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-multiple fl-node-0e1af56z3wyj fl-row-default-height fl-row-align-center" data-node="0e1af56z3wyj">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-a8yibqo4sprv" data-node="a8yibqo4sprv">
+			<div class="fl-col fl-node-n0i4mybufq1a fl-col-bg-color fl-col-small" data-node="n0i4mybufq1a">
+	<div class="fl-col-content fl-node-content"><div  class="fl-module fl-module-box fl-node-o8d2t17jaucx" data-node="o8d2t17jaucx">
+	<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-54iqvd0h8prx" data-node="54iqvd0h8prx">
+			WATCH OUR	</h4>
+<h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-j5m2gkn3aiz8" data-node="j5m2gkn3aiz8">
+			Sunday Services	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-pil9qh78r2k6" data-node="pil9qh78r2k6">
+	<p>Worship at First Presbyterian Church of Montgomery</p>
+</div>
+<div class="fl-module fl-module-list-icon fl-node-zx9t5le4kabn" data-node="zx9t5le4kabn">
+	<div class="fl-module-content fl-node-content">
+		
+<div class="uabb-module-content uabb-list-icon">
+		<div class="uabb-list-icon-wrap">
+			<div class="uabb-callout-outter"><div class="uabb-module-content uabb-imgicon-wrap">				<span class="uabb-icon-wrap">
+			<span class="uabb-icon">
+			<i class="ua-icon ua-icon-clock2" aria-hidden="true"></i>
+			</span>
+		</span>
+	
+		</div></div><!-- Inline Block Space Fix
+		--><div class="uabb-list-icon-text">
+									<h3 class="uabb-list-icon-text-heading">11:30 AM on YouTube</h3>
+							</div>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-q4ck3utfhjeb fl-col-bg-color fl-col-small" data-node="q4ck3utfhjeb">
+	<div class="fl-col-content fl-node-content"><div  class="fl-module fl-module-box fl-node-4lapfsjqg5k1" data-node="4lapfsjqg5k1">
+	<h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-9m7l5oc3v4gw" data-node="9m7l5oc3v4gw">
+			OUR MISSION:	</h3>
+<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-mudzwgq5ckls" data-node="mudzwgq5ckls">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">Watch More Here</span>
+					</a>
+	</div>
+</div>
+<div class="fl-module fl-module-uabb-video fl-node-g4sqrezmb1c0" data-node="g4sqrezmb1c0">
+	<div class="fl-module-content fl-node-content">
+				<div class="uabb-video uabb-aspect-ratio-16_9  uabb-subscribe-responsive-none uabb-video-sticky-top_left" >
+												<div class="uabb-video__outer-wrap  " data-autoplay="0" data-device="true" >
+								<div class="uabb-video-inner-wrap">
+					<div class="uabb-video__play" data-src="https://www.youtube.com/embed/HJRzUQMhJMQ?rel=0&#038;start&#038;end&#038;controls=1&#038;mute=0&#038;modestbranding=0&#038;autoplay=1">
+					<img decoding="async" src="https://i.ytimg.com/vi/HJRzUQMhJMQ/maxresdefault.jpg" alt="youtube-video-thumbnail"></img>
+						<div class="uabb-video__play-icon  uabb-animation-" tabindex="0">
+							<svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%"><path class="uabb-youtube-icon-bg" d="m .66,37.62 c 0,0 .66,4.70 2.70,6.77 2.58,2.71 5.98,2.63 7.49,2.91 5.43,.52 23.10,.68 23.12,.68 .00,-1.3e-5 14.29,-0.02 23.81,-0.71 1.32,-0.15 4.22,-0.17 6.81,-2.89 2.03,-2.07 2.70,-6.77 2.70,-6.77 0,0 .67,-5.52 .67,-11.04 l 0,-5.17 c 0,-5.52 -0.67,-11.04 -0.67,-11.04 0,0 -0.66,-4.70 -2.70,-6.77 C 62.03,.86 59.13,.84 57.80,.69 48.28,0 34.00,0 34.00,0 33.97,0 19.69,0 10.18,.69 8.85,.84 5.95,.86 3.36,3.58 1.32,5.65 .66,10.35 .66,10.35 c 0,0 -0.55,4.50 -0.66,9.45 l 0,8.36 c .10,4.94 .66,9.45 .66,9.45 z" fill="#1f1f1e"></path><path d="m 26.96,13.67 18.37,9.62 -18.37,9.55 -0.00,-19.17 z" fill="#fff"></path><path d="M 45.02,23.46 45.32,23.28 26.96,13.67 43.32,24.34 45.02,23.46 z" fill="#ccc"></path></svg>						</div>
+					</div>
+										
+				</div>
+			</div>
+						</div>
+			</div>
+</div>
+</div>
+</div>
+	</div>
+
+<div class="fl-col-group fl-node-r3fv4tuhozjq" data-node="r3fv4tuhozjq">
+			<div class="fl-col fl-node-3qum4epsn2ot fl-col-bg-color fl-col-small" data-node="3qum4epsn2ot">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-uabb-video fl-node-2w0b6pjf3sv5" data-node="2w0b6pjf3sv5">
+	<div class="fl-module-content fl-node-content">
+				<div class="uabb-video uabb-aspect-ratio-16_9  uabb-subscribe-responsive-none uabb-video-sticky-top_left" >
+												<div class="uabb-video__outer-wrap  " data-autoplay="0" data-device="true" >
+								<div class="uabb-video-inner-wrap">
+					<div class="uabb-video__play" data-src="https://www.youtube.com/embed/HJRzUQMhJMQ?rel=0&#038;start&#038;end&#038;controls=1&#038;mute=0&#038;modestbranding=0&#038;autoplay=1">
+					<img decoding="async" src="https://i.ytimg.com/vi/HJRzUQMhJMQ/maxresdefault.jpg" alt="youtube-video-thumbnail"></img>
+						<div class="uabb-video__play-icon  uabb-animation-" tabindex="0">
+							<svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%"><path class="uabb-youtube-icon-bg" d="m .66,37.62 c 0,0 .66,4.70 2.70,6.77 2.58,2.71 5.98,2.63 7.49,2.91 5.43,.52 23.10,.68 23.12,.68 .00,-1.3e-5 14.29,-0.02 23.81,-0.71 1.32,-0.15 4.22,-0.17 6.81,-2.89 2.03,-2.07 2.70,-6.77 2.70,-6.77 0,0 .67,-5.52 .67,-11.04 l 0,-5.17 c 0,-5.52 -0.67,-11.04 -0.67,-11.04 0,0 -0.66,-4.70 -2.70,-6.77 C 62.03,.86 59.13,.84 57.80,.69 48.28,0 34.00,0 34.00,0 33.97,0 19.69,0 10.18,.69 8.85,.84 5.95,.86 3.36,3.58 1.32,5.65 .66,10.35 .66,10.35 c 0,0 -0.55,4.50 -0.66,9.45 l 0,8.36 c .10,4.94 .66,9.45 .66,9.45 z" fill="#1f1f1e"></path><path d="m 26.96,13.67 18.37,9.62 -18.37,9.55 -0.00,-19.17 z" fill="#fff"></path><path d="M 45.02,23.46 45.32,23.28 26.96,13.67 43.32,24.34 45.02,23.46 z" fill="#ccc"></path></svg>						</div>
+					</div>
+										
+				</div>
+			</div>
+						</div>
+			</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-vwsf4g6ljb53 fl-col-bg-color fl-col-small" data-node="vwsf4g6ljb53">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-uabb-video fl-node-2hx9rbuaclq5" data-node="2hx9rbuaclq5">
+	<div class="fl-module-content fl-node-content">
+				<div class="uabb-video uabb-aspect-ratio-16_9  uabb-subscribe-responsive-none uabb-video-sticky-top_left" >
+												<div class="uabb-video__outer-wrap  " data-autoplay="0" data-device="true" >
+								<div class="uabb-video-inner-wrap">
+					<div class="uabb-video__play" data-src="https://www.youtube.com/embed/HJRzUQMhJMQ?rel=0&#038;start&#038;end&#038;controls=1&#038;mute=0&#038;modestbranding=0&#038;autoplay=1">
+					<img decoding="async" src="https://i.ytimg.com/vi/HJRzUQMhJMQ/maxresdefault.jpg" alt="youtube-video-thumbnail"></img>
+						<div class="uabb-video__play-icon  uabb-animation-" tabindex="0">
+							<svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%"><path class="uabb-youtube-icon-bg" d="m .66,37.62 c 0,0 .66,4.70 2.70,6.77 2.58,2.71 5.98,2.63 7.49,2.91 5.43,.52 23.10,.68 23.12,.68 .00,-1.3e-5 14.29,-0.02 23.81,-0.71 1.32,-0.15 4.22,-0.17 6.81,-2.89 2.03,-2.07 2.70,-6.77 2.70,-6.77 0,0 .67,-5.52 .67,-11.04 l 0,-5.17 c 0,-5.52 -0.67,-11.04 -0.67,-11.04 0,0 -0.66,-4.70 -2.70,-6.77 C 62.03,.86 59.13,.84 57.80,.69 48.28,0 34.00,0 34.00,0 33.97,0 19.69,0 10.18,.69 8.85,.84 5.95,.86 3.36,3.58 1.32,5.65 .66,10.35 .66,10.35 c 0,0 -0.55,4.50 -0.66,9.45 l 0,8.36 c .10,4.94 .66,9.45 .66,9.45 z" fill="#1f1f1e"></path><path d="m 26.96,13.67 18.37,9.62 -18.37,9.55 -0.00,-19.17 z" fill="#fff"></path><path d="M 45.02,23.46 45.32,23.28 26.96,13.67 43.32,24.34 45.02,23.46 z" fill="#ccc"></path></svg>						</div>
+					</div>
+										
+				</div>
+			</div>
+						</div>
+			</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-kg6ilhsbuep2 fl-col-bg-color fl-col-small" data-node="kg6ilhsbuep2">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-uabb-video fl-node-kg85t03u1vx7" data-node="kg85t03u1vx7">
+	<div class="fl-module-content fl-node-content">
+				<div class="uabb-video uabb-aspect-ratio-16_9  uabb-subscribe-responsive-none uabb-video-sticky-top_left" >
+												<div class="uabb-video__outer-wrap  " data-autoplay="0" data-device="true" >
+								<div class="uabb-video-inner-wrap">
+					<div class="uabb-video__play" data-src="https://www.youtube.com/embed/HJRzUQMhJMQ?rel=0&#038;start&#038;end&#038;controls=1&#038;mute=0&#038;modestbranding=0&#038;autoplay=1">
+					<img decoding="async" src="https://i.ytimg.com/vi/HJRzUQMhJMQ/maxresdefault.jpg" alt="youtube-video-thumbnail"></img>
+						<div class="uabb-video__play-icon  uabb-animation-" tabindex="0">
+							<svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%"><path class="uabb-youtube-icon-bg" d="m .66,37.62 c 0,0 .66,4.70 2.70,6.77 2.58,2.71 5.98,2.63 7.49,2.91 5.43,.52 23.10,.68 23.12,.68 .00,-1.3e-5 14.29,-0.02 23.81,-0.71 1.32,-0.15 4.22,-0.17 6.81,-2.89 2.03,-2.07 2.70,-6.77 2.70,-6.77 0,0 .67,-5.52 .67,-11.04 l 0,-5.17 c 0,-5.52 -0.67,-11.04 -0.67,-11.04 0,0 -0.66,-4.70 -2.70,-6.77 C 62.03,.86 59.13,.84 57.80,.69 48.28,0 34.00,0 34.00,0 33.97,0 19.69,0 10.18,.69 8.85,.84 5.95,.86 3.36,3.58 1.32,5.65 .66,10.35 .66,10.35 c 0,0 -0.55,4.50 -0.66,9.45 l 0,8.36 c .10,4.94 .66,9.45 .66,9.45 z" fill="#1f1f1e"></path><path d="m 26.96,13.67 18.37,9.62 -18.37,9.55 -0.00,-19.17 z" fill="#fff"></path><path d="M 45.02,23.46 45.32,23.28 26.96,13.67 43.32,24.34 45.02,23.46 z" fill="#ccc"></path></svg>						</div>
+					</div>
+										
+				</div>
+			</div>
+						</div>
+			</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-n01cwrub24ks fl-col-bg-color fl-col-small" data-node="n01cwrub24ks">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-uabb-video fl-node-qyle2fknoj85" data-node="qyle2fknoj85">
+	<div class="fl-module-content fl-node-content">
+				<div class="uabb-video uabb-aspect-ratio-16_9  uabb-subscribe-responsive-none uabb-video-sticky-top_left" >
+												<div class="uabb-video__outer-wrap  " data-autoplay="0" data-device="true" >
+								<div class="uabb-video-inner-wrap">
+					<div class="uabb-video__play" data-src="https://www.youtube.com/embed/HJRzUQMhJMQ?rel=0&#038;start&#038;end&#038;controls=1&#038;mute=0&#038;modestbranding=0&#038;autoplay=1">
+					<img decoding="async" src="https://i.ytimg.com/vi/HJRzUQMhJMQ/maxresdefault.jpg" alt="youtube-video-thumbnail"></img>
+						<div class="uabb-video__play-icon  uabb-animation-" tabindex="0">
+							<svg height="100%" version="1.1" viewBox="0 0 68 48" width="100%"><path class="uabb-youtube-icon-bg" d="m .66,37.62 c 0,0 .66,4.70 2.70,6.77 2.58,2.71 5.98,2.63 7.49,2.91 5.43,.52 23.10,.68 23.12,.68 .00,-1.3e-5 14.29,-0.02 23.81,-0.71 1.32,-0.15 4.22,-0.17 6.81,-2.89 2.03,-2.07 2.70,-6.77 2.70,-6.77 0,0 .67,-5.52 .67,-11.04 l 0,-5.17 c 0,-5.52 -0.67,-11.04 -0.67,-11.04 0,0 -0.66,-4.70 -2.70,-6.77 C 62.03,.86 59.13,.84 57.80,.69 48.28,0 34.00,0 34.00,0 33.97,0 19.69,0 10.18,.69 8.85,.84 5.95,.86 3.36,3.58 1.32,5.65 .66,10.35 .66,10.35 c 0,0 -0.55,4.50 -0.66,9.45 l 0,8.36 c .10,4.94 .66,9.45 .66,9.45 z" fill="#1f1f1e"></path><path d="m 26.96,13.67 18.37,9.62 -18.37,9.55 -0.00,-19.17 z" fill="#fff"></path><path d="M 45.02,23.46 45.32,23.28 26.96,13.67 43.32,24.34 45.02,23.46 z" fill="#ccc"></path></svg>						</div>
+					</div>
+										
+				</div>
+			</div>
+						</div>
+			</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-ryaz2ghmj9tq fl-row-default-height fl-row-align-center" data-node="ryaz2ghmj9tq">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-rmzixn3584g1" data-node="rmzixn3584g1">
+			<div class="fl-col fl-node-7nvut0ajgx1b fl-col-bg-color fl-col-has-cols" data-node="7nvut0ajgx1b">
+	<div class="fl-col-content fl-node-content">
+<div class="fl-col-group fl-node-lz0eqbgwnyv2 fl-col-group-nested" data-node="lz0eqbgwnyv2">
+			<div class="fl-col fl-node-aewum458skt7 fl-col-bg-color fl-col-small" data-node="aewum458skt7">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-2r3wa6h4gi5e" data-node="2r3wa6h4gi5e" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img decoding="async" class="fl-photo-img wp-image-197 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-25.jpg" alt="Rectangle 25" height="466" width="435" title="Rectangle 25" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-25.jpg 435w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-25-280x300.jpg 280w" sizes="auto, (max-width: 435px) 100vw, 435px" />
+					</div>
+	</figure>
+</div>
+</div>
+			<div class="fl-col fl-node-8ao4k7lcwneu fl-col-bg-color fl-col-small" data-node="8ao4k7lcwneu">
+	<div class="fl-col-content fl-node-content"><h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-wgk9hn62vz04" data-node="wgk9hn62vz04">
+			Baptism	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-cmopf6dwvu9e" data-node="cmopf6dwvu9e">
+	<p>Baptism at First Presbyterian Church of Montgomery is a beautiful and sacred moment — a public declaration of God's covenant promise and the beginning of a lifelong journey of faith within the community of believers.</p>
+</div>
+<div  class="fl-module fl-module-box fl-node-ag82tkld5so4" data-node="ag82tkld5so4">
+	<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-yxdsq6vga50n" data-node="yxdsq6vga50n">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">CLICK HERE FOR MORE INFO</span>
+					</a>
+	</div>
+<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-j3iqpkau9xz0" data-node="j3iqpkau9xz0">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">BAPTISM APPLICATION</span>
+					</a>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-photo fl-node-nr02ym3u4lq7 fl-row-default-height fl-row-align-center" data-node="nr02ym3u4lq7">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-z4h3kfeoidxu" data-node="z4h3kfeoidxu">
+			<div class="fl-col fl-node-os6rhvxy8azf fl-col-bg-color fl-col-small" data-node="os6rhvxy8azf">
+	<div class="fl-col-content fl-node-content"><h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-scqp74lmj8i3" data-node="scqp74lmj8i3">
+			Communion	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-r8pv1jdeku3g" data-node="r8pv1jdeku3g">
+	<p>We celebrate the Lord's Supper as a central act of worship — a holy and joyful gathering around the table where we remember Christ's sacrifice, proclaim His resurrection, and are nourished together as one body.</p>
+</div>
+<div  class="fl-module fl-module-box fl-node-g7ur8lfsy9o3" data-node="g7ur8lfsy9o3">
+	<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-gi4k0dnzcrys" data-node="gi4k0dnzcrys">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">CLICK HERE FOR MORE INFO</span>
+					</a>
+	</div>
+<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-79an8pvqc2ik" data-node="79an8pvqc2ik">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">COMMUNION APPLICATION</span>
+					</a>
+	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-jgeopl1y0itk fl-col-bg-color fl-col-small" data-node="jgeopl1y0itk">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-right fl-node-bel168uq0tji" data-node="bel168uq0tji" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img decoding="async" class="fl-photo-img wp-image-198 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-27.jpg" alt="Rectangle 27" height="406" width="433" title="Rectangle 27" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-27.jpg 433w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-27-300x281.jpg 300w" sizes="auto, (max-width: 433px) 100vw, 433px" />
+					</div>
+	</figure>
+</div>
+</div>
+	</div>
+
+<div class="fl-col-group fl-node-hyo0z6i2edkv" data-node="hyo0z6i2edkv">
+			<div class="fl-col fl-node-81hpqw4vjgzl fl-col-bg-color" data-node="81hpqw4vjgzl">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-spacer-gap fl-node-ip3gqlto8sz5" data-node="ip3gqlto8sz5">
+	<div class="fl-module-content fl-node-content">
+		<div class="uabb-module-content uabb-spacer-gap-preview uabb-spacer-gap">
+</div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+
+<div class="fl-col-group fl-node-w19geas3jnp8" data-node="w19geas3jnp8">
+			<div class="fl-col fl-node-wkdg9bmr4x13 fl-col-bg-color fl-col-small" data-node="wkdg9bmr4x13">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-left fl-node-7fcvm0ie61lu" data-node="7fcvm0ie61lu" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img decoding="async" class="fl-photo-img wp-image-199 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-26.jpg" alt="Rectangle 26" height="406" width="435" title="Rectangle 26" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-26.jpg 435w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-26-300x280.jpg 300w" sizes="auto, (max-width: 435px) 100vw, 435px" />
+					</div>
+	</figure>
+</div>
+</div>
+			<div class="fl-col fl-node-zc71kiy80942 fl-col-bg-color fl-col-small" data-node="zc71kiy80942">
+	<div class="fl-col-content fl-node-content"><h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-zn9texm8wvi3" data-node="zn9texm8wvi3">
+			Confirmation	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-d7a8to19pc3i" data-node="d7a8to19pc3i">
+	<p>Confirmation is a meaningful milestone in which young members of our congregation publicly affirm the faith into which they were baptized, committing to walk with Christ and take their place as full communing members of the church.</p>
+</div>
+<div  class="fl-module fl-module-box fl-node-mp74j3ghrzu1" data-node="mp74j3ghrzu1">
+	<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-p3z8u6abq4j0" data-node="p3z8u6abq4j0">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">CLICK HERE FOR MORE INFO</span>
+					</a>
+	</div>
+<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-7n3jeq8mf0or" data-node="7n3jeq8mf0or">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">CONFIRMATION APPLICATION</span>
+					</a>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+
+<div class="fl-col-group fl-node-zd5rxlpg8ho4" data-node="zd5rxlpg8ho4">
+			<div class="fl-col fl-node-mrekhjo176g9 fl-col-bg-color" data-node="mrekhjo176g9">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-spacer-gap fl-node-e9bu76lykdi8" data-node="e9bu76lykdi8">
+	<div class="fl-module-content fl-node-content">
+		<div class="uabb-module-content uabb-spacer-gap-preview uabb-spacer-gap">
+</div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+
+<div class="fl-col-group fl-node-kdwr0ul3cjnx" data-node="kdwr0ul3cjnx">
+			<div class="fl-col fl-node-7jl84mn06hrg fl-col-bg-color fl-col-small" data-node="7jl84mn06hrg">
+	<div class="fl-col-content fl-node-content"><h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-3m7qxocta80b" data-node="3m7qxocta80b">
+			Funerals	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-v4p15zri273x" data-node="v4p15zri273x">
+	<p>In times of loss, First Presbyterian Church of Montgomery walks alongside grieving families with pastoral care, prayer, and the hope of the resurrection — offering a service that honors a life well lived and points to the comfort only God can give.</p>
+</div>
+<div  class="fl-module fl-module-box fl-node-e0r7xlkohqc2" data-node="e0r7xlkohqc2">
+	<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-sn4zmf935krg" data-node="sn4zmf935krg">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">CLICK HERE FOR MORE INFO</span>
+					</a>
+	</div>
+<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-wx4is08joqye" data-node="wx4is08joqye">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">FUNERAL APPLICATION</span>
+					</a>
+	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-8f3kgl4qp7xn fl-col-bg-color fl-col-small" data-node="8f3kgl4qp7xn">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-right fl-node-jcrmbdu7gh0x" data-node="jcrmbdu7gh0x" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img decoding="async" class="fl-photo-img wp-image-200 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-51.jpg" alt="Rectangle 51" height="406" width="437" title="Rectangle 51" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-51.jpg 437w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-51-300x279.jpg 300w" sizes="auto, (max-width: 437px) 100vw, 437px" />
+					</div>
+	</figure>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-f9rong3mlv0a fl-row-default-height fl-row-align-center" data-node="f9rong3mlv0a">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-cmf3wdvpglei" data-node="cmf3wdvpglei">
+			<div class="fl-col fl-node-k0vgemft7jh1 fl-col-bg-color fl-col-has-cols" data-node="k0vgemft7jh1">
+	<div class="fl-col-content fl-node-content">
+<div class="fl-col-group fl-node-hl4vrx0y38c6 fl-col-group-nested" data-node="hl4vrx0y38c6">
+			<div class="fl-col fl-node-lx0vt879z1ys fl-col-bg-color fl-col-small" data-node="lx0vt879z1ys">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-7tbgi612qosr" data-node="7tbgi612qosr" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img decoding="async" class="fl-photo-img wp-image-202 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-49.jpg" alt="Rectangle 49" height="468" width="435" title="Rectangle 49" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-49.jpg 435w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-49-279x300.jpg 279w" sizes="auto, (max-width: 435px) 100vw, 435px" />
+					</div>
+	</figure>
+</div>
+</div>
+			<div class="fl-col fl-node-0hgdaq46pi8f fl-col-bg-color fl-col-small" data-node="0hgdaq46pi8f">
+	<div class="fl-col-content fl-node-content"><h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-0f6x5q3o7hil" data-node="0f6x5q3o7hil">
+			Marriage / Weddings	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-haxnp6wfrbd2" data-node="haxnp6wfrbd2">
+	<p>Baptism at First Presbyterian Church of Montgomery is a beautiful and sacred moment — a public declaration of God's covenant promise and the beginning of a lifelong journey of faith within the community of believers.</p>
+</div>
+<div  class="fl-module fl-module-box fl-node-gwek15njzlx4" data-node="gwek15njzlx4">
+	<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-5x2leo7igv38" data-node="5x2leo7igv38">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">CLICK HERE FOR MORE INFO</span>
+					</a>
+	</div>
+<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-vt4yo32np5w7" data-node="vt4yo32np5w7">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">WEDDING APPLICATION</span>
+					</a>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-photo fl-node-6wogp8v5qh1l fl-row-default-height fl-row-align-center" data-node="6wogp8v5qh1l">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-fl5jb0r41azt" data-node="fl5jb0r41azt">
+			<div class="fl-col fl-node-34ifkayt2q5p fl-col-bg-color fl-col-small" data-node="34ifkayt2q5p">
+	<div class="fl-col-content fl-node-content"><h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-3m15qo60gpta" data-node="3m15qo60gpta">
+			Chancel Flowers & Memorial	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-argh9qsci3l8" data-node="argh9qsci3l8">
+	<p>Chancel flowers are a longstanding and tender tradition at FPC — a meaningful way for members to honor a loved one, mark a special occasion, or offer a gift of beauty to the congregation as an act of worship and remembrance.</p>
+</div>
+<div  class="fl-module fl-module-box fl-node-ev6q01z4infy" data-node="ev6q01z4infy">
+	<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-39nf5hpzkxuo" data-node="39nf5hpzkxuo">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">CLICK HERE FOR MORE INFO</span>
+					</a>
+	</div>
+<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-hmw7d30exl8u" data-node="hmw7d30exl8u">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">MEMORIAL APPLICATION</span>
+					</a>
+	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-r8uk2g1zyj0t fl-col-bg-color fl-col-small" data-node="r8uk2g1zyj0t">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-right fl-node-9zc04d8ajei5" data-node="9zc04d8ajei5" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img decoding="async" class="fl-photo-img wp-image-203 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-50.jpg" alt="Rectangle 50" height="404" width="436" title="Rectangle 50" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-50.jpg 436w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-50-300x278.jpg 300w" sizes="auto, (max-width: 436px) 100vw, 436px" />
+					</div>
+	</figure>
+</div>
+</div>
+	</div>
+
+<div class="fl-col-group fl-node-ifztd1yp36l7" data-node="ifztd1yp36l7">
+			<div class="fl-col fl-node-ft0ngdrmkycu fl-col-bg-color" data-node="ft0ngdrmkycu">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-spacer-gap fl-node-9b1rsoc07gqe" data-node="9b1rsoc07gqe">
+	<div class="fl-module-content fl-node-content">
+		<div class="uabb-module-content uabb-spacer-gap-preview uabb-spacer-gap">
+</div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+
+<div class="fl-col-group fl-node-w3x7z6tomyds" data-node="w3x7z6tomyds">
+			<div class="fl-col fl-node-g7clb5x1yn8s fl-col-bg-color" data-node="g7clb5x1yn8s">
+	<div class="fl-col-content fl-node-content"><div  class="fl-module fl-module-box fl-node-l5if3cqsejh1" data-node="l5if3cqsejh1">
+	<div  class="fl-module fl-module-box fl-node-qvds7byca9er" data-node="qvds7byca9er">
+	<h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-l1e2a0jidqgu" data-node="l1e2a0jidqgu">
+			Holiday Services	</h2>
+</div>
+<div  class="fl-module fl-module-box fl-node-8qlxz9utgn51" data-node="8qlxz9utgn51">
+	<div class="fl-module fl-module-list-icon fl-node-ylu139nsomxv" data-node="ylu139nsomxv">
+	<div class="fl-module-content fl-node-content">
+		
+<div class="uabb-module-content uabb-list-icon">
+		<div class="uabb-list-icon-wrap">
+			<div class="uabb-callout-outter"><div class="uabb-module-content uabb-imgicon-wrap">		
+					<div class="uabb-image
+		 uabb-image-crop-simple		" itemscope itemtype="https://schema.org/ImageObject">
+			<div class="uabb-image-content">
+				<img loading="lazy" decoding="async" width="32" height="42" class="uabb-photo-img wp-image-204 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Group.png" alt="Group" title="Group" itemprop="image"/>
+			</div>
+		</div>
+
+		</div></div><!-- Inline Block Space Fix
+		--><div class="uabb-list-icon-text">
+									<h3 class="uabb-list-icon-text-heading">CHRISTMAS</h3>
+							</div>
+		</div>
+	</div>
+	</div>
+</div>
+<div class="fl-module fl-module-list-icon fl-node-ebuknriatph7" data-node="ebuknriatph7">
+	<div class="fl-module-content fl-node-content">
+		
+<div class="uabb-module-content uabb-list-icon">
+		<div class="uabb-list-icon-wrap">
+			<div class="uabb-callout-outter"><div class="uabb-module-content uabb-imgicon-wrap">		
+					<div class="uabb-image
+		 uabb-image-crop-simple		" itemscope itemtype="https://schema.org/ImageObject">
+			<div class="uabb-image-content">
+				<img loading="lazy" decoding="async" width="29" height="44" class="uabb-photo-img wp-image-206 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Vector.png" alt="Vector" title="Vector" itemprop="image"/>
+			</div>
+		</div>
+
+		</div></div><!-- Inline Block Space Fix
+		--><div class="uabb-list-icon-text">
+									<h3 class="uabb-list-icon-text-heading">EASTER</h3>
+							</div>
+		</div>
+	</div>
+	</div>
+</div>
+<div class="fl-module fl-module-list-icon fl-node-5k0q1bhc9jv4" data-node="5k0q1bhc9jv4">
+	<div class="fl-module-content fl-node-content">
+		
+<div class="uabb-module-content uabb-list-icon">
+		<div class="uabb-list-icon-wrap">
+			<div class="uabb-callout-outter"><div class="uabb-module-content uabb-imgicon-wrap">		
+					<div class="uabb-image
+		 uabb-image-crop-simple		" itemscope itemtype="https://schema.org/ImageObject">
+			<div class="uabb-image-content">
+				<img loading="lazy" decoding="async" width="41" height="44" class="uabb-photo-img wp-image-208 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Vector-1.png" alt="Vector (1)" title="Vector (1)" itemprop="image"/>
+			</div>
+		</div>
+
+		</div></div><!-- Inline Block Space Fix
+		--><div class="uabb-list-icon-text">
+									<h3 class="uabb-list-icon-text-heading">LENT</h3>
+							</div>
+		</div>
+	</div>
+	</div>
+</div>
+<div class="fl-module fl-module-list-icon fl-node-405z268dqotk" data-node="405z268dqotk">
+	<div class="fl-module-content fl-node-content">
+		
+<div class="uabb-module-content uabb-list-icon">
+		<div class="uabb-list-icon-wrap">
+			<div class="uabb-callout-outter"><div class="uabb-module-content uabb-imgicon-wrap">		
+					<div class="uabb-image
+		 uabb-image-crop-simple		" itemscope itemtype="https://schema.org/ImageObject">
+			<div class="uabb-image-content">
+				<img loading="lazy" decoding="async" width="48" height="33" class="uabb-photo-img wp-image-209 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Vector-2.png" alt="Vector (2)" title="Vector (2)" itemprop="image"/>
+			</div>
+		</div>
+
+		</div></div><!-- Inline Block Space Fix
+		--><div class="uabb-list-icon-text">
+									<h3 class="uabb-list-icon-text-heading">HOLY WEEK</h3>
+							</div>
+		</div>
+	</div>
+	</div>
+</div>
+<div class="fl-module fl-module-list-icon fl-node-8f4iy6hag5jw" data-node="8f4iy6hag5jw">
+	<div class="fl-module-content fl-node-content">
+		
+<div class="uabb-module-content uabb-list-icon">
+		<div class="uabb-list-icon-wrap">
+			<div class="uabb-callout-outter"><div class="uabb-module-content uabb-imgicon-wrap">		
+					<div class="uabb-image
+		 uabb-image-crop-simple		" itemscope itemtype="https://schema.org/ImageObject">
+			<div class="uabb-image-content">
+				<img loading="lazy" decoding="async" width="39" height="41" class="uabb-photo-img wp-image-210 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Vector-3.png" alt="Vector (3)" title="Vector (3)" itemprop="image"/>
+			</div>
+		</div>
+
+		</div></div><!-- Inline Block Space Fix
+		--><div class="uabb-list-icon-text">
+									<h3 class="uabb-list-icon-text-heading">GOOD FRIDAY</h3>
+							</div>
+		</div>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-v5k7texiowyu fl-row-default-height fl-row-align-center" data-node="v5k7texiowyu">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-0mcrt8yhvwib" data-node="0mcrt8yhvwib">
+			<div class="fl-col fl-node-1gpt8vb4e3xm fl-col-bg-color" data-node="1gpt8vb4e3xm">
+	<div class="fl-col-content fl-node-content"><h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-gy8wdctu95fq" data-node="gy8wdctu95fq">
+			SIGN UP	</h3>
+<h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-k9ha40b823py" data-node="k9ha40b823py">
+			Get Notified	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-qvfcuez5rdb8" data-node="qvfcuez5rdb8">
+	<p style="text-align: center;">Sign up below for the latest news and updates from Presbyterian.</p>
+</div>
+<div  class="fl-module fl-module-box fl-node-nhgrp9zbq13m" data-node="nhgrp9zbq13m">
+	<div  class="fl-module fl-module-html fl-html fl-node-9y5sq6pm0jei" data-node="9y5sq6pm0jei">
+	<center>
+<div class="wpcf7 no-js" id="wpcf7-f127-p192-o1" lang="en-US" dir="ltr" data-wpcf7-id="127">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/worship/#wpcf7-f127-p192-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="127" /><input type="hidden" name="_wpcf7_version" value="6.1.6" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f127-p192-o1" /><input type="hidden" name="_wpcf7_container_post" value="192" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</fieldset>
+<div class="inline-signup-form">
+<span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Full Name *" value="" type="text" name="your-name" /></span>
+<span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email Address *" value="" type="email" name="your-email" /></span>
+<input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="SIGN UP" />
+</div><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+</center></div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</div><div class="uabb-js-breakpoint" style="display: none;"></div>	</div><!-- .fl-post-content -->
+	
+</article>
+
+<!-- .fl-post -->
+		</div>
+	</div>
+</div>
+
+
+	</div><!-- .fl-page-content -->
+	<footer class="fl-builder-content fl-builder-content-38 fl-builder-global-templates-locked" data-post-id="38" data-type="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter"><div class="fl-row fl-row-full-width fl-row-bg-multiple fl-node-54wq7kfio10r fl-row-default-height fl-row-align-center" data-node="54wq7kfio10r">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		<div  class="fl-module fl-module-box fl-node-n1hzi9al0qcs" data-node="n1hzi9al0qcs">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-8os2fdhkjubt" data-node="8os2fdhkjubt" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-20 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/LOGO-1.png" alt="LOGO (1)" height="120" width="560" title="LOGO (1)" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/LOGO-1.png 560w, https://fpcmontgomery.org/wp-content/uploads/2026/04/LOGO-1-300x64.png 300w" sizes="auto, (max-width: 560px) 100vw, 560px" />
+					</div>
+	</figure>
+</div>
+
+<div class="fl-col-group fl-node-nxomy1p5ihvs" data-node="nxomy1p5ihvs">
+			<div class="fl-col fl-node-6gwtkndif0a7 fl-col-bg-color fl-col-small" data-node="6gwtkndif0a7">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-umtohx3awzn6" data-node="umtohx3awzn6">
+	<div class="fl-module-content fl-node-content">
+		<h3 class="fl-heading">
+		<span class="fl-heading-text">LINKS</span>
+	</h3>
+	</div>
+</div>
+<div  class="fl-module fl-module-box fl-node-8vfbhkroyexc" data-node="8vfbhkroyexc">
+	<div class="fl-module fl-module-rich-text fl-node-grm08yesqvz7" data-node="grm08yesqvz7">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<p>HOME</p>
+<p>ABOUT US</p>
+<p>I'M NEW</p>
+<p>WORSHIP</p>
+</div>
+	</div>
+</div>
+<div class="fl-module fl-module-rich-text fl-node-f76gau2nocb0" data-node="f76gau2nocb0">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<p>MINISTRIES</p>
+<p>EVENTS &amp; GALLERY</p>
+<p>GIVING</p>
+<p>CONTACT US</p>
+</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-y6qwesnr2l05 fl-col-bg-color fl-col-small" data-node="y6qwesnr2l05">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-8ihcgkpu6mst" data-node="8ihcgkpu6mst">
+	<div class="fl-module-content fl-node-content">
+		<h3 class="fl-heading">
+		<span class="fl-heading-text">CONTACT</span>
+	</h3>
+	</div>
+</div>
+<div class="fl-module fl-module-icon fl-node-qh8ezbrufy5m" data-node="qh8ezbrufy5m">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-wrap">
+	<span class="fl-icon">
+								<a href="#" target="_self"  tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-qh8ezbrufy5m">
+							<i class="far fa-map" aria-hidden="true"></i>
+						</a>
+			</span>
+			<div id="fl-icon-text-qh8ezbrufy5m" class="fl-icon-text">
+						<a href="#" target="_self"  class="fl-icon-text-link fl-icon-text-wrap">
+						<p>First Presbyterian Church</br>137 Clinton Street </br>Montgomery, NY 12549</p>
+						</a>
+					</div>
+	</div>
+	</div>
+</div>
+<div class="fl-module fl-module-icon fl-node-9rhy6n37jb2m" data-node="9rhy6n37jb2m">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-wrap">
+	<span class="fl-icon">
+								<a href="tel:(845)%20457-5383" target="_self"  tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-9rhy6n37jb2m">
+							<i class="fas fa-phone" aria-hidden="true"></i>
+						</a>
+			</span>
+			<div id="fl-icon-text-9rhy6n37jb2m" class="fl-icon-text">
+						<a href="tel:(845)%20457-5383" target="_self"  class="fl-icon-text-link fl-icon-text-wrap">
+						<p>(845) 457-5383</p>
+						</a>
+					</div>
+	</div>
+	</div>
+</div>
+<div class="fl-module fl-module-icon fl-node-c834o9f2tbdn" data-node="c834o9f2tbdn">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-wrap">
+	<span class="fl-icon">
+								<a href="mailto:fpcmontgomery@gmail.com" target="_self"  tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-c834o9f2tbdn">
+							<i class="far fa-envelope" aria-hidden="true"></i>
+						</a>
+			</span>
+			<div id="fl-icon-text-c834o9f2tbdn" class="fl-icon-text">
+						<a href="mailto:fpcmontgomery@gmail.com" target="_self"  class="fl-icon-text-link fl-icon-text-wrap">
+						<p>fpcmontgomery@gmail.com</p>						</a>
+					</div>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-u1mbn26vtkdr fl-col-bg-color fl-col-small" data-node="u1mbn26vtkdr">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-3jbd2160uchp" data-node="3jbd2160uchp">
+	<div class="fl-module-content fl-node-content">
+		<h3 class="fl-heading">
+		<span class="fl-heading-text">FOLLOW US</span>
+	</h3>
+	</div>
+</div>
+<div class="fl-module fl-module-icon-group fl-node-qber1ajvwylg" data-node="qber1ajvwylg">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-group">
+	<span class="fl-icon">
+				<i class="ua-icon ua-icon-facebook22" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="dashicons dashicons-before dashicons-youtube" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="ua-icon ua-icon-basket" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="ua-icon ua-icon-instagram" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="ua-icon ua-icon-linkedin2" aria-hidden="true"></i>
+					</span>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+<div  class="fl-module fl-module-box fl-node-4ekg8jrbvd0c" data-node="4ekg8jrbvd0c">
+	<div class="fl-module fl-module-rich-text fl-node-d1wsmjnpibch" data-node="d1wsmjnpibch">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<p style="text-align: center;">© 2026 First Presbyterian Church. All Rights Reserved.</p>
+</div>
+	</div>
+</div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-is78qfod0mya fl-row-default-height fl-row-align-center" data-node="is78qfod0mya">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-je7al3pq0b46" data-node="je7al3pq0b46">
+			<div class="fl-col fl-node-z64p2dax01vj fl-col-bg-color" data-node="z64p2dax01vj">
+	<div class="fl-col-content fl-node-content"><div  class="fl-module fl-module-box fl-node-5hbtmvs78do2" data-node="5hbtmvs78do2">
+	<div class="fl-module fl-module-image-icon fl-node-fl4kabow3x0r" data-node="fl4kabow3x0r">
+	<div class="fl-module-content fl-node-content">
+		<div class="uabb-module-content uabb-imgicon-wrap">		
+					<div class="uabb-image
+		 uabb-image-crop-simple		" itemscope itemtype="https://schema.org/ImageObject">
+			<div class="uabb-image-content">
+				<img loading="lazy" decoding="async" width="214" height="105" class="uabb-photo-img wp-image-47 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/image-1.png" alt="image 1" title="image 1" itemprop="image"/>
+			</div>
+		</div>
+
+		</div>	</div>
+</div>
+<div class="fl-module fl-module-image-icon fl-node-oytbk0vuwh3p" data-node="oytbk0vuwh3p">
+	<div class="fl-module-content fl-node-content">
+		<div class="uabb-module-content uabb-imgicon-wrap">		
+					<div class="uabb-image
+		 uabb-image-crop-simple		" itemscope itemtype="https://schema.org/ImageObject">
+			<div class="uabb-image-content">
+				<img loading="lazy" decoding="async" width="88" height="88" class="uabb-photo-img wp-image-46 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/village-of-montgomery-picture-1.png" alt="village of montgomery picture 1" title="village of montgomery picture 1" itemprop="image"/>
+			</div>
+		</div>
+
+		</div>	</div>
+</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</footer><div class="uabb-js-breakpoint" style="display: none;"></div>	</div><!-- .fl-page -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/bb-theme/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="fl-builder-layout-192-js" src="https://fpcmontgomery.org/wp-content/uploads/bb-plugin/cache/192-layout.js?ver=7359c01d192a4f05be6eb39844fcb129"></script>
+<script id="wp-hooks-js" src="https://fpcmontgomery.org/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://fpcmontgomery.org/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="swv-js" src="https://fpcmontgomery.org/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.6"></script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/fpcmontgomery.org\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script id="contact-form-7-js" src="https://fpcmontgomery.org/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.6"></script>
+<script id="imagesloaded-js" src="https://fpcmontgomery.org/wp-content/plugins/bb-plugin/js/libs/jquery.imagesloaded.min.js?ver=2.10.2"></script>
+<script id="jquery-throttle-js" src="https://fpcmontgomery.org/wp-content/plugins/bb-plugin/js/libs/jquery.ba-throttle-debounce.min.js?ver=2.10.2"></script>
+<script id="fl-builder-layout-bundle-afb066c0c1a42475921febec05b56573-js" src="https://fpcmontgomery.org/wp-content/uploads/bb-plugin/cache/afb066c0c1a42475921febec05b56573-layout-bundle.js?ver=2.10.2-1.5.2.4"></script>
+<script id="jquery-magnificpopup-js" src="https://fpcmontgomery.org/wp-content/plugins/bb-plugin/js/libs/jquery.magnificpopup.min.js?ver=2.10.2"></script>
+<script id="fl-automator-js-extra">
+var themeopts = {"medium_breakpoint":"992","mobile_breakpoint":"768","lightbox":"enabled","scrollTopPosition":"800"};
+//# sourceURL=fl-automator-js-extra
+</script>
+<script id="fl-automator-js" src="https://fpcmontgomery.org/wp-content/themes/bb-theme/js/theme.min.js?ver=1.7.19.2"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://fpcmontgomery.org/wp-includes/js/wp-emoji-release.min.js?ver=7.0"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://fpcmontgomery.org/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html>

@@ -1,16 +1,14 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import PageHero from '../components/PageHero.astro';
 import GetNotified from '../components/GetNotified.astro';
 import AlternatingSection from '../components/AlternatingSection.astro';
-import { CHURCH, WORSHIP_SACRAMENTS, HOLIDAY_SERVICES, LIVESTREAM } from '../data/site';
+import { CHURCH, WORSHIP_SACRAMENTS, HOLIDAY_SERVICES } from '../data/site';
 
 const YOUTUBE_ID = 'HJRzUQMhJMQ';
 
 const title = `Worship | ${CHURCH.name}`;
-const description = `Sunday worship at First Presbyterian Church of Montgomery — service at 10:00 AM, livestream, baptism, communion, confirmation, weddings, funerals, and holiday services.`;
+const description = `Sunday worship at First Presbyterian Church of Montgomery — service at 11:30 AM, livestream, baptism, communion, confirmation, weddings, funerals, and holiday services.`;
 
-// Icon SVGs for the holiday strip — outline style.
 const holidayIcon = {
   snowflake: 'M12 2v20M2 12h20M4.93 4.93l14.14 14.14M19.07 4.93L4.93 19.07',
   egg: 'M12 2c-4 0-7 6-7 12a7 7 0 0 0 14 0c0-6-3-12-7-12z',
@@ -23,52 +21,82 @@ const holidayIcon = {
 <BaseLayout title={title} description={description}>
 
   <!-- ============ HERO ============ -->
-  <PageHero
-    title="Worship"
-    image="/images/worship-bg.jpg"
-    size="lg"
-  />
+  <section
+    class="relative flex items-center justify-center text-white text-center px-6 min-h-[560px] md:min-h-[640px]"
+    style="background-image: linear-gradient(180deg, rgba(38,40,128,0.78) 0%, rgba(38,40,128,0.82) 100%), url('/images/worship-bg.jpg'); background-size: cover; background-position: center;"
+  >
+    <div class="relative max-w-3xl mx-auto py-16">
+      <h1 class="display-xl text-white mb-10">Worship</h1>
+
+      <div class="flex flex-wrap items-center justify-center gap-5">
+        <a
+          href="https://www.youtube.com/@fpcmontgomery"
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-3 font-mono text-sm tracking-wide text-white hover:opacity-90 transition-opacity"
+        >
+          <span>View More</span>
+          <span class="inline-flex items-center justify-center w-9 h-7 bg-[#FF0000] rounded-md" aria-hidden="true">
+            <svg width="14" height="10" viewBox="0 0 24 17" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.5 2.6c-.3-1-1-1.8-2-2C19.7 0 12 0 12 0S4.3 0 2.5.6c-1 .2-1.7 1-2 2C0 4.4 0 8.5 0 8.5s0 4 .5 5.9c.3 1 1 1.8 2 2C4.3 17 12 17 12 17s7.7 0 9.5-.6c1-.2 1.7-1 2-2 .5-1.8.5-5.9.5-5.9s0-4-.5-5.9zM9.5 12V5l6.5 3.5L9.5 12z"/>
+            </svg>
+          </span>
+        </a>
+
+        <a href="/events" class="btn btn-crimson">Explore Events</a>
+      </div>
+    </div>
+  </section>
 
   <!-- ============ SUNDAY SERVICES + LIVESTREAM ============ -->
   <section class="triangle-pattern py-20 md:py-24">
     <div class="max-w-container mx-auto px-6 lg:px-8">
       <div class="grid md:grid-cols-12 gap-10 items-start">
+
+        <!-- Left: Service info -->
         <div class="md:col-span-5">
-          <h2 class="display-xl mb-3">Sunday Services</h2>
-          <p class="inline-flex items-center gap-2 text-crimson font-mono text-sm">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
-            (Worship at FPC — {CHURCH.service.time})
+          <p class="eyebrow-crimson mb-2">WATCH OUR</p>
+          <h2 class="display-xl mb-4">Sunday Services</h2>
+          <p class="font-mono text-[0.9rem] text-ink-soft mb-6">
+            Worship at First Presbyterian Church of Montgomery
           </p>
+          <div class="flex items-center gap-3">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#B12A33" stroke-width="2" class="flex-shrink-0">
+              <circle cx="12" cy="12" r="10"/>
+              <polyline points="12,6 12,12 16,14"/>
+            </svg>
+            <span class="font-mono text-sm font-semibold tracking-wide">11:30 AM on YouTube</span>
+          </div>
         </div>
 
+        <!-- Right: Mission label + Watch More btn + single video -->
         <div class="md:col-span-7">
-          <h3 class="display-md mb-5">Livestream</h3>
+          <h3 class="eyebrow-navy mb-4">OUR MISSION:</h3>
 
-          <!-- Two side-by-side YouTube iframes -->
-          <div class="grid md:grid-cols-2 gap-6 mb-8">
-            <div class="aspect-video w-full">
-              <iframe
-                class="w-full h-full"
-                src={`https://www.youtube.com/embed/${YOUTUBE_ID}?rel=0`}
-                title="First Presbyterian Church Sunday Service"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-                loading="lazy"
-              ></iframe>
-            </div>
-            <div class="aspect-video w-full">
-              <iframe
-                class="w-full h-full"
-                src={`https://www.youtube.com/embed/${YOUTUBE_ID}?rel=0`}
-                title="First Presbyterian Church Sunday Service"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-                loading="lazy"
-              ></iframe>
-            </div>
+          <div class="mb-5">
+            <a
+              href={`https://www.youtube.com/watch?v=${YOUTUBE_ID}`}
+              target="_blank"
+              rel="noopener"
+              class="btn btn-crimson"
+            >
+              Watch More Here
+            </a>
           </div>
 
-          <!-- 4 recent video thumbnail grid using YouTube thumbnail API -->
+          <!-- Single featured video -->
+          <div class="aspect-video w-full mb-8">
+            <iframe
+              class="w-full h-full"
+              src={`https://www.youtube.com/embed/${YOUTUBE_ID}?rel=0`}
+              title="First Presbyterian Church Sunday Service"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+
+          <!-- 4 recent video thumbnails -->
           <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
             {[YOUTUBE_ID, YOUTUBE_ID, YOUTUBE_ID, YOUTUBE_ID].map((id) => (
               <a href={`https://www.youtube.com/watch?v=${id}`} target="_blank" rel="noopener" class="block group">
@@ -88,11 +116,8 @@ const holidayIcon = {
               </a>
             ))}
           </div>
-
-          <div class="mt-6">
-            <a href={LIVESTREAM.cta.href} target="_blank" rel="noopener" class="btn btn-crimson">{LIVESTREAM.cta.label}</a>
-          </div>
         </div>
+
       </div>
     </div>
   </section>
@@ -103,7 +128,7 @@ const holidayIcon = {
       title={s.title}
       body={s.body}
       image={s.image}
-      bg={s.bg as 'cream' | 'navy'}
+      bg={s.bg as 'cream' | 'navy' | 'white'}
       align={i % 2 === 0 ? 'left' : 'right'}
       primaryCta={s.primaryCta}
       secondaryCta={s.secondaryCta}
@@ -111,7 +136,7 @@ const holidayIcon = {
     />
   ))}
 
-  <!-- ============ HOLIDAY SERVICES strip ============ -->
+  <!-- ============ HOLIDAY SERVICES ============ -->
   <section class="triangle-pattern py-16 md:py-20">
     <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-8 items-center">
       <div class="md:col-span-3">

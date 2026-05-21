@@ -1,0 +1,927 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8" />
+<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<title>About Us &#8211; First Presbyterian Church</title>
+<meta name='robots' content='noindex, nofollow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="First Presbyterian Church &raquo; Feed" href="https://fpcmontgomery.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="First Presbyterian Church &raquo; Comments Feed" href="https://fpcmontgomery.org/comments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://fpcmontgomery.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffpcmontgomery.org%2Fabout-us%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://fpcmontgomery.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ffpcmontgomery.org%2Fabout-us%2F&#038;format=xml" />
+<link rel="preload" href="https://fpcmontgomery.org/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="https://fpcmontgomery.org/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<link rel="preload" href="https://fpcmontgomery.org/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--fl-heading-text: #333333;--wp--preset--color--fl-body-bg: #f2f2f2;--wp--preset--color--fl-body-text: #212121;--wp--preset--color--fl-accent: #2b7bb9;--wp--preset--color--fl-accent-hover: #2b7bb9;--wp--preset--color--fl-topbar-bg: #ffffff;--wp--preset--color--fl-topbar-text: #757575;--wp--preset--color--fl-topbar-link: #2b7bb9;--wp--preset--color--fl-topbar-hover: #2b7bb9;--wp--preset--color--fl-header-bg: #ffffff;--wp--preset--color--fl-header-text: #757575;--wp--preset--color--fl-header-link: #757575;--wp--preset--color--fl-header-hover: #2b7bb9;--wp--preset--color--fl-nav-bg: #ffffff;--wp--preset--color--fl-nav-link: #757575;--wp--preset--color--fl-nav-hover: #2b7bb9;--wp--preset--color--fl-content-bg: #ffffff;--wp--preset--color--fl-footer-widgets-bg: #ffffff;--wp--preset--color--fl-footer-widgets-text: #757575;--wp--preset--color--fl-footer-widgets-link: #2b7bb9;--wp--preset--color--fl-footer-widgets-hover: #2b7bb9;--wp--preset--color--fl-footer-bg: #ffffff;--wp--preset--color--fl-footer-text: #757575;--wp--preset--color--fl-footer-link: #2b7bb9;--wp--preset--color--fl-footer-hover: #2b7bb9;--wp--preset--color--primary: #211f60;--wp--preset--color--secondary: #9f1b30;--wp--preset--color--yellow: #f3b201;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-fl-heading-text-color{color: var(--wp--preset--color--fl-heading-text) !important;}.has-fl-body-bg-color{color: var(--wp--preset--color--fl-body-bg) !important;}.has-fl-body-text-color{color: var(--wp--preset--color--fl-body-text) !important;}.has-fl-accent-color{color: var(--wp--preset--color--fl-accent) !important;}.has-fl-accent-hover-color{color: var(--wp--preset--color--fl-accent-hover) !important;}.has-fl-topbar-bg-color{color: var(--wp--preset--color--fl-topbar-bg) !important;}.has-fl-topbar-text-color{color: var(--wp--preset--color--fl-topbar-text) !important;}.has-fl-topbar-link-color{color: var(--wp--preset--color--fl-topbar-link) !important;}.has-fl-topbar-hover-color{color: var(--wp--preset--color--fl-topbar-hover) !important;}.has-fl-header-bg-color{color: var(--wp--preset--color--fl-header-bg) !important;}.has-fl-header-text-color{color: var(--wp--preset--color--fl-header-text) !important;}.has-fl-header-link-color{color: var(--wp--preset--color--fl-header-link) !important;}.has-fl-header-hover-color{color: var(--wp--preset--color--fl-header-hover) !important;}.has-fl-nav-bg-color{color: var(--wp--preset--color--fl-nav-bg) !important;}.has-fl-nav-link-color{color: var(--wp--preset--color--fl-nav-link) !important;}.has-fl-nav-hover-color{color: var(--wp--preset--color--fl-nav-hover) !important;}.has-fl-content-bg-color{color: var(--wp--preset--color--fl-content-bg) !important;}.has-fl-footer-widgets-bg-color{color: var(--wp--preset--color--fl-footer-widgets-bg) !important;}.has-fl-footer-widgets-text-color{color: var(--wp--preset--color--fl-footer-widgets-text) !important;}.has-fl-footer-widgets-link-color{color: var(--wp--preset--color--fl-footer-widgets-link) !important;}.has-fl-footer-widgets-hover-color{color: var(--wp--preset--color--fl-footer-widgets-hover) !important;}.has-fl-footer-bg-color{color: var(--wp--preset--color--fl-footer-bg) !important;}.has-fl-footer-text-color{color: var(--wp--preset--color--fl-footer-text) !important;}.has-fl-footer-link-color{color: var(--wp--preset--color--fl-footer-link) !important;}.has-fl-footer-hover-color{color: var(--wp--preset--color--fl-footer-hover) !important;}.has-primary-color{color: var(--wp--preset--color--primary) !important;}.has-secondary-color{color: var(--wp--preset--color--secondary) !important;}.has-yellow-color{color: var(--wp--preset--color--yellow) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-fl-heading-text-background-color{background-color: var(--wp--preset--color--fl-heading-text) !important;}.has-fl-body-bg-background-color{background-color: var(--wp--preset--color--fl-body-bg) !important;}.has-fl-body-text-background-color{background-color: var(--wp--preset--color--fl-body-text) !important;}.has-fl-accent-background-color{background-color: var(--wp--preset--color--fl-accent) !important;}.has-fl-accent-hover-background-color{background-color: var(--wp--preset--color--fl-accent-hover) !important;}.has-fl-topbar-bg-background-color{background-color: var(--wp--preset--color--fl-topbar-bg) !important;}.has-fl-topbar-text-background-color{background-color: var(--wp--preset--color--fl-topbar-text) !important;}.has-fl-topbar-link-background-color{background-color: var(--wp--preset--color--fl-topbar-link) !important;}.has-fl-topbar-hover-background-color{background-color: var(--wp--preset--color--fl-topbar-hover) !important;}.has-fl-header-bg-background-color{background-color: var(--wp--preset--color--fl-header-bg) !important;}.has-fl-header-text-background-color{background-color: var(--wp--preset--color--fl-header-text) !important;}.has-fl-header-link-background-color{background-color: var(--wp--preset--color--fl-header-link) !important;}.has-fl-header-hover-background-color{background-color: var(--wp--preset--color--fl-header-hover) !important;}.has-fl-nav-bg-background-color{background-color: var(--wp--preset--color--fl-nav-bg) !important;}.has-fl-nav-link-background-color{background-color: var(--wp--preset--color--fl-nav-link) !important;}.has-fl-nav-hover-background-color{background-color: var(--wp--preset--color--fl-nav-hover) !important;}.has-fl-content-bg-background-color{background-color: var(--wp--preset--color--fl-content-bg) !important;}.has-fl-footer-widgets-bg-background-color{background-color: var(--wp--preset--color--fl-footer-widgets-bg) !important;}.has-fl-footer-widgets-text-background-color{background-color: var(--wp--preset--color--fl-footer-widgets-text) !important;}.has-fl-footer-widgets-link-background-color{background-color: var(--wp--preset--color--fl-footer-widgets-link) !important;}.has-fl-footer-widgets-hover-background-color{background-color: var(--wp--preset--color--fl-footer-widgets-hover) !important;}.has-fl-footer-bg-background-color{background-color: var(--wp--preset--color--fl-footer-bg) !important;}.has-fl-footer-text-background-color{background-color: var(--wp--preset--color--fl-footer-text) !important;}.has-fl-footer-link-background-color{background-color: var(--wp--preset--color--fl-footer-link) !important;}.has-fl-footer-hover-background-color{background-color: var(--wp--preset--color--fl-footer-hover) !important;}.has-primary-background-color{background-color: var(--wp--preset--color--primary) !important;}.has-secondary-background-color{background-color: var(--wp--preset--color--secondary) !important;}.has-yellow-background-color{background-color: var(--wp--preset--color--yellow) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-fl-heading-text-border-color{border-color: var(--wp--preset--color--fl-heading-text) !important;}.has-fl-body-bg-border-color{border-color: var(--wp--preset--color--fl-body-bg) !important;}.has-fl-body-text-border-color{border-color: var(--wp--preset--color--fl-body-text) !important;}.has-fl-accent-border-color{border-color: var(--wp--preset--color--fl-accent) !important;}.has-fl-accent-hover-border-color{border-color: var(--wp--preset--color--fl-accent-hover) !important;}.has-fl-topbar-bg-border-color{border-color: var(--wp--preset--color--fl-topbar-bg) !important;}.has-fl-topbar-text-border-color{border-color: var(--wp--preset--color--fl-topbar-text) !important;}.has-fl-topbar-link-border-color{border-color: var(--wp--preset--color--fl-topbar-link) !important;}.has-fl-topbar-hover-border-color{border-color: var(--wp--preset--color--fl-topbar-hover) !important;}.has-fl-header-bg-border-color{border-color: var(--wp--preset--color--fl-header-bg) !important;}.has-fl-header-text-border-color{border-color: var(--wp--preset--color--fl-header-text) !important;}.has-fl-header-link-border-color{border-color: var(--wp--preset--color--fl-header-link) !important;}.has-fl-header-hover-border-color{border-color: var(--wp--preset--color--fl-header-hover) !important;}.has-fl-nav-bg-border-color{border-color: var(--wp--preset--color--fl-nav-bg) !important;}.has-fl-nav-link-border-color{border-color: var(--wp--preset--color--fl-nav-link) !important;}.has-fl-nav-hover-border-color{border-color: var(--wp--preset--color--fl-nav-hover) !important;}.has-fl-content-bg-border-color{border-color: var(--wp--preset--color--fl-content-bg) !important;}.has-fl-footer-widgets-bg-border-color{border-color: var(--wp--preset--color--fl-footer-widgets-bg) !important;}.has-fl-footer-widgets-text-border-color{border-color: var(--wp--preset--color--fl-footer-widgets-text) !important;}.has-fl-footer-widgets-link-border-color{border-color: var(--wp--preset--color--fl-footer-widgets-link) !important;}.has-fl-footer-widgets-hover-border-color{border-color: var(--wp--preset--color--fl-footer-widgets-hover) !important;}.has-fl-footer-bg-border-color{border-color: var(--wp--preset--color--fl-footer-bg) !important;}.has-fl-footer-text-border-color{border-color: var(--wp--preset--color--fl-footer-text) !important;}.has-fl-footer-link-border-color{border-color: var(--wp--preset--color--fl-footer-link) !important;}.has-fl-footer-hover-border-color{border-color: var(--wp--preset--color--fl-footer-hover) !important;}.has-primary-border-color{border-color: var(--wp--preset--color--primary) !important;}.has-secondary-border-color{border-color: var(--wp--preset--color--secondary) !important;}.has-yellow-border-color{border-color: var(--wp--preset--color--yellow) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='ultimate-icons-css' href='https://fpcmontgomery.org/wp-content/uploads/bb-plugin/icons/ultimate-icons/style.css?ver=2.10.2' media='all' />
+<link rel='stylesheet' id='fl-builder-layout-135-css' href='https://fpcmontgomery.org/wp-content/uploads/bb-plugin/cache/135-layout.css?ver=6c7806f49b645998a89d5775f966f941' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://fpcmontgomery.org/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6' media='all' />
+<link rel='stylesheet' id='font-awesome-5-css' href='https://fpcmontgomery.org/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css?ver=2.10.2' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://fpcmontgomery.org/wp-includes/css/dashicons.min.css?ver=7.0' media='all' />
+<link rel='stylesheet' id='fl-builder-layout-bundle-cc939c3676bcdac7501a01ec29ca1fef-css' href='https://fpcmontgomery.org/wp-content/uploads/bb-plugin/cache/cc939c3676bcdac7501a01ec29ca1fef-layout-bundle.css?ver=2.10.2-1.5.2.4' media='all' />
+<link rel='stylesheet' id='jquery-magnificpopup-css' href='https://fpcmontgomery.org/wp-content/plugins/bb-plugin/css/jquery.magnificpopup.min.css?ver=2.10.2' media='all' />
+<link rel='stylesheet' id='base-css' href='https://fpcmontgomery.org/wp-content/themes/bb-theme/css/base.min.css?ver=1.7.19.2' media='all' />
+<link rel='stylesheet' id='fl-automator-skin-css' href='https://fpcmontgomery.org/wp-content/uploads/bb-theme/skin-69f89e4d22980.css?ver=1.7.19.2' media='all' />
+<link rel='stylesheet' id='fl-builder-google-fonts-bf40526b5ef78682c7de2deef89794f3-css' href='//fonts.googleapis.com/css?family=Poppins:400,300,700&#038;ver=7.0' media='all' />
+<script id="jquery-core-js" src="https://fpcmontgomery.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://fpcmontgomery.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="https://fpcmontgomery.org/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://fpcmontgomery.org/wp-json/wp/v2/pages/135" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fpcmontgomery.org/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0" />
+<link rel="canonical" href="https://fpcmontgomery.org/about-us/" />
+<link rel='shortlink' href='https://fpcmontgomery.org/?p=135' />
+<link rel="icon" href="https://fpcmontgomery.org/wp-content/uploads/2026/04/FBCM_Steeple_ROUND-1.png" sizes="32x32" />
+<link rel="icon" href="https://fpcmontgomery.org/wp-content/uploads/2026/04/FBCM_Steeple_ROUND-1.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://fpcmontgomery.org/wp-content/uploads/2026/04/FBCM_Steeple_ROUND-1.png" />
+<meta name="msapplication-TileImage" content="https://fpcmontgomery.org/wp-content/uploads/2026/04/FBCM_Steeple_ROUND-1.png" />
+</head>
+<body class="wp-singular page-template-default page page-id-135 wp-theme-bb-theme fl-builder fl-builder-2-10-2 fl-themer-1-5-2-4 fl-theme-1-7-19-2 fl-no-js fl-theme-builder-header fl-theme-builder-header-header fl-theme-builder-footer fl-theme-builder-footer-footer fl-framework-base fl-preset-default fl-full-width fl-search-active" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<a aria-label="Skip to content" class="fl-screen-reader-text" href="#fl-main-content">Skip to content</a><div class="fl-page">
+	<header class="fl-builder-content fl-builder-content-14 fl-builder-global-templates-locked" data-post-id="14" data-type="header" data-sticky="1" data-sticky-on="" data-sticky-breakpoint="medium" data-shrink="1" data-overlay="1" data-overlay-bg="default" data-shrink-image-height="50px" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader"><div  class="fl-module fl-module-box fl-node-ezu4adr5f7k1 fl-visible-mobile" data-node="ezu4adr5f7k1">
+	<div class="fl-module fl-module-icon-group fl-node-f6ahpqtl4gks" data-node="f6ahpqtl4gks">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-group">
+	<span class="fl-icon">
+				<i class="fab fa-facebook-f" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="ua-icon ua-icon-basket" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="dashicons dashicons-before dashicons-youtube" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="fab fa-linkedin" aria-hidden="true"></i>
+					</span>
+	</div>
+	</div>
+</div>
+<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-wikodbrzfj32" data-node="wikodbrzfj32">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">DONATE HERE</span>
+					</a>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-frphknyo749u fl-row-default-height fl-row-align-center" data-node="frphknyo749u">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-l8kq3j6xa1o7 fl-col-group-equal-height fl-col-group-align-center fl-col-group-custom-width" data-node="l8kq3j6xa1o7">
+			<div class="fl-col fl-node-aso7zbjper2c fl-col-bg-color fl-col-small fl-col-small-custom-width" data-node="aso7zbjper2c">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-image-icon fl-node-cg58rjs37vdx" data-node="cg58rjs37vdx">
+	<div class="fl-module-content fl-node-content">
+		<div class="uabb-module-content uabb-imgicon-wrap">		
+					<div class="uabb-image
+		 uabb-image-crop-simple		" itemscope itemtype="https://schema.org/ImageObject">
+			<div class="uabb-image-content">
+				<img loading="lazy" decoding="async" width="560" height="120" class="uabb-photo-img wp-image-20 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/LOGO-1.png" alt="LOGO (1)" title="LOGO (1)" itemprop="image" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/LOGO-1.png 560w, https://fpcmontgomery.org/wp-content/uploads/2026/04/LOGO-1-300x64.png 300w" sizes="auto, (max-width: 560px) 100vw, 560px" />
+			</div>
+		</div>
+
+		</div>	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-uc1b2ge3ai5n fl-col-bg-color fl-col-small-custom-width fl-col-has-cols" data-node="uc1b2ge3ai5n">
+	<div class="fl-col-content fl-node-content">
+<div class="fl-col-group fl-node-ht9kpjldu5x7 fl-col-group-nested" data-node="ht9kpjldu5x7">
+			<div class="fl-col fl-node-g60j1het94yu fl-col-bg-color" data-node="g60j1het94yu">
+	<div class="fl-col-content fl-node-content"><div  class="fl-module fl-module-box fl-node-ku736zqjwe20" data-node="ku736zqjwe20">
+	<div class="fl-module fl-module-icon-group fl-node-xvwna8d01pug fl-visible-desktop fl-visible-large fl-visible-medium" data-node="xvwna8d01pug">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-group">
+	<span class="fl-icon">
+				<i class="fab fa-facebook-f" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="ua-icon ua-icon-basket" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="dashicons dashicons-before dashicons-youtube" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="fab fa-linkedin" aria-hidden="true"></i>
+					</span>
+	</div>
+	</div>
+</div>
+<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-p8bw7f9ua0y1 fl-visible-desktop fl-visible-large fl-visible-medium" data-node="p8bw7f9ua0y1">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">DONATE HERE</span>
+					</a>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+<div class="fl-module fl-module-menu fl-node-qztjpe76x9hu" data-node="qztjpe76x9hu">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-menu fl-menu-responsive-toggle-mobile">
+	<button class="fl-menu-mobile-toggle hamburger fl-content-ui-button" aria-haspopup="menu" aria-label="Menu"><span class="fl-menu-icon svg-container"><svg version="1.1" class="hamburger-menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+<rect class="fl-hamburger-menu-top" width="512" height="102"/>
+<rect class="fl-hamburger-menu-middle" y="205" width="512" height="102"/>
+<rect class="fl-hamburger-menu-bottom" y="410" width="512" height="102"/>
+</svg>
+</span></button>	<div class="fl-clear"></div>
+	<nav aria-label="Navigation Menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement"><ul id="menu-main" class="menu fl-menu-horizontal fl-toggle-arrows"><li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home"><a  href="https://fpcmontgomery.org/">Home</a></li><li id="menu-item-185" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://fpcmontgomery.org/im-new/">I&#8217;m New</a></li><li id="menu-item-174" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-135 current_page_item"><a  href="https://fpcmontgomery.org/about-us/" aria-current="page">About Us</a></li><li id="menu-item-212" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://fpcmontgomery.org/worship/">Worship</a></li><li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://fpcmontgomery.org/ministries/">Ministries</a></li><li id="menu-item-268" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://fpcmontgomery.org/events-and-gallery/">Events &amp; Gallery</a></li><li id="menu-item-234" class="menu-item menu-item-type-post_type menu-item-object-page"><a  href="https://fpcmontgomery.org/contact-us/">Contact Us</a></li></ul></nav></div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</header><div class="uabb-js-breakpoint" style="display: none;"></div>	<div id="fl-main-content" class="fl-page-content" itemprop="mainContentOfPage" role="main">
+
+		
+<div class="fl-content-full container">
+	<div class="row">
+		<div class="fl-content col-md-12">
+			<article class="fl-post post-135 page type-page status-publish hentry" id="fl-post-135" itemscope="itemscope" itemtype="https://schema.org/CreativeWork">
+
+			<div class="fl-post-content clearfix" itemprop="text">
+		<div class="fl-builder-content fl-builder-content-135 fl-builder-content-primary fl-builder-global-templates-locked" data-post-id="135"><div class="fl-row fl-row-full-width fl-row-bg-multiple fl-node-efrz2h3vcljp fl-row-custom-height fl-row-align-center" data-node="efrz2h3vcljp">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-xdoiv4ksy2au" data-node="xdoiv4ksy2au">
+			<div class="fl-col fl-node-8md06fwjyh27 fl-col-bg-color" data-node="8md06fwjyh27">
+	<div class="fl-col-content fl-node-content"><h1  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-any6kuesvox0" data-node="any6kuesvox0">
+			About	</h1>
+<h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-yca4u3x8t9hm" data-node="yca4u3x8t9hm">
+			First Presbyterian Church of Montgomery	</h3>
+<div  class="fl-module fl-module-box fl-node-35rhipcnklvj" data-node="35rhipcnklvj">
+	<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-node-8eshkcw1xby2" data-node="8eshkcw1xby2">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">Explore Events</span>
+					</a>
+	</div>
+<div  class="fl-module fl-module-button fl-button-wrap fl-button-width-auto fl-button-left fl-button-has-icon fl-node-c2fe54qi96vr" data-node="c2fe54qi96vr">
+			<a href=""  target="_self"  class="fl-button"  >
+							<span class="fl-button-text">View More</span>
+						<i class="fl-button-icon fl-button-icon-after ua-icon ua-icon-youtube" aria-hidden="true"></i>
+			</a>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-multiple fl-node-cg7wqzn2si0a fl-row-default-height fl-row-align-center" data-node="cg7wqzn2si0a">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-pznstr1lxigy" data-node="pznstr1lxigy">
+			<div class="fl-col fl-node-xd49gc75tolq fl-col-bg-color fl-col-small" data-node="xd49gc75tolq">
+	<div class="fl-col-content fl-node-content"><div  class="fl-module fl-module-box fl-node-t57wsfrc4l9e" data-node="t57wsfrc4l9e">
+	<h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-nv3tku75aole" data-node="nv3tku75aole">
+			Our Mission, Purpose & Values	</h2>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-3cx8khpmu1vz fl-col-bg-color fl-col-small" data-node="3cx8khpmu1vz">
+	<div class="fl-col-content fl-node-content"><h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-eowzi7nyjrxv" data-node="eowzi7nyjrxv">
+			OUR MISSION:	</h3>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-xewql509amck" data-node="xewql509amck">
+	<p>To open ourselves to God-seekers and to feed, nurture, and provide refuge for those in need.</p>
+</div>
+<div  class="fl-module fl-module-separator fl-node-lrzdt7vy4jce" data-node="lrzdt7vy4jce">
+	<div class="fl-separator"></div>
+</div>
+<h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-4gs8u5pxl1ch" data-node="4gs8u5pxl1ch">
+			OUR PURPOSE:	</h3>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-4msj730ti5zl" data-node="4msj730ti5zl">
+	<p>To build a community rooted in faith, fueled by compassion, and committed to making a lasting difference in the lives of those around us.</p>
+</div>
+<div  class="fl-module fl-module-separator fl-node-6yle09zxra7t" data-node="6yle09zxra7t">
+	<div class="fl-separator"></div>
+</div>
+<h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-zsf5unw7va0p" data-node="zsf5unw7va0p">
+			OUR VALUES:	</h3>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-2qcmbngj9ke1" data-node="2qcmbngj9ke1">
+	<p>Commitment, Community, Compassion, Diversity, Integrity, Joy, Lead, Learn, Love, Nurture, Pursuit of Faith, and Social Consciousness.</p>
+</div>
+<div  class="fl-module fl-module-separator fl-node-7tbkrczeyf6p" data-node="7tbkrczeyf6p">
+	<div class="fl-separator"></div>
+</div>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-k9mhosnpv5z3" data-node="k9mhosnpv5z3">
+	</div>
+</div>
+</div>
+	</div>
+
+<div class="fl-col-group fl-node-51l8yzqt3r9m" data-node="51l8yzqt3r9m">
+			<div class="fl-col fl-node-m4reb6uoj8ys fl-col-bg-color" data-node="m4reb6uoj8ys">
+	<div class="fl-col-content fl-node-content"><div  class="fl-module fl-module-box fl-node-spo9h53bq6ny" data-node="spo9h53bq6ny">
+	<h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-wgi2lc3nozsq" data-node="wgi2lc3nozsq">
+			Staff & Leadership 	</h2>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-6v8c93kfze1q" data-node="6v8c93kfze1q">
+			Meet Our Staff	</h4>
+</div>
+<div  class="fl-module fl-module-separator fl-node-hkmqae70fgpy" data-node="hkmqae70fgpy">
+	<div class="fl-separator"></div>
+</div>
+<div  class="fl-module fl-module-box fl-node-4d32rpxk8clj" data-node="4d32rpxk8clj">
+	<div  class="fl-module fl-module-box fl-node-4ls051bt6jfz" data-node="4ls051bt6jfz">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-3usgiro9bfzl" data-node="3usgiro9bfzl" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-90 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-4.png" alt="Ellipse 4" height="164" width="164" title="Ellipse 4" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-4.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-4-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-926xbongv1si" data-node="926xbongv1si">
+			Carol Jellema	</h4>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-1ktpe4cnqsh2" data-node="1ktpe4cnqsh2">
+	<p>Secretary</p>
+</div>
+</div>
+<div  class="fl-module fl-module-box fl-node-rq8s473fotku" data-node="rq8s473fotku">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-rm46th1ufo92" data-node="rm46th1ufo92" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-91 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-9.png" alt="Ellipse 9" height="164" width="164" title="Ellipse 9" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-9.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-9-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-nzm97jx6oar1" data-node="nzm97jx6oar1">
+			Heather Benedict	</h4>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-v1q8ngumik3e" data-node="v1q8ngumik3e">
+	<p>Financial Treasurer</p>
+</div>
+</div>
+<div  class="fl-module fl-module-box fl-node-s7k8ypjcoq63" data-node="s7k8ypjcoq63">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-q7ef2s319a6o" data-node="q7ef2s319a6o" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-92 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-10.png" alt="Ellipse 10" height="164" width="164" title="Ellipse 10" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-10.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-10-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-074sx9okc3ip" data-node="074sx9okc3ip">
+			Marcia Woodall	</h4>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-idacqh7kny6u" data-node="idacqh7kny6u">
+	<p>Choir Director</p>
+</div>
+</div>
+<div  class="fl-module fl-module-box fl-node-6i8hnbl512ed" data-node="6i8hnbl512ed">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-rjnf6ke4d9au" data-node="rjnf6ke4d9au" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-93 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-7.png" alt="Ellipse 7" height="164" width="164" title="Ellipse 7" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-7.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-7-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-1q84lrefku6a" data-node="1q84lrefku6a">
+			Wendy McNutt	</h4>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-rbsqfvphz2yt" data-node="rbsqfvphz2yt">
+	<p>Treasurer</p>
+</div>
+</div>
+<div  class="fl-module fl-module-box fl-node-xdcw0f1suqel" data-node="xdcw0f1suqel">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-s98rqmw42vyz" data-node="s98rqmw42vyz" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-94 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-11.png" alt="Ellipse 11" height="164" width="164" title="Ellipse 11" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-11.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-11-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-ae3n7p1fx50w" data-node="ae3n7p1fx50w">
+			Cynthia Nokland	</h4>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-bew0m5a78gc9" data-node="bew0m5a78gc9">
+	<p>Clerk of Session</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+	</div>
+
+<div class="fl-col-group fl-node-h5e9k8laqzgt" data-node="h5e9k8laqzgt">
+			<div class="fl-col fl-node-3z0qc6u5empg fl-col-bg-color fl-col-has-cols" data-node="3z0qc6u5empg">
+	<div class="fl-col-content fl-node-content"><h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-t1jg84nl5saf" data-node="t1jg84nl5saf">
+			Elders	</h2>
+<div  class="fl-module fl-module-separator fl-node-9g5i1qhoml6s" data-node="9g5i1qhoml6s">
+	<div class="fl-separator"></div>
+</div>
+
+<div class="fl-col-group fl-node-309p1tiwjbsz fl-col-group-nested" data-node="309p1tiwjbsz">
+			<div class="fl-col fl-node-7nypeadk9q8z fl-col-bg-color fl-col-small" data-node="7nypeadk9q8z">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-ng54phm2iqyl" data-node="ng54phm2iqyl" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-140 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-9-1.png" alt="Ellipse 9 (1)" height="164" width="164" title="Ellipse 9 (1)" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-9-1.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-9-1-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-a4l81t5iguxo" data-node="a4l81t5iguxo">
+			John Nokland	</h4>
+</div>
+</div>
+			<div class="fl-col fl-node-37xtmbkuqfrd fl-col-bg-color fl-col-small" data-node="37xtmbkuqfrd">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-y2waeu3jr47d" data-node="y2waeu3jr47d" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-141 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-10-1.png" alt="Ellipse 10 (1)" height="164" width="164" title="Ellipse 10 (1)" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-10-1.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-10-1-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-e3tkwj0i1onc" data-node="e3tkwj0i1onc">
+			Tom McNutt	</h4>
+</div>
+</div>
+			<div class="fl-col fl-node-geit8x4wsobu fl-col-bg-color fl-col-small" data-node="geit8x4wsobu">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-63niqm41o58k" data-node="63niqm41o58k" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-142 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-27.png" alt="Ellipse 27" height="164" width="164" title="Ellipse 27" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-27.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-27-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-xtf5syv7mq3b" data-node="xtf5syv7mq3b">
+			Beth Maida	</h4>
+</div>
+</div>
+			<div class="fl-col fl-node-czdreglbtiq4 fl-col-bg-color fl-col-small" data-node="czdreglbtiq4">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-j3evbl45kug9" data-node="j3evbl45kug9" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-143 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-12.png" alt="Ellipse 12" height="164" width="164" title="Ellipse 12" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-12.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-12-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-jouics9g02fl" data-node="jouics9g02fl">
+			Deb Fagan	</h4>
+</div>
+</div>
+	</div>
+<div  class="fl-module fl-module-separator fl-node-u6key1v95cjq fl-visible-desktop fl-visible-large fl-visible-medium" data-node="u6key1v95cjq">
+	<div class="fl-separator"></div>
+</div>
+
+<div class="fl-col-group fl-node-527gx849meyh fl-col-group-nested" data-node="527gx849meyh">
+			<div class="fl-col fl-node-8yrtcgk6nw9b fl-col-bg-color fl-col-small" data-node="8yrtcgk6nw9b">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-sh8pyx5w2nka" data-node="sh8pyx5w2nka" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-145 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-14.png" alt="Ellipse 14" height="164" width="164" title="Ellipse 14" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-14.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-14-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-xvlduhpyj97q" data-node="xvlduhpyj97q">
+			Cynthia Nokland	</h4>
+</div>
+</div>
+			<div class="fl-col fl-node-1c835nra9ygo fl-col-bg-color fl-col-small" data-node="1c835nra9ygo">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-s8ldj29g1v3c" data-node="s8ldj29g1v3c" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-146 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-23.png" alt="Ellipse 23" height="164" width="164" title="Ellipse 23" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-23.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-23-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-5uksbi6o9znw" data-node="5uksbi6o9znw">
+			Joe Prior	</h4>
+</div>
+</div>
+			<div class="fl-col fl-node-6ecmr3qt5u1y fl-col-bg-color fl-col-small" data-node="6ecmr3qt5u1y">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-yrmftovcsq8h" data-node="yrmftovcsq8h" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-148 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-24.png" alt="Ellipse 24" height="164" width="164" title="Ellipse 24" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-24.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-24-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-ska1ldi3e6qm" data-node="ska1ldi3e6qm">
+			Robin Long DeAngelo	</h4>
+</div>
+</div>
+			<div class="fl-col fl-node-mixwrlknu951 fl-col-bg-color fl-col-small" data-node="mixwrlknu951">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-8iv34r0az9el" data-node="8iv34r0az9el" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-149 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-13.png" alt="Ellipse 13" height="164" width="164" title="Ellipse 13" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-13.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-13-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-d4olrpfhzq9b" data-node="d4olrpfhzq9b">
+			Karla Ritter	</h4>
+</div>
+</div>
+	</div>
+
+<div class="fl-col-group fl-node-yovfxn0bmlc3 fl-col-group-nested" data-node="yovfxn0bmlc3">
+			<div class="fl-col fl-node-7zaq9r2k1deu fl-col-bg-color" data-node="7zaq9r2k1deu">
+	<div class="fl-col-content fl-node-content"><div  class="fl-module fl-module-box fl-node-z4w23psojca1" data-node="z4w23psojca1">
+	<h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-6iqkvyogfdh0" data-node="6iqkvyogfdh0">
+			Deacons	</h2>
+</div>
+<div  class="fl-module fl-module-separator fl-node-tr0i6j5md7sl" data-node="tr0i6j5md7sl">
+	<div class="fl-separator"></div>
+</div>
+<div  class="fl-module fl-module-box fl-node-h9t5br8knqex" data-node="h9t5br8knqex">
+	<div  class="fl-module fl-module-box fl-node-2s19nofvdji7" data-node="2s19nofvdji7">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-8j6d9sgz0e3r" data-node="8j6d9sgz0e3r" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-151 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-15.png" alt="Ellipse 15" height="164" width="164" title="Ellipse 15" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-15.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-15-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-0tkb1uda9mly" data-node="0tkb1uda9mly">
+			Joe Maida	</h4>
+</div>
+<div  class="fl-module fl-module-box fl-node-8qri9t2w17dp" data-node="8qri9t2w17dp">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-06hp4cyv8em2" data-node="06hp4cyv8em2" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-152 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-16.png" alt="Ellipse 16" height="164" width="164" title="Ellipse 16" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-16.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-16-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-rgsbihdteqxm" data-node="rgsbihdteqxm">
+			Jillian Maida	</h4>
+</div>
+<div  class="fl-module fl-module-box fl-node-j7asl2obyqp5" data-node="j7asl2obyqp5">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-ukl3fzb56wv1" data-node="ukl3fzb56wv1" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-153 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-17.png" alt="Ellipse 17" height="164" width="164" title="Ellipse 17" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-17.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-17-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-c59e2fvj4hwz" data-node="c59e2fvj4hwz">
+			Ben McNutt	</h4>
+</div>
+<div  class="fl-module fl-module-box fl-node-9aure08gjcq1" data-node="9aure08gjcq1">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-w6180d7lsixy" data-node="w6180d7lsixy" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-154 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-18.png" alt="Ellipse 18" height="164" width="164" title="Ellipse 18" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-18.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-18-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-hm0e49pvfwg3" data-node="hm0e49pvfwg3">
+			Emil Pignetti	</h4>
+</div>
+<div  class="fl-module fl-module-box fl-node-f3mwob47j6iq" data-node="f3mwob47j6iq">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-bumpfjvlyaxh" data-node="bumpfjvlyaxh" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-155 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-19.png" alt="Ellipse 19" height="164" width="164" title="Ellipse 19" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-19.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-19-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-2lxcpozjv3eh" data-node="2lxcpozjv3eh">
+			Joe Maida	</h4>
+</div>
+</div>
+<div  class="fl-module fl-module-box fl-node-5zm321nhacep" data-node="5zm321nhacep">
+	<div  class="fl-module fl-module-box fl-node-ta6r0sipdycg" data-node="ta6r0sipdycg">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-ba9lfv10z35x" data-node="ba9lfv10z35x" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-157 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-20.png" alt="Ellipse 20" height="164" width="164" title="Ellipse 20" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-20.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-20-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-7qarzfxboy19" data-node="7qarzfxboy19">
+			Marcia Woodall	</h4>
+</div>
+<div  class="fl-module fl-module-box fl-node-rhj45b6keqlv" data-node="rhj45b6keqlv">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-eo76s5p3vgjk" data-node="eo76s5p3vgjk" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-158 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-21.png" alt="Ellipse 21" height="164" width="164" title="Ellipse 21" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-21.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-21-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-68nwc47ifj9u" data-node="68nwc47ifj9u">
+			Kim Hoeffner	</h4>
+</div>
+<div  class="fl-module fl-module-box fl-node-9vecz5wku4l2" data-node="9vecz5wku4l2">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-o8a2ulv1tph5" data-node="o8a2ulv1tph5" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-159 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-22.png" alt="Ellipse 22" height="164" width="164" title="Ellipse 22" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-22.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-22-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-ne84tzg5yju9" data-node="ne84tzg5yju9">
+			Doug Hantush 	</h4>
+</div>
+<div  class="fl-module fl-module-box fl-node-90npjiuyqdbt" data-node="90npjiuyqdbt">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-2suojx7wzqy4" data-node="2suojx7wzqy4" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-160 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-26.png" alt="Ellipse 26" height="164" width="164" title="Ellipse 26" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-26.png 164w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Ellipse-26-150x150.png 150w" sizes="auto, (max-width: 164px) 100vw, 164px" />
+					</div>
+	</figure>
+<h4  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-rzlpvmog1jkw" data-node="rzlpvmog1jkw">
+			Laura Aiello 	</h4>
+</div>
+</div>
+</div>
+</div>
+	</div>
+<div  class="fl-module fl-module-separator fl-node-y0ab4ivgnfm2 fl-visible-desktop fl-visible-large fl-visible-medium" data-node="y0ab4ivgnfm2">
+	<div class="fl-separator"></div>
+</div>
+
+<div class="fl-col-group fl-node-hbvopy8zqjkx fl-col-group-nested" data-node="hbvopy8zqjkx">
+			<div class="fl-col fl-node-wh7nc6teua95 fl-col-bg-color fl-col-small" data-node="wh7nc6teua95">
+	<div class="fl-col-content fl-node-content"><h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-k26mvuehtd4z" data-node="k26mvuehtd4z">
+			Statement of Inclusion	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-b5n8vgsd7jir" data-node="b5n8vgsd7jir">
+	<p>At First Presbyterian Church of Montgomery, we believe every person is made in the image of God and deserves to be welcomed, seen, and valued. Whoever you are, wherever you've been, and whatever you're carrying, you are welcome here. We are a community of imperfect people drawn together by grace, committed to walking alongside one another through every season of life. We do not ask you to have it all figured out before you walk through our doors. We simply ask you to come as you are.</p>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-01lgtz6awcmj fl-col-bg-color fl-col-small" data-node="01lgtz6awcmj">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-o9lj4vabtrpd" data-node="o9lj4vabtrpd" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img decoding="async" class="fl-photo-img wp-image-161 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-81.jpg" alt="Rectangle 81" height="529" width="513" title="Rectangle 81" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-81.jpg 513w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-81-291x300.jpg 291w" sizes="auto, (max-width: 513px) 100vw, 513px" />
+					</div>
+	</figure>
+</div>
+</div>
+	</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-08xsmyjhwpn9 fl-row-default-height fl-row-align-center" data-node="08xsmyjhwpn9">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-40mr8pg3cqav" data-node="40mr8pg3cqav">
+			<div class="fl-col fl-node-gwolsac536xd fl-col-bg-color fl-col-has-cols" data-node="gwolsac536xd">
+	<div class="fl-col-content fl-node-content">
+<div class="fl-col-group fl-node-gcfv7uoye6am fl-col-group-nested" data-node="gcfv7uoye6am">
+			<div class="fl-col fl-node-fak9vwporjty fl-col-bg-color fl-col-small" data-node="fak9vwporjty">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-w1njikh8zog2" data-node="w1njikh8zog2" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img decoding="async" class="fl-photo-img wp-image-166 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-12-1.jpg" alt="Rectangle 12" height="423" width="422" title="Rectangle 12" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-12-1.jpg 422w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-12-1-300x300.jpg 300w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-12-1-150x150.jpg 150w" sizes="auto, (max-width: 422px) 100vw, 422px" />
+					</div>
+	</figure>
+</div>
+</div>
+			<div class="fl-col fl-node-52qrhlcoa4z3 fl-col-bg-color fl-col-small" data-node="52qrhlcoa4z3">
+	<div class="fl-col-content fl-node-content"><h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-50qxkowmtn9p" data-node="50qxkowmtn9p">
+			Congregational Overview	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-6lexhkqitgnp" data-node="6lexhkqitgnp">
+	<p>First Presbyterian Church of Montgomery is a Christ-centered congregation rooted in Reformed faith and committed to worship, community, and service. With a heart for both our local neighborhood and the wider world, we are a multigenerational church family that seeks to grow in faith together — welcoming all who are searching, belonging, and believing.</p>
+</div>
+</div>
+</div>
+	</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-photo fl-node-3hed2iz5mrtv fl-row-default-height fl-row-align-center" data-node="3hed2iz5mrtv">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-ryn8w175h43u" data-node="ryn8w175h43u">
+			<div class="fl-col fl-node-i1acynk0mdqr fl-col-bg-color fl-col-small" data-node="i1acynk0mdqr">
+	<div class="fl-col-content fl-node-content"><h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-ozm54x6lvc89" data-node="ozm54x6lvc89">
+			Committees	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-ha43l2os07xy" data-node="ha43l2os07xy">
+	<p>Our committees are the backbone of church life at First Presbyterian Church of Montgomery — dedicated teams of members who give their time and gifts to serve areas such as worship, outreach, finance, and pastoral care. Each committee plays a vital role in keeping our congregation thriving, ensuring that every ministry is supported, every need is met, and every voice has a place at the table.</p>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-2wly8vc6s1b3 fl-col-bg-color fl-col-small" data-node="2wly8vc6s1b3">
+	<div class="fl-col-content fl-node-content"><h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-swxgh25pbut8" data-node="swxgh25pbut8">
+			Music at FPC Montgomery	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-43j8srx2m7kz" data-node="43j8srx2m7kz">
+	<p>Our committees are the backbone of church life at First Presbyterian Church of Montgomery — dedicated teams of members who give their time and gifts to serve areas such as worship, outreach, finance, and pastoral care. Each committee plays a vital role in keeping our congregation thriving, ensuring that every ministry is supported, every need is met, and every voice has a place at the table.</p>
+</div>
+</div>
+</div>
+	</div>
+
+<div class="fl-col-group fl-node-srtd8agxq390" data-node="srtd8agxq390">
+			<div class="fl-col fl-node-z8xbr5lujpty fl-col-bg-color fl-col-has-cols" data-node="z8xbr5lujpty">
+	<div class="fl-col-content fl-node-content">
+<div class="fl-col-group fl-node-my5wheos1dxb fl-col-group-nested" data-node="my5wheos1dxb">
+			<div class="fl-col fl-node-3q5awiy8srhe fl-col-bg-color fl-col-small" data-node="3q5awiy8srhe">
+	<div class="fl-col-content fl-node-content"><h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-ck3gpe1hqlux" data-node="ck3gpe1hqlux">
+			Church History <span style="color:#f4a111;">•</span> Since 1832	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-529dfg3u861a" data-node="529dfg3u861a">
+	<p>Founded in 1832, First Presbyterian Church of Montgomery is one of the region's oldest congregations — a community that has weathered nearly two centuries of change while remaining a steady home of Reformed faith, grace, and gospel witness.</p>
+<p>Generation after generation, this church has been a place where families are formed, faith is deepened, and the love of God endures.</p>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-qundx7zeao5g fl-col-bg-color fl-col-small" data-node="qundx7zeao5g">
+	<div class="fl-col-content fl-node-content"><figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-2u6go94j3l1r" data-node="2u6go94j3l1r" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-jpg">
+				<img decoding="async" class="fl-photo-img wp-image-168 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-23.jpg" alt="Rectangle 23" height="445" width="410" title="Rectangle 23" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-23.jpg 410w, https://fpcmontgomery.org/wp-content/uploads/2026/04/Rectangle-23-276x300.jpg 276w" sizes="auto, (max-width: 410px) 100vw, 410px" />
+					</div>
+	</figure>
+</div>
+</div>
+	</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-jlq8rbgn2wap fl-row-default-height fl-row-align-center" data-node="jlq8rbgn2wap">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-full-width fl-node-content">
+		
+<div class="fl-col-group fl-node-70hzq35mpr6a" data-node="70hzq35mpr6a">
+			<div class="fl-col fl-node-vu41p8d2zewo fl-col-bg-color" data-node="vu41p8d2zewo">
+	<div class="fl-col-content fl-node-content"><div  class="fl-module fl-module-html fl-html fl-node-r8g90cdkxuy4" data-node="r8g90cdkxuy4">
+	<div class="ticker-wrap">
+    <div class="ticker">
+        <span class="ticker-item">CHRIST CENTERED</span>
+        <span class="dot">•</span>
+        <span class="ticker-item">COMMUNITY DRIVEN</span>
+        <span class="dot">•</span>
+        <span class="ticker-item">WORSHIP</span>
+        <span class="dot">•</span>
+        <span class="ticker-item">PEOPLE EMPOWERED</span>
+    </div>
+</div></div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-ldp5mka627fc fl-row-default-height fl-row-align-center" data-node="ldp5mka627fc">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-y3oxe2tu5vnr" data-node="y3oxe2tu5vnr">
+			<div class="fl-col fl-node-rb6oqcvjtfe5 fl-col-bg-color" data-node="rb6oqcvjtfe5">
+	<div class="fl-col-content fl-node-content"><h3  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-qludt4j7xocn" data-node="qludt4j7xocn">
+			SIGN UP	</h3>
+<h2  class="fl-module fl-module-heading fl-heading fl-heading-text fl-node-1rml0nax84vt" data-node="1rml0nax84vt">
+			Get Notified	</h2>
+<div  class="fl-module fl-module-rich-text fl-rich-text fl-node-65lz4p01mikg" data-node="65lz4p01mikg">
+	<p style="text-align: center;">Sign up below for the latest news and updates from Presbyterian.</p>
+</div>
+<div  class="fl-module fl-module-html fl-html fl-node-w0red8194mkt" data-node="w0red8194mkt">
+	
+<div class="wpcf7 no-js" id="wpcf7-f127-p135-o1" lang="en-US" dir="ltr" data-wpcf7-id="127">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/about-us/#wpcf7-f127-p135-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<fieldset class="hidden-fields-container"><input type="hidden" name="_wpcf7" value="127" /><input type="hidden" name="_wpcf7_version" value="6.1.6" /><input type="hidden" name="_wpcf7_locale" value="en_US" /><input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f127-p135-o1" /><input type="hidden" name="_wpcf7_container_post" value="135" /><input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</fieldset>
+<div class="inline-signup-form">
+<span class="wpcf7-form-control-wrap" data-name="your-name"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Full Name *" value="" type="text" name="your-name" /></span>
+<span class="wpcf7-form-control-wrap" data-name="your-email"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Email Address *" value="" type="email" name="your-email" /></span>
+<input class="wpcf7-form-control wpcf7-submit has-spinner" type="submit" value="SIGN UP" />
+</div><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</div><div class="uabb-js-breakpoint" style="display: none;"></div>	</div><!-- .fl-post-content -->
+	
+</article>
+
+<!-- .fl-post -->
+		</div>
+	</div>
+</div>
+
+
+	</div><!-- .fl-page-content -->
+	<footer class="fl-builder-content fl-builder-content-38 fl-builder-global-templates-locked" data-post-id="38" data-type="footer" itemscope="itemscope" itemtype="http://schema.org/WPFooter"><div class="fl-row fl-row-full-width fl-row-bg-multiple fl-node-54wq7kfio10r fl-row-default-height fl-row-align-center" data-node="54wq7kfio10r">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		<div  class="fl-module fl-module-box fl-node-n1hzi9al0qcs" data-node="n1hzi9al0qcs">
+	<figure class="fl-module fl-module-photo fl-photo fl-photo-align-center fl-node-8os2fdhkjubt" data-node="8os2fdhkjubt" itemscope itemtype="https://schema.org/ImageObject">
+	<div class="fl-photo-content fl-photo-img-png">
+				<img decoding="async" class="fl-photo-img wp-image-20 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/LOGO-1.png" alt="LOGO (1)" height="120" width="560" title="LOGO (1)" loading="lazy" srcset="https://fpcmontgomery.org/wp-content/uploads/2026/04/LOGO-1.png 560w, https://fpcmontgomery.org/wp-content/uploads/2026/04/LOGO-1-300x64.png 300w" sizes="auto, (max-width: 560px) 100vw, 560px" />
+					</div>
+	</figure>
+</div>
+
+<div class="fl-col-group fl-node-nxomy1p5ihvs" data-node="nxomy1p5ihvs">
+			<div class="fl-col fl-node-6gwtkndif0a7 fl-col-bg-color fl-col-small" data-node="6gwtkndif0a7">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-umtohx3awzn6" data-node="umtohx3awzn6">
+	<div class="fl-module-content fl-node-content">
+		<h3 class="fl-heading">
+		<span class="fl-heading-text">LINKS</span>
+	</h3>
+	</div>
+</div>
+<div  class="fl-module fl-module-box fl-node-8vfbhkroyexc" data-node="8vfbhkroyexc">
+	<div class="fl-module fl-module-rich-text fl-node-grm08yesqvz7" data-node="grm08yesqvz7">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<p>HOME</p>
+<p>ABOUT US</p>
+<p>I'M NEW</p>
+<p>WORSHIP</p>
+</div>
+	</div>
+</div>
+<div class="fl-module fl-module-rich-text fl-node-f76gau2nocb0" data-node="f76gau2nocb0">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<p>MINISTRIES</p>
+<p>EVENTS &amp; GALLERY</p>
+<p>GIVING</p>
+<p>CONTACT US</p>
+</div>
+	</div>
+</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-y6qwesnr2l05 fl-col-bg-color fl-col-small" data-node="y6qwesnr2l05">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-8ihcgkpu6mst" data-node="8ihcgkpu6mst">
+	<div class="fl-module-content fl-node-content">
+		<h3 class="fl-heading">
+		<span class="fl-heading-text">CONTACT</span>
+	</h3>
+	</div>
+</div>
+<div class="fl-module fl-module-icon fl-node-qh8ezbrufy5m" data-node="qh8ezbrufy5m">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-wrap">
+	<span class="fl-icon">
+								<a href="#" target="_self"  tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-qh8ezbrufy5m">
+							<i class="far fa-map" aria-hidden="true"></i>
+						</a>
+			</span>
+			<div id="fl-icon-text-qh8ezbrufy5m" class="fl-icon-text">
+						<a href="#" target="_self"  class="fl-icon-text-link fl-icon-text-wrap">
+						<p>First Presbyterian Church</br>137 Clinton Street </br>Montgomery, NY 12549</p>
+						</a>
+					</div>
+	</div>
+	</div>
+</div>
+<div class="fl-module fl-module-icon fl-node-9rhy6n37jb2m" data-node="9rhy6n37jb2m">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-wrap">
+	<span class="fl-icon">
+								<a href="tel:(845)%20457-5383" target="_self"  tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-9rhy6n37jb2m">
+							<i class="fas fa-phone" aria-hidden="true"></i>
+						</a>
+			</span>
+			<div id="fl-icon-text-9rhy6n37jb2m" class="fl-icon-text">
+						<a href="tel:(845)%20457-5383" target="_self"  class="fl-icon-text-link fl-icon-text-wrap">
+						<p>(845) 457-5383</p>
+						</a>
+					</div>
+	</div>
+	</div>
+</div>
+<div class="fl-module fl-module-icon fl-node-c834o9f2tbdn" data-node="c834o9f2tbdn">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-wrap">
+	<span class="fl-icon">
+								<a href="mailto:fpcmontgomery@gmail.com" target="_self"  tabindex="-1" aria-hidden="true" aria-labelledby="fl-icon-text-c834o9f2tbdn">
+							<i class="far fa-envelope" aria-hidden="true"></i>
+						</a>
+			</span>
+			<div id="fl-icon-text-c834o9f2tbdn" class="fl-icon-text">
+						<a href="mailto:fpcmontgomery@gmail.com" target="_self"  class="fl-icon-text-link fl-icon-text-wrap">
+						<p>fpcmontgomery@gmail.com</p>						</a>
+					</div>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+			<div class="fl-col fl-node-u1mbn26vtkdr fl-col-bg-color fl-col-small" data-node="u1mbn26vtkdr">
+	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-3jbd2160uchp" data-node="3jbd2160uchp">
+	<div class="fl-module-content fl-node-content">
+		<h3 class="fl-heading">
+		<span class="fl-heading-text">FOLLOW US</span>
+	</h3>
+	</div>
+</div>
+<div class="fl-module fl-module-icon-group fl-node-qber1ajvwylg" data-node="qber1ajvwylg">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-icon-group">
+	<span class="fl-icon">
+				<i class="ua-icon ua-icon-facebook22" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="dashicons dashicons-before dashicons-youtube" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="ua-icon ua-icon-basket" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="ua-icon ua-icon-instagram" aria-hidden="true"></i>
+					</span>
+		<span class="fl-icon">
+				<i class="ua-icon ua-icon-linkedin2" aria-hidden="true"></i>
+					</span>
+	</div>
+	</div>
+</div>
+</div>
+</div>
+	</div>
+<div  class="fl-module fl-module-box fl-node-4ekg8jrbvd0c" data-node="4ekg8jrbvd0c">
+	<div class="fl-module fl-module-rich-text fl-node-d1wsmjnpibch" data-node="d1wsmjnpibch">
+	<div class="fl-module-content fl-node-content">
+		<div class="fl-rich-text">
+	<p style="text-align: center;">© 2026 First Presbyterian Church. All Rights Reserved.</p>
+</div>
+	</div>
+</div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="fl-row fl-row-full-width fl-row-bg-color fl-node-is78qfod0mya fl-row-default-height fl-row-align-center" data-node="is78qfod0mya">
+	<div class="fl-row-content-wrap">
+								<div class="fl-row-content fl-row-fixed-width fl-node-content">
+		
+<div class="fl-col-group fl-node-je7al3pq0b46" data-node="je7al3pq0b46">
+			<div class="fl-col fl-node-z64p2dax01vj fl-col-bg-color" data-node="z64p2dax01vj">
+	<div class="fl-col-content fl-node-content"><div  class="fl-module fl-module-box fl-node-5hbtmvs78do2" data-node="5hbtmvs78do2">
+	<div class="fl-module fl-module-image-icon fl-node-fl4kabow3x0r" data-node="fl4kabow3x0r">
+	<div class="fl-module-content fl-node-content">
+		<div class="uabb-module-content uabb-imgicon-wrap">		
+					<div class="uabb-image
+		 uabb-image-crop-simple		" itemscope itemtype="https://schema.org/ImageObject">
+			<div class="uabb-image-content">
+				<img loading="lazy" decoding="async" width="214" height="105" class="uabb-photo-img wp-image-47 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/image-1.png" alt="image 1" title="image 1" itemprop="image"/>
+			</div>
+		</div>
+
+		</div>	</div>
+</div>
+<div class="fl-module fl-module-image-icon fl-node-oytbk0vuwh3p" data-node="oytbk0vuwh3p">
+	<div class="fl-module-content fl-node-content">
+		<div class="uabb-module-content uabb-imgicon-wrap">		
+					<div class="uabb-image
+		 uabb-image-crop-simple		" itemscope itemtype="https://schema.org/ImageObject">
+			<div class="uabb-image-content">
+				<img loading="lazy" decoding="async" width="88" height="88" class="uabb-photo-img wp-image-46 size-full" src="https://fpcmontgomery.org/wp-content/uploads/2026/04/village-of-montgomery-picture-1.png" alt="village of montgomery picture 1" title="village of montgomery picture 1" itemprop="image"/>
+			</div>
+		</div>
+
+		</div>	</div>
+</div>
+</div>
+</div>
+</div>
+	</div>
+		</div>
+	</div>
+</div>
+</footer><div class="uabb-js-breakpoint" style="display: none;"></div>	</div><!-- .fl-page -->
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/bb-theme/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<script id="fl-builder-layout-135-js" src="https://fpcmontgomery.org/wp-content/uploads/bb-plugin/cache/135-layout.js?ver=b85d2d7c4bde0768d0d5a20b573beb60"></script>
+<script id="wp-hooks-js" src="https://fpcmontgomery.org/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://fpcmontgomery.org/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="swv-js" src="https://fpcmontgomery.org/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.6"></script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/fpcmontgomery.org\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script id="contact-form-7-js" src="https://fpcmontgomery.org/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.6"></script>
+<script id="imagesloaded-js" src="https://fpcmontgomery.org/wp-content/plugins/bb-plugin/js/libs/jquery.imagesloaded.min.js?ver=2.10.2"></script>
+<script id="jquery-throttle-js" src="https://fpcmontgomery.org/wp-content/plugins/bb-plugin/js/libs/jquery.ba-throttle-debounce.min.js?ver=2.10.2"></script>
+<script id="fl-builder-layout-bundle-afb066c0c1a42475921febec05b56573-js" src="https://fpcmontgomery.org/wp-content/uploads/bb-plugin/cache/afb066c0c1a42475921febec05b56573-layout-bundle.js?ver=2.10.2-1.5.2.4"></script>
+<script id="jquery-magnificpopup-js" src="https://fpcmontgomery.org/wp-content/plugins/bb-plugin/js/libs/jquery.magnificpopup.min.js?ver=2.10.2"></script>
+<script id="fl-automator-js-extra">
+var themeopts = {"medium_breakpoint":"992","mobile_breakpoint":"768","lightbox":"enabled","scrollTopPosition":"800"};
+//# sourceURL=fl-automator-js-extra
+</script>
+<script id="fl-automator-js" src="https://fpcmontgomery.org/wp-content/themes/bb-theme/js/theme.min.js?ver=1.7.19.2"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://fpcmontgomery.org/wp-includes/js/wp-emoji-release.min.js?ver=7.0"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://fpcmontgomery.org/wp-includes/js/wp-emoji-loader.min.js
+</script>
+</body>
+</html>

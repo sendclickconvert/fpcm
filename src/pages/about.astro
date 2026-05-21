@@ -1,24 +1,44 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-import PageHero from '../components/PageHero.astro';
 import GetNotified from '../components/GetNotified.astro';
 import { CHURCH, MISSION, STAFF, ELDERS, DEACONS, COMMITTEES } from '../data/site';
 
-const title = `About | ${CHURCH.name}`;
-const description = `About First Presbyterian Church of Montgomery — our mission, history since 1832, leadership, and the community we serve in Orange County, NY.`;
+const title = `About Us | ${CHURCH.name}`;
+const description = `About First Presbyterian Church of Montgomery — our mission, purpose, values, staff, elders, deacons, and history since 1832 in Orange County, NY.`;
 ---
 
 <BaseLayout title={title} description={description}>
 
   <!-- ============ HERO ============ -->
-  <PageHero
-    title="About"
-    subtitle="First Presbyterian Church!"
-    image="/images/staff-group.jpg"
-    size="lg"
-  />
+  <section
+    class="relative flex items-center justify-center text-white text-center px-6 min-h-[560px] md:min-h-[640px]"
+    style="background-image: linear-gradient(180deg, rgba(38,40,128,0.78) 0%, rgba(38,40,128,0.82) 100%), url('/images/bg-1-scaled.jpg'); background-size: cover; background-position: center;"
+  >
+    <div class="relative max-w-3xl mx-auto py-16">
+      <h1 class="display-xl text-white mb-2">About</h1>
+      <h3 class="font-display text-xl md:text-2xl text-white/90 mb-10">First Presbyterian Church of Montgomery</h3>
 
-  <!-- ============ MISSION, PURPOSE, VALUES ============ -->
+      <div class="flex flex-wrap items-center justify-center gap-5">
+        <a href="/events" class="btn btn-crimson">Explore Events</a>
+
+        <a
+          href="https://www.youtube.com/@fpcmontgomery"
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-3 font-mono text-sm tracking-wide text-white hover:opacity-90 transition-opacity"
+        >
+          <span>View More</span>
+          <span class="inline-flex items-center justify-center w-9 h-7 bg-[#FF0000] rounded-md" aria-hidden="true">
+            <svg width="14" height="10" viewBox="0 0 24 17" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.5 2.6c-.3-1-1-1.8-2-2C19.7 0 12 0 12 0S4.3 0 2.5.6c-1 .2-1.7 1-2 2C0 4.4 0 8.5 0 8.5s0 4 .5 5.9c.3 1 1 1.8 2 2C4.3 17 12 17 12 17s7.7 0 9.5-.6c1-.2 1.7-1 2-2 .5-1.8.5-5.9.5-5.9s0-4-.5-5.9zM9.5 12V5l6.5 3.5L9.5 12z"/>
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MISSION, PURPOSE & VALUES ============ -->
   <section class="triangle-pattern py-20 md:py-28">
     <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-10 lg:gap-16">
 
@@ -28,156 +48,193 @@ const description = `About First Presbyterian Church of Montgomery — our missi
         </h2>
       </div>
 
-      <div class="md:col-span-7 space-y-8 max-w-prose">
+      <div class="md:col-span-7 space-y-6 max-w-prose">
         <div>
-          <h3 class="font-display text-2xl text-crimson border-b border-crimson pb-1 mb-3">Our Mission</h3>
+          <h3 class="eyebrow-navy mb-2">OUR MISSION:</h3>
           <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft">{MISSION.mission}</p>
+          <hr class="border-rule mt-5" />
         </div>
         <div>
-          <h3 class="font-display text-2xl text-crimson border-b border-crimson pb-1 mb-3">Our Purpose</h3>
+          <h3 class="eyebrow-navy mb-2">OUR PURPOSE:</h3>
           <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft">{MISSION.purpose}</p>
+          <hr class="border-rule mt-5" />
         </div>
         <div>
-          <h3 class="font-display text-2xl text-crimson border-b border-crimson pb-1 mb-3">Our Values</h3>
+          <h3 class="eyebrow-navy mb-2">OUR VALUES:</h3>
           <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft">{MISSION.values.join(', ')}.</p>
+          <hr class="border-rule mt-5" />
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ============ STAFF + ELDERS + DEACONS (navy panel) ============ -->
-  <section class="py-12 md:py-16">
+  <!-- ============ STAFF & LEADERSHIP ============ -->
+  <section class="bg-white py-16 md:py-20">
     <div class="max-w-container mx-auto px-6 lg:px-8">
-      <div class="bg-navy text-white p-8 md:p-12 space-y-10">
 
-        <!-- Staff -->
-        <div>
-          <h2 class="display-lg text-white mb-1">Staff &amp; Leadership</h2>
-          <p class="eyebrow-light mb-6 border-b border-white/20 pb-3">Our staff</p>
-          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
-            {STAFF.map((p) => (
-              <div class="text-center">
-                <div class="w-24 h-24 md:w-28 md:h-28 mx-auto mb-3 rounded-full bg-white/10 border border-white/30 overflow-hidden">
-                  <img src={p.avatar} alt={`Photo of ${p.name}`} class="w-full h-full object-cover" loading="lazy" />
-                </div>
-                <p class="font-display text-lg text-white leading-tight">{p.name}</p>
-                <p class="font-mono text-[0.7rem] tracking-wider uppercase text-white/75 mt-1">{p.role}</p>
+      <!-- Staff -->
+      <div class="mb-14">
+        <h2 class="display-lg mb-1">Staff &amp; Leadership</h2>
+        <h4 class="eyebrow-crimson mb-8 pb-4 border-b border-rule">Meet Our Staff</h4>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
+          {STAFF.map((p) => (
+            <div class="text-center">
+              <div class="w-28 h-28 mx-auto mb-3 rounded-full overflow-hidden border-4 border-crimson/80 shadow">
+                <img src={p.avatar} alt={`Photo of ${p.name}`} class="w-full h-full object-cover" loading="lazy" />
               </div>
-            ))}
-          </div>
-        </div>
-
-        <!-- Elders -->
-        <div>
-          <p class="eyebrow-light mb-6 border-b border-white/20 pb-3">Elders</p>
-          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6">
-            {ELDERS.map((p) => (
-              <div class="text-center">
-                <div class="w-20 h-20 md:w-24 md:h-24 mx-auto mb-3 rounded-full bg-white/10 border border-white/30 overflow-hidden">
-                  <img src={p.avatar} alt={`Photo of ${p.name}`} class="w-full h-full object-cover" loading="lazy" />
-                </div>
-                <p class="font-display text-base text-white leading-tight">{p.name}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <!-- Deacons -->
-        <div>
-          <p class="eyebrow-light mb-6 border-b border-white/20 pb-3">Deacons</p>
-          <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-6">
-            {DEACONS.map((p) => (
-              <div class="text-center">
-                <div class="w-20 h-20 mx-auto mb-3 rounded-full bg-white/10 border border-white/30 overflow-hidden">
-                  <img src={p.avatar} alt={`Photo of ${p.name}`} class="w-full h-full object-cover" loading="lazy" />
-                </div>
-                <p class="font-display text-sm text-white leading-tight">{p.name}</p>
-              </div>
-            ))}
-          </div>
+              <p class="font-display text-base text-navy leading-tight">{p.name}</p>
+              <p class="font-mono text-[0.7rem] tracking-wider uppercase text-ink-soft mt-1">{p.role}</p>
+            </div>
+          ))}
         </div>
       </div>
+
+      <!-- Elders -->
+      <div class="mb-14">
+        <h2 class="display-lg mb-2">Elders</h2>
+        <hr class="border-rule mb-8" />
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-8">
+          {ELDERS.map((p) => (
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-3 rounded-full overflow-hidden border-4 border-crimson/80 shadow">
+                <img src={p.avatar} alt={`Photo of ${p.name}`} class="w-full h-full object-cover" loading="lazy" />
+              </div>
+              <p class="font-display text-sm text-navy leading-tight">{p.name}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Deacons -->
+      <div>
+        <h2 class="display-lg mb-2">Deacons</h2>
+        <hr class="border-rule mb-8" />
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
+          {DEACONS.map((p) => (
+            <div class="text-center">
+              <div class="w-24 h-24 mx-auto mb-3 rounded-full overflow-hidden border-4 border-crimson/80 shadow">
+                <img src={p.avatar} alt={`Photo of ${p.name}`} class="w-full h-full object-cover" loading="lazy" />
+              </div>
+              <p class="font-display text-sm text-navy leading-tight">{p.name}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
     </div>
   </section>
 
   <!-- ============ STATEMENT OF INCLUSION ============ -->
   <section class="triangle-pattern py-20 md:py-24">
-    <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-12 gap-10">
-      <div class="md:col-span-5">
-        <h2 class="display-xl">Statement of Inclusion</h2>
-      </div>
-      <div class="md:col-span-7 max-w-prose">
+    <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="display-lg mb-6">Statement of Inclusion</h2>
         <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft">
-          First Presbyterian Church of Montgomery welcomes all people — of every age, race, ethnicity, ability, sexual orientation, gender identity, marital status, economic circumstance, and faith background — into the full life and ministry of our congregation. We affirm that every person is a beloved child of God, and we commit ourselves to a community where all may worship, serve, lead, and grow in faith together. The diversity of God's people is a gift we celebrate.
+          At First Presbyterian Church of Montgomery, we believe every person is made in the image of God and deserves to be welcomed, seen, and valued. Whoever you are, wherever you've been, and whatever you're carrying, you are welcome here. We are a community of imperfect people drawn together by grace, committed to walking alongside one another through every season of life. We do not ask you to have it all figured out before you walk through our doors. We simply ask you to come as you are.
         </p>
+      </div>
+      <div>
+        <img
+          src="/images/Rectangle-81.jpg"
+          alt="Members of the congregation"
+          class="w-full aspect-[4/5] object-cover rounded-tl-[90px] rounded-br-[90px] shadow-lg"
+          loading="lazy"
+        />
       </div>
     </div>
   </section>
 
-  <!-- ============ CONGREGATIONAL OVERVIEW (navy with image) ============ -->
-  <section class="py-12 md:py-16">
-    <div class="max-w-container mx-auto px-6 lg:px-8">
-      <div class="bg-navy text-white grid md:grid-cols-2 gap-0 items-stretch">
+  <!-- ============ CONGREGATIONAL OVERVIEW ============ -->
+  <section class="bg-white py-16 md:py-20">
+    <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+      <div>
         <img
-          src="/images/about-congregation.jpg"
-          alt="A member of the congregation reading from the pulpit"
-          class="w-full h-full object-cover min-h-[300px]"
+          src="/images/Rectangle-12-1.jpg"
+          alt="First Presbyterian Church of Montgomery congregation"
+          class="w-full aspect-square object-cover rounded-tr-[90px] rounded-bl-[90px] shadow-lg"
           loading="lazy"
         />
-        <div class="p-10 md:p-14 flex flex-col justify-center">
-          <h2 class="display-lg text-white mb-5">Congregational Overview</h2>
-          <p class="font-mono text-[0.9rem] leading-relaxed text-white/85">
-            First Presbyterian Church of Montgomery is a vibrant congregation of {CHURCH.congregationSize}, gathered weekly for Sunday worship with an average attendance of {CHURCH.worshipAttendance}. Our Sunday School serves approximately {CHURCH.churchSchoolAttendance} children and youth. We are part of {CHURCH.presbytery} Presbytery and the Synod of {CHURCH.synod}, and we have served the village of Montgomery and the surrounding Orange County community since {CHURCH.founded}.
-          </p>
-        </div>
+      </div>
+      <div>
+        <h2 class="display-lg mb-6">Congregational Overview</h2>
+        <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft">
+          First Presbyterian Church of Montgomery is a Christ-centered congregation rooted in Reformed faith and committed to worship, community, and service. With a heart for both our local neighborhood and the wider world, we are a multigenerational church family that seeks to grow in faith together — welcoming all who are searching, belonging, and believing.
+        </p>
       </div>
     </div>
   </section>
 
   <!-- ============ COMMITTEES + MUSIC ============ -->
-  <section class="triangle-pattern py-20">
+  <section
+    class="relative py-20 md:py-24"
+    style="background-image: linear-gradient(180deg, rgba(38,40,128,0.88) 0%, rgba(38,40,128,0.88) 100%), url('/images/Rectangle-3.jpg'); background-size: cover; background-position: center;"
+  >
     <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-2 gap-12">
       <div>
-        <h3 class="display-lg mb-5">Committees</h3>
-        <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft mb-4">
-          Our Session designates standing committees, each chaired by a Ruling Elder, that carry out the day-to-day mission of the church. Membership on committees is open to all members and friends of the congregation.
+        <h2 class="display-lg text-white mb-5">Committees</h2>
+        <p class="font-mono text-[0.88rem] leading-relaxed text-white/85">
+          Our committees are the backbone of church life at First Presbyterian Church of Montgomery — dedicated teams of members who give their time and gifts to serve areas such as worship, outreach, finance, and pastoral care. Each committee plays a vital role in keeping our congregation thriving, ensuring that every ministry is supported, every need is met, and every voice has a place at the table.
         </p>
-        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1 font-mono text-[0.85rem] text-ink-soft">
-          {COMMITTEES.map((c) => <li class="py-1 border-b border-rule/70">{c}</li>)}
-        </ul>
       </div>
-
       <div>
-        <h3 class="display-lg mb-5">Music at FPC Montgomery</h3>
-        <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft">
-          Music is central to our worship at First Presbyterian. Under the direction of our Music Director and Organist, our choir leads the congregation in hymns, anthems, and seasonal music throughout the year. From classical hymns to contemporary spiritual songs, music draws our community deeper into worship and praise. Singers and instrumentalists of all levels are warmly invited to join.
+        <h2 class="display-lg text-white mb-5">Music at FPC Montgomery</h2>
+        <p class="font-mono text-[0.88rem] leading-relaxed text-white/85">
+          Our committees are the backbone of church life at First Presbyterian Church of Montgomery — dedicated teams of members who give their time and gifts to serve areas such as worship, outreach, finance, and pastoral care. Each committee plays a vital role in keeping our congregation thriving, ensuring that every ministry is supported, every need is met, and every voice has a place at the table.
         </p>
       </div>
     </div>
   </section>
 
   <!-- ============ CHURCH HISTORY ============ -->
-  <section class="py-12 md:py-16">
-    <div class="max-w-container mx-auto px-6 lg:px-8">
-      <div class="bg-navy text-white grid md:grid-cols-2 gap-0 items-stretch">
-        <div class="p-10 md:p-14 flex flex-col justify-center">
-          <h2 class="display-lg text-white mb-5">Church History<br />(since 1832)</h2>
-          <p class="font-mono text-[0.9rem] leading-relaxed text-white/85 mb-4">
-            First Presbyterian Church of Montgomery was organized in {CHURCH.founded}, gathering its first members from the village of Montgomery and the surrounding Orange County hills. From those earliest years, our congregation has worshipped on Clinton Street — first in a wood-frame meeting house, later expanded and renewed across generations.
-          </p>
-          <p class="font-mono text-[0.9rem] leading-relaxed text-white/85">
-            Through nearly two centuries of change — wars, depressions, growth, and transition — the congregation has remained rooted in Scripture and committed to the people of Montgomery. We carry forward the legacy of those who built this church while continuing to be the church of today and tomorrow.
-          </p>
-        </div>
+  <section
+    class="relative py-20 md:py-24"
+    style="background-image: linear-gradient(180deg, rgba(38,40,128,0.86) 0%, rgba(38,40,128,0.86) 100%), url('/images/Rectangle-3-2.jpg'); background-size: cover; background-position: center;"
+  >
+    <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="display-lg text-white mb-2">
+          Church History <span class="text-[#f4a111]">•</span> Since 1832
+        </h2>
+        <p class="font-mono text-[0.9rem] leading-relaxed text-white/85 mb-4">
+          Founded in 1832, First Presbyterian Church of Montgomery is one of the region's oldest congregations — a community that has weathered nearly two centuries of change while remaining a steady home of Reformed faith, grace, and gospel witness.
+        </p>
+        <p class="font-mono text-[0.9rem] leading-relaxed text-white/85">
+          Generation after generation, this church has been a place where families are formed, faith is deepened, and the love of God endures.
+        </p>
+      </div>
+      <div>
         <img
-          src="/images/about-history.jpg"
-          alt="Historical image: Winter's Day on Clinton Street, Montgomery, N.Y."
-          class="w-full h-full object-cover min-h-[300px]"
+          src="/images/Rectangle-23.jpg"
+          alt="First Presbyterian Church of Montgomery — historical"
+          class="w-full aspect-[4/5] object-cover rounded-tl-[90px] rounded-br-[90px] shadow-lg"
           loading="lazy"
         />
       </div>
     </div>
   </section>
+
+  <!-- ============ TICKER ============ -->
+  <section class="bg-white overflow-hidden py-5 border-y border-rule">
+    <div class="ticker-track flex gap-12 items-center whitespace-nowrap animate-marquee">
+      {['CHRIST CENTERED', 'COMMUNITY DRIVEN', 'WORSHIP', 'PEOPLE EMPOWERED',
+        'CHRIST CENTERED', 'COMMUNITY DRIVEN', 'WORSHIP', 'PEOPLE EMPOWERED'].map((item, i) => (
+        <span class="inline-flex items-center gap-4 font-mono text-sm tracking-[0.2em] uppercase text-navy font-semibold">
+          {item}
+          {i < 7 && <span class="text-crimson text-lg">•</span>}
+        </span>
+      ))}
+    </div>
+  </section>
+
+  <style>
+    @keyframes marquee {
+      from { transform: translateX(0); }
+      to { transform: translateX(-50%); }
+    }
+    .animate-marquee {
+      animation: marquee 20s linear infinite;
+    }
+  </style>
 
   <GetNotified />
 </BaseLayout>

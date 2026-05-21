@@ -113,10 +113,10 @@ export const PASTOR = {
   cta: 'Join Us this Sunday – All are Welcome!',
 };
 
-// Mission, Purpose, Values — from the Handbook2025.pdf.
+// Mission, Purpose, Values — from WordPress About page.
 export const MISSION = {
   mission: 'To open ourselves to God-seekers and to feed, nurture, and provide refuge for those in need.',
-  purpose: 'To care about others and our well-being with love.',
+  purpose: 'To build a community rooted in faith, fueled by compassion, and committed to making a lasting difference in the lives of those around us.',
   values: [
     'Commitment', 'Community', 'Compassion', 'Diversity', 'Integrity',
     'Joy', 'Lead', 'Learn', 'Love', 'Nurture',
@@ -124,34 +124,38 @@ export const MISSION = {
   ],
 };
 
-// Staff — roles corrected against Handbook2025.pdf "CHURCH STAFF" section.
+// Staff — from WordPress About page.
 export const STAFF = [
   { name: 'Carol Jellema', role: 'Secretary', avatar: '/images/Ellipse-4.png' },
-  { name: 'Heather Benedict', role: 'Financial Secretary', avatar: '/images/Ellipse-9.png' },
-  { name: 'Marcia Woodall', role: 'Music Director / Organist', avatar: '/images/Ellipse-10.png' },
-  { name: 'Wendy McNutt', role: 'Treasurer (Volunteer)', avatar: '/images/Ellipse-7.png' },
+  { name: 'Heather Benedict', role: 'Financial Treasurer', avatar: '/images/Ellipse-9.png' },
+  { name: 'Marcia Woodall', role: 'Choir Director', avatar: '/images/Ellipse-10.png' },
+  { name: 'Wendy McNutt', role: 'Treasurer', avatar: '/images/Ellipse-7.png' },
   { name: 'Cynthia Nokland', role: 'Clerk of Session', avatar: '/images/Ellipse-11.png' },
 ];
 
-// Elders — from the About page mockup.
+// Elders — from WordPress About page.
 export const ELDERS = [
-  { name: 'Cynthia Nokland', avatar: '/images/elder-cynthia.jpg' },
-  { name: 'Robion Long DeAngelo', avatar: '/images/elder-robion.jpg' },
-  { name: 'Robin McPhillips', avatar: '/images/elder-robin.jpg' },
-  { name: 'Beth Hoeffner', avatar: '/images/elder-beth.jpg' },
-  { name: 'Tom McNutt', avatar: '/images/elder-tom.jpg' },
-  { name: 'Joe Prior', avatar: '/images/elder-joe.jpg' },
+  { name: 'John Nokland', avatar: '/images/Ellipse-9-1.png' },
+  { name: 'Tom McNutt', avatar: '/images/Ellipse-10-1.png' },
+  { name: 'Beth Maida', avatar: '/images/Ellipse-27.png' },
+  { name: 'Deb Fagan', avatar: '/images/Ellipse-12.png' },
+  { name: 'Cynthia Nokland', avatar: '/images/Ellipse-14.png' },
+  { name: 'Joe Prior', avatar: '/images/Ellipse-23.png' },
+  { name: 'Robin Long DeAngelo', avatar: '/images/Ellipse-24.png' },
+  { name: 'Karla Ritter', avatar: '/images/Ellipse-13.png' },
 ];
 
-// Deacons — from About page mockup.
+// Deacons — from WordPress About page.
 export const DEACONS = [
-  { name: 'Debbie Fagen', avatar: '/images/deacon-debbie.jpg' },
-  { name: 'Donna Powels', avatar: '/images/deacon-donna.jpg' },
-  { name: 'Joe Maida', avatar: '/images/deacon-joe.jpg' },
-  { name: 'Ben McNutt', avatar: '/images/deacon-ben.jpg' },
-  { name: 'Emil Pignetti', avatar: '/images/deacon-emil.jpg' },
-  { name: 'Marcia Woodall', avatar: '/images/deacon-marcia.jpg' },
-  { name: 'Kim Hoeffner', avatar: '/images/deacon-kim.jpg' },
+  { name: 'Joe Maida', avatar: '/images/Ellipse-15.png' },
+  { name: 'Jillian Maida', avatar: '/images/Ellipse-16.png' },
+  { name: 'Ben McNutt', avatar: '/images/Ellipse-17.png' },
+  { name: 'Emil Pignetti', avatar: '/images/Ellipse-18.png' },
+  { name: 'Joe Maida', avatar: '/images/Ellipse-19.png' },
+  { name: 'Marcia Woodall', avatar: '/images/Ellipse-20.png' },
+  { name: 'Kim Hoeffner', avatar: '/images/Ellipse-21.png' },
+  { name: 'Doug Hantush', avatar: '/images/Ellipse-22.png' },
+  { name: 'Laura Aiello', avatar: '/images/Ellipse-26.png' },
 ];
 
 // Session Committees — from Handbook2025.pdf.

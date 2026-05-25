@@ -14,7 +14,7 @@ export const CHURCH = {
   description:
     'First Presbyterian Church of Montgomery — a welcoming Presbyterian (PCUSA) congregation in Orange County, NY since 1832. Sunday worship at 10:00 AM. All are welcome.',
   url: 'https://fpcmontgomery.org',
-  email: 'fpcmont137@frontiernet.net',
+  email: 'fpcmontgomery@gmail.com',
   emailDomain: {
     welcome: 'welcome@fpcmontgomery.org', // planned per CYNTHIA-SEAN
     pastor: 'pastor@fpcmontgomery.org',

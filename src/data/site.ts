@@ -253,7 +253,7 @@ export const WORSHIP_SACRAMENTS = [
   },
   {
     title: 'Marriage / Weddings',
-    body: 'Baptism at First Presbyterian Church of Montgomery is a beautiful and sacred moment — a public declaration of God\'s covenant promise and the beginning of a lifelong journey of faith within the community of believers.',
+    body: 'We believe marriage is a sacred covenant and a joyful celebration, and it is our privilege to walk with couples as they begin their life together — offering guidance, pastoral support, and a beautiful space to exchange vows before God and loved ones.',
     image: '/images/Rectangle-49.jpg',
     bg: 'white',
     primaryCta: { label: 'CLICK HERE FOR MORE INFO', href: '/contact?topic=weddings' },

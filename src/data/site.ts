@@ -152,7 +152,6 @@ export const DEACONS = [
   { name: 'Jillian Maida', avatar: '/images/Ellipse-16.png' },
   { name: 'Ben McNutt', avatar: '/images/Ellipse-17.png' },
   { name: 'Emil Pignetti', avatar: '/images/Ellipse-18.png' },
-  { name: 'Joe Maida', avatar: '/images/Ellipse-19.png' },
   { name: 'Marcia Woodall', avatar: '/images/Ellipse-20.png' },
   { name: 'Kim Hoeffner', avatar: '/images/Ellipse-21.png' },
   { name: 'Doug Hantush', avatar: '/images/Ellipse-22.png' },

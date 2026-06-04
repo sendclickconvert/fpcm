@@ -148,7 +148,7 @@ export const ELDERS = [
 
 // Deacons — from WordPress About page.
 export const DEACONS = [
-  { name: 'Joe Maida', avatar: '/images/joe-maida.jpg' },
+  { name: 'Joe Maida', avatar: '/images/joe-maida.jpg', objectPosition: 'top' },
   { name: 'Jillian Maida', avatar: '/images/Ellipse-16.png' },
   { name: 'Ben McNutt', avatar: '/images/Ellipse-17.png' },
   { name: 'Emil Pignetti', avatar: '/images/Ellipse-18.png' },

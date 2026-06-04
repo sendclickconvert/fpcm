@@ -113,7 +113,7 @@ const description = `About First Presbyterian Church of Montgomery — our missi
           {DEACONS.map((p) => (
             <div class="text-center">
               <div class="w-24 h-24 mx-auto mb-3 rounded-full overflow-hidden border-4 border-crimson/80 shadow">
-                <img src={p.avatar} alt={`Photo of ${p.name}`} class="w-full h-full object-cover" loading="lazy" />
+                <img src={p.avatar} alt={`Photo of ${p.name}`} class="w-full h-full object-cover" style={p.objectPosition ? `object-position: ${p.objectPosition}` : undefined} loading="lazy" />
               </div>
               <p class="font-display text-sm text-navy leading-tight">{p.name}</p>
             </div>

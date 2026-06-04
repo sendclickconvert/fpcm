@@ -143,6 +143,7 @@ export const ELDERS = [
   { name: 'Joe Prior', avatar: '/images/Ellipse-23.png' },
   { name: 'Robin Long DeAngelo', avatar: '/images/Ellipse-24.png' },
   { name: 'Karla Ritter', avatar: '/images/Ellipse-13.png' },
+  { name: 'Beth Hoeffner', avatar: '/images/beth-hoeffner.jpg' },
 ];
 
 // Deacons — from WordPress About page.

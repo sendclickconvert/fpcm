@@ -156,6 +156,7 @@ export const DEACONS = [
   { name: 'Kim Hoeffner', avatar: '/images/Ellipse-21.png' },
   { name: 'Doug Hantush', avatar: '/images/Ellipse-22.png' },
   { name: 'Laura Aiello', avatar: '/images/Ellipse-26.png' },
+  { name: 'Abby Nokland', avatar: '/images/abby-nokland.jpg', objectPosition: 'top center' },
 ];
 
 // Session Committees — from Handbook2025.pdf.

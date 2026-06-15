@@ -239,8 +239,9 @@ export const WORSHIP_SACRAMENTS = [
   {
     title: 'Confirmation',
     body: 'Confirmation is a meaningful milestone in which young members of our congregation publicly affirm the faith into which they were baptized, committing to walk with Christ and take their place as full communing members of the church.',
-    image: '/images/confirmation-class-2026.jpg',
+    image: '/images/confirmation-class-2026.png',
     bg: 'white',
+    imageContain: true,
     primaryCta: { label: 'CLICK HERE FOR MORE INFO', href: '/contact?topic=confirmation' },
     secondaryCta: { label: 'CONFIRMATION APPLICATION', href: '/contact?topic=confirmation-application' },
   },

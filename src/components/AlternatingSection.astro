@@ -20,9 +20,11 @@ interface Props {
   secondaryCta?: CTA;
   /** Row index — used to alternate which corners are rounded. */
   index?: number;
+  /** Use object-contain instead of object-cover (good for photos that shouldn't be cropped/enlarged). */
+  imageContain?: boolean;
 }
 
-const { title, body, image, bg = 'cream', align = 'left', primaryCta, secondaryCta, index = 0 } = Astro.props;
+const { title, body, image, bg = 'cream', align = 'left', primaryCta, secondaryCta, index = 0, imageContain = false } = Astro.props;
 
 const wrapperBg = bg === 'navy' ? 'bg-navy text-white' : bg === 'white' ? 'bg-white' : 'triangle-pattern';
 const titleClass = bg === 'navy' ? 'text-white' : '';
@@ -46,7 +48,11 @@ const cornerClass = index % 2 === 0
       <img
         src={image}
         alt=""
-        class:list={['w-full aspect-[4/5] object-cover bg-rule', cornerClass]}
+        class:list={[
+          'w-full bg-rule',
+          imageContain ? 'aspect-[3/4] object-contain' : 'aspect-[4/5] object-cover',
+          cornerClass
+        ]}
         loading="lazy"
       />
     </div>

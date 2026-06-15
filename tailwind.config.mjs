@@ -24,8 +24,8 @@ export default {
         display: ['"Cormorant Garamond"', 'Georgia', 'serif'],
         // UI sans — DM Sans
         sans: ['"DM Sans"', 'system-ui', 'sans-serif'],
-        // Body & eyebrows — DM Mono (typewriter feel)
-        mono: ['"DM Mono"', 'ui-monospace', 'monospace'],
+        // Body & eyebrows — Georgia (classic serif)
+        mono: ['Georgia', 'serif'],
       },
       maxWidth: {
         container: '1200px',

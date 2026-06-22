@@ -16,7 +16,7 @@ import { CHURCH } from '../data/site';
       <!-- Title + meta -->
       <div class="flex-1 min-w-0">
         <p class="eyebrow-light text-white/85 mb-1">Upcoming Event</p>
-        <h2 id="upcoming-event-title" class="display-md text-white mb-2 leading-tight font-semibold">Sunday Worship Service</h2>
+        <h2 id="upcoming-event-title" class="display-md text-white mb-2 leading-tight font-semibold">BBQ — Coffee &amp; Conversation</h2>
         <ul class="flex flex-col sm:flex-row sm:flex-wrap gap-x-5 gap-y-1 font-mono text-[0.78rem] text-white/85">
           <li class="inline-flex items-center gap-2">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
@@ -68,7 +68,7 @@ import { CHURCH } from '../data/site';
     const daysUntil = day === 0 ? 0 : 7 - day;
     const candidate = new Date(now);
     candidate.setDate(now.getDate() + daysUntil);
-    candidate.setHours(10, 0, 0, 0);
+    candidate.setHours(11, 30, 0, 0);
     // If today is Sunday but the service has already started, jump to next Sunday
     if (candidate.getTime() <= now.getTime()) {
       candidate.setDate(candidate.getDate() + 7);

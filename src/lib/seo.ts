@@ -63,7 +63,7 @@ export function homepageSchema() {
           eventSchedule: {
             '@type': 'Schedule',
             byDay: 'https://schema.org/Sunday',
-            startTime: '10:00',
+            startTime: '11:30',
           },
           location: {
             '@type': 'Place',

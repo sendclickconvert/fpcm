@@ -12,7 +12,7 @@ export const CHURCH = {
   shortName: 'First Presbyterian Church',
   tagline: 'Christ Center · Community Driven · Worship',
   description:
-    'First Presbyterian Church of Montgomery — a welcoming Presbyterian (PCUSA) congregation in Orange County, NY since 1832. Sunday worship at 10:00 AM. All are welcome.',
+    'First Presbyterian Church of Montgomery — a welcoming Presbyterian (PCUSA) congregation in Orange County, NY since 1832. Sunday worship at 11:30 AM. All are welcome.',
   url: 'https://fpcmontgomery.org',
   email: 'fpcmontgomery@gmail.com',
   emailDomain: {
@@ -46,7 +46,7 @@ export const CHURCH = {
     instagram: 'https://www.instagram.com/fpcmontgomery',
     linkedin: 'https://www.linkedin.com/company/fpcmontgomery',
   },
-  service: { day: 'Sunday', time: '10:00 AM', label: 'Sunday Worship — 10:00 AM' },
+  service: { day: 'Sunday', time: '11:30 AM', label: 'Sunday Worship — 11:30 AM' },
 };
 
 // Primary nav — order from Figma top bar.
@@ -89,7 +89,7 @@ export const UPCOMING_EVENT = {
   title: 'A Celebration of Community',
   dateDay: '22',
   dateMonth: 'MAR',
-  startTime: 'Start Time - 10:00 AM',
+  startTime: 'Start Time - 11:30 AM',
   location: '137 Clinton Street, Montgomery, NY, 12549',
   startISO: '2026-03-22T10:00:00-04:00',
 };
@@ -335,7 +335,7 @@ export const MINISTRIES_LIST = [
 export const IM_NEW_FAQS = [
   {
     q: 'Worship',
-    a: 'Sunday worship begins at 10:00 AM in the sanctuary at 137 Clinton Street. Services typically last about an hour and include hymns, prayer, Scripture readings, a sermon, and (on the first Sunday of each month) communion. Dress is come-as-you-are.',
+    a: 'Sunday worship begins at 11:30 AM in the sanctuary at 137 Clinton Street. Services typically last about an hour and include hymns, prayer, Scripture readings, a sermon, and (on the first Sunday of each month) communion. Dress is come-as-you-are.',
   },
   {
     q: 'Where do I go on Sundays?',

@@ -324,7 +324,7 @@ export const MINISTRIES_LIST = [
   {
     title: 'Westminster Guild',
     body: 'The women of the First Presbyterian Church of Montgomery are made up of all women in the church. They are part of a community with big sales, yard sales, cookie exchange, pie contest, and meet monthly on the second Sunday after worship. Come join the ladies for a late lunch and a program from a fellow member.',
-    image: '/images/Rectangle-28.jpg',
+    image: '/images/westminster-guild.jpg',
     align: 'left',
   },
 ];

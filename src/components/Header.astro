@@ -5,6 +5,11 @@ const isActive = (href: string) =>
   href === '/' ? pathname === '/' : pathname === href || pathname.startsWith(href + '/');
 ---
 
+<div id="announcement-bar" class="bg-crimson text-white text-center text-sm font-sans px-10 py-2.5 relative leading-snug">
+  <span class="font-semibold">2026 Per Capita:</span> Our regional &amp; national per capita commitment is <span class="font-semibold">$41.31 per member</span>. Please consider an extra gift alongside your regular stewardship pledge to help cover this foundational ministry expense.
+  <button id="close-announcement" aria-label="Dismiss announcement" class="absolute right-3 top-1/2 -translate-y-1/2 text-white/80 hover:text-white text-xl leading-none px-1">&#x2715;</button>
+</div>
+
 <header id="site-header" class="sticky top-0 z-50 bg-white shadow-sm transition-shadow duration-200">
   <div class="max-w-container mx-auto px-6 lg:px-8 py-3 flex items-center justify-between gap-4">
 
@@ -101,5 +106,11 @@ const isActive = (href: string) =>
     iconMenu?.classList.toggle('hidden', willOpen);
     iconClose?.classList.toggle('hidden', !willOpen);
     btn?.setAttribute('aria-expanded', String(!!willOpen));
+  });
+
+  const bar = document.getElementById('announcement-bar');
+  const closeBtn = document.getElementById('close-announcement');
+  closeBtn?.addEventListener('click', () => {
+    bar?.classList.add('hidden');
   });
 </script>

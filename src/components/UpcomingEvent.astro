@@ -16,11 +16,11 @@ import { CHURCH } from '../data/site';
       <!-- Title + meta -->
       <div class="flex-1 min-w-0">
         <p class="eyebrow-light text-white/85 mb-1">Upcoming Event</p>
-        <h2 id="upcoming-event-title" class="display-md text-white mb-2 leading-tight font-semibold">BBQ — Coffee &amp; Conversation</h2>
+        <h2 id="upcoming-event-title" class="display-md text-white mb-2 leading-tight font-semibold">Communion</h2>
         <ul class="flex flex-col sm:flex-row sm:flex-wrap gap-x-5 gap-y-1 font-mono text-[0.78rem] text-white/85">
           <li class="inline-flex items-center gap-2">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
-            Start Time — 11:30 AM
+            During Worship — 11:30 AM
           </li>
           <li class="inline-flex items-center gap-2">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -62,18 +62,21 @@ import { CHURCH } from '../data/site';
   const pad = (n: number) => String(n).padStart(2, '0');
 
   function nextSunday(): Date {
-    const now = new Date();
-    // Build a candidate: this Sunday (or next) at 10:00 AM local time
-    const day = now.getDay(); // 0 = Sunday
-    const daysUntil = day === 0 ? 0 : 7 - day;
-    const candidate = new Date(now);
-    candidate.setDate(now.getDate() + daysUntil);
-    candidate.setHours(11, 30, 0, 0);
-    // If today is Sunday but the service has already started, jump to next Sunday
-    if (candidate.getTime() <= now.getTime()) {
-      candidate.setDate(candidate.getDate() + 7);
+    // Pinned to Communion — July 5, 2026 at 11:30 AM
+    const target = new Date(2026, 6, 5); // Month is 0-indexed: 6 = July
+    target.setHours(11, 30, 0, 0);
+    // If that date has passed, fall back to the next upcoming Sunday
+    if (target.getTime() <= Date.now()) {
+      const now = new Date();
+      const day = now.getDay();
+      const daysUntil = day === 0 ? 0 : 7 - day;
+      const fallback = new Date(now);
+      fallback.setDate(now.getDate() + daysUntil);
+      fallback.setHours(11, 30, 0, 0);
+      if (fallback.getTime() <= Date.now()) fallback.setDate(fallback.getDate() + 7);
+      return fallback;
     }
-    return candidate;
+    return target;
   }
 
   function init() {

@@ -34,7 +34,7 @@ const app = express();
 
 // 1. Security headers on every response
 app.use((_req, res, next) => {
-  res.setHeader('Content-Security-Policy-Report-Only', CSP); // Report-Only until verified
+  res.setHeader('Content-Security-Policy', CSP);
   res.setHeader('X-Content-Type-Options', 'nosniff');
   res.setHeader('X-Frame-Options', 'DENY');
   res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');

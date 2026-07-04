@@ -1,0 +1,24 @@
+Stop before the Incognito pass — there's one thing the agent did that you need to correct first, because it's the **exact bug that cost you three extra rounds on nuglass**, and it'll bite the same way here.
+
+**The agent put the CSP in `src/middleware.ts`, not `server.mjs`.** Look at what it wrote: *"Astro middleware is the right place — it runs on every request through the node adapter."* That's the reasoning that failed on nuglass. The problem: **Astro middleware does NOT run for prerendered pages at request time** — and on this site, the homepage and worship page (the ones with your YouTube embeds) are almost certainly prerendered. So the headers will land on the `/api/*` routes and any SSR pages, but the **prerendered pages may come back with no CSP at all** — which is exactly the split-behavior bug you spent four scans chasing on nuglass.
+
+This is the single most important lesson from today, and it's in your fleet kit under "fossil middleware / prerender gap": on hybrid sites, headers belong in the **`server.mjs`/Express layer**, which wraps *every* response — static and dynamic — not in Astro middleware, which skips prerendered pages.
+
+So before the Incognito pass, have the agent **verify where the headers actually land**:
+
+> Run this against the built/running server and check BOTH page types:
+> ```
+> curl -sI http://localhost:PORT/            | grep -i content-security   # homepage (prerendered)
+> curl -sI http://localhost:PORT/worship     | grep -i content-security   # prerendered
+> curl -sI http://localhost:PORT/api/subscribe | grep -i content-security # SSR/API route
+> ```
+> If the CSP shows on the API route but is MISSING on the homepage/worship, the middleware isn't covering prerendered pages — move the header logic into server.mjs (Express-level), same as nuglass.
+
+Two outcomes:
+
+- **CSP present on all three** → their middleware placement happens to work here (possible if the node adapter's standalone server runs middleware for everything in this config), and you're clear to do the Incognito pass.
+- **CSP missing on the homepage** → that's the prerender gap. Move it to `server.mjs` before you test, or your Incognito pass will look clean *because the homepage has no CSP at all* — a false pass that would've fallen apart the moment you enforced.
+
+That last point is why this matters *before* you open Incognito: if the homepage is serving no CSP, the console will be clean for the wrong reason, you'd enforce, and *then* discover the YouTube embed was never actually being governed. Confirm the header lands on the prerendered homepage first.
+
+So: have the agent run those three curls and tell you whether the CSP is on the homepage response. If yes → do your Incognito pass exactly as it listed. If no → move to `server.mjs`, then test. What do the three curl checks show?

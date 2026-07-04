@@ -24,7 +24,7 @@ const CSP = [
   "img-src 'self' data: https://i.ytimg.com https://img.youtube.com",
   "font-src 'self' https://fonts.gstatic.com",
   "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
-  "script-src 'self' 'unsafe-inline'",
+  "script-src 'self' 'sha256-qsdpPrgtkhinAzv3m1H9Dr+YhKOOORhSBasKhPxbLIo='",
   "connect-src 'self'",
   "frame-src https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://maps.google.com",
   "upgrade-insecure-requests",

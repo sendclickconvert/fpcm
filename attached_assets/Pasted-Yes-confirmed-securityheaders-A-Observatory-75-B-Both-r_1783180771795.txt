@@ -1,0 +1,23 @@
+Yes — confirmed: securityheaders A, Observatory 75/B. Both real, both correct. And now that I can see the raw headers and the full Observatory breakdown, I can tell you exactly where the points went and correct one thing — your agent's diagnosis of the "capped at A" warning was wrong, and its fix won't move the grade.
+The securityheaders "capped at A" warning is NOT about Cross-Origin-Opener-Policy. Read the actual warning text:
+
+"This policy contains 'unsafe-inline' which is dangerous in the script-src directive."
+
+Look at your raw CSP — there it is: script-src 'self' 'unsafe-inline'. That 'unsafe-inline' in script-src is what's capping you at A, and it's the same thing costing you the −20 on Observatory's CSP test. Your agent went and added Cross-Origin-Opener-Policy (which was already in your headers, by the way — it's right there in the raw dump: cross-origin-opener-policy: same-origin). So that republish won't change the grade. The real lever is the 'unsafe-inline' in script-src.
+And here's the good news — this is genuinely fixable, and you already fixed it once on nuglass. Remember: Astro bundles its <script> blocks into external hashed files, so script-src almost never needs 'unsafe-inline'. On nuglass, removing it took you from CSP-failing to CSP-passing and jumped the score. Same move here. The 'unsafe-inline' in script-src looks like it got left in from the earlier config (it's correctly still in style-src for Astro's scoped styles — that one stays — but it shouldn't be in script-src).
+So the one real optimization, and it's the same proven fix:
+
+Remove 'unsafe-inline' from script-src only (leave it in style-src). So script-src 'self' 'unsafe-inline' → script-src 'self'. Rebuild, and verify in Incognito that the YouTube embed, the map, the countdown timer, and both forms still work (if anything has a genuinely inline script, the console will flag it and we'd add a hash instead of putting 'unsafe-inline' back).
+
+That single change should:
+
+securityheaders A → A+ (the cap warning clears)
+Observatory 75 → ~95 (the −20 CSP test flips to pass; only the −5 cookie remains, which is the unfixable Google Frontend GAESA cookie)
+
+The other Observatory items are all "leave them":
+
+Cookies −5 → the GAESA edge cookie, not yours, unfixable, and it's only −5 because HSTS mitigates it. Accept.
+HSTS "consider preloading" → do NOT preload. That needs includeSubDomains + preload submitted permanently, and while FPC has no subdomain today, preload is a hard commitment you don't want on a client site. Skip — it's a suggestion, not a deduction.
+SRI / CORP → "bonus," blank, not costing you anything. Skip.
+
+So tell the agent: the cap is 'unsafe-inline' in script-src, not COOP — remove it from script-src only, keep it in style-src, rebuild, and re-verify the embeds/forms in Incognito. Then re-scan.

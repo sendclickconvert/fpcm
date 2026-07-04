@@ -17,8 +17,8 @@ const CSP = [
 
 export const onRequest = defineMiddleware((_ctx, next) => {
   return next().then((response) => {
-    // Report-Only: violations logged to console, nothing blocked yet
-    response.headers.set('Content-Security-Policy-Report-Only', CSP);
+    // Enforcing CSP
+    response.headers.set('Content-Security-Policy', CSP);
 
     // Safe hardening headers — no HSTS (let the edge handle it)
     response.headers.set('X-Content-Type-Options', 'nosniff');

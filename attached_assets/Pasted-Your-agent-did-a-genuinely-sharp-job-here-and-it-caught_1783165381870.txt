@@ -1,0 +1,26 @@
+Your agent did a genuinely sharp job here — and it caught a real bug in my CSP, so let me confirm all of it, because it changes two things.
+
+**The catch is legit — the agent is right, I was incomplete.** I gave you `i.ytimg.com` for YouTube thumbnails, but the worship page pulls them from `https://img.youtube.com/vi/{id}/mqdefault.jpg` — a **different hostname**. If you'd deployed my version and enforced, those thumbnails would've broken. **Add both to `img-src`:** `https://i.ytimg.com https://img.youtube.com`. Good catch on its part; take that correction.
+
+**The bigger finding — this site is architecturally different from the last two:** the forms post to **`/api/subscribe` and `/api/submit-form`** — real backend routes. That means:
+
+1. **It's genuinely hybrid/SSR with live server endpoints** — so headers *must* go through the `server.mjs`/Express layer that covers both prerendered pages and those API routes (which the agent's approach does). No static wrapper — correct.
+2. **Those two forms are now live functionality you must verify**, not mailto niceties. `form-action 'self'` + `connect-src 'self'` covers them since they're same-origin — but when you do the Report-Only pass, **actually submit both forms** and confirm they still hit their endpoints. A blocked newsletter or contact form on a live church site is a real failure.
+
+So the plan is right — say **go, Report-Only** — with these confirmations:
+
+- ✅ CSP as Report-Only in `server.mjs`
+- ✅ **No `Strict-Transport-Security` in Express** — let the edge's ride (the nuglass lesson; make sure the agent didn't slip it in)
+- ✅ `img-src 'self' data: https://i.ytimg.com https://img.youtube.com` (both thumbnail hosts)
+- ✅ `frame-src` includes both youtube.com + youtube-nocookie.com
+- ✅ `Permissions-Policy` includes `interest-cohort=()` to match the fleet
+
+Then the Incognito console pass, and here this matters more than any site so far because there's live stuff to break — check **all three** specifically:
+
+1. **Homepage + worship page** → does the **YouTube livestream actually play**, and do the **thumbnails render**? (frame-src + the two img hosts)
+2. **Newsletter form** → submit a test → does it succeed, no `connect-src`/`form-action` red line?
+3. **Contact form** → same.
+
+If all three are clean → enforce. If the video's black or a form throws, paste the red line before flipping.
+
+Give the agent the go. And confirm one thing back to me after the pass that I can't see: **does the livestream video actually play in Report-Only?** That's the single highest-risk element on this site.

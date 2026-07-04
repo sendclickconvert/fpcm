@@ -1,0 +1,31 @@
+**Do NOT enforce yet.** This is exactly why we did the live Report-Only pass — the contact page found a real violation that would have broken a live embed. Let me sort the noise from the one thing that matters.
+
+**The one real, must-fix violation (image 3, contact page):**
+```
+Framing 'https://maps.google.com/' violates ... "frame-src https://www.youtube.com https://www.youtube-nocookie.com"
+```
+**The contact page embeds a Google Map**, and your CSP doesn't allow it. This is the FPC version of the exact Google Maps issue nuglass had — and if you'd enforced without catching it, the map on the contact page would go blank. Report-Only did its job. **The fix: add `https://www.google.com` and `https://maps.google.com` to `frame-src`.** So that directive becomes:
+
+```
+frame-src https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com https://maps.google.com
+```
+
+**Everything else in those consoles is noise — here's why, so you don't chase it:**
+
+- **`upgrade-insecure-requests` ignored in report-only** — expected, clears on enforce. Ignore.
+- **`Grammarly.js`, `polyfills.js`, `vendor.js`, `tabs:outgoing.message.ready`** (images 1 & 2) — these are **browser-extension** injections (Grammarly, etc.). You're not in Incognito this time — top-right shows your full extension bar, no "Incognito" badge. Not your site. Ignore.
+- **"Permissions policy violation: unload is not allowed"** — that's a **Chrome default**, not from your headers (your Permissions-Policy doesn't even mention `unload`). Browser noise. Ignore.
+- **The YouTube embeds render fine** (image 2 shows the player + thumbnails loading) — `frame-src youtube` is working. The "Video Placeholder – Brainstorm Force" is just unfilled content, not a block.
+
+So the **only** action item is the Google Maps `frame-src` addition. One more nuance worth checking while the agent's in there: that map might also pull tiles/images from `maps.gstatic.com` — if the map renders as a blank/gray box after adding the frame sources, add `https://maps.gstatic.com https://*.googleapis.com` to `img-src`. But `frame-src` is the primary fix.
+
+So, tell the agent:
+
+> Don't enforce yet — Report-Only caught a real one. The **contact page embeds a Google Map** that's being blocked. Add `https://www.google.com https://maps.google.com` to `frame-src`. Rebuild, republish **still in Report-Only**, and I'll re-check the contact page console.
+
+Then the loop:
+1. Agent adds the two Google domains to `frame-src`, republishes **Report-Only**.
+2. You reload **fpcmontgomery.org/contact** (ideally Incognito, to silence the Grammarly noise) → confirm the **map renders** and the maps `frame-src` violation is **gone**.
+3. Clean → **then** enforce → republish → scan → A+.
+
+This is the system working exactly as designed — the live Report-Only pass caught a page-specific embed (contact-page map) that the homepage/worship checks never would have surfaced. Have the agent add the Google Maps frame sources, and tell me: after the next Report-Only republish, is the maps violation gone on the contact page?

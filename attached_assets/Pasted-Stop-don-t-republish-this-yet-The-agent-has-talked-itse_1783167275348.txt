@@ -1,0 +1,27 @@
+Stop — don't republish this yet. The agent has talked itself into a fragile setup while flailing at port conflicts, and it's now about to ship something it **never actually got to test**. Read its own words: *"Local port testing is blocked by stale processes… this needs a republish to verify."* That means it's asking you to publish an **unverified** custom server to a **live church website** and find out if it works by scanning production. That's backwards — you don't debug on production.
+
+But step back to the important part: **its first diagnosis was correct, and it contradicts what it told you 20 minutes ago.**
+
+> *"Confirmed — the prerender gap IS real in production. The standalone node server serves static HTML directly, bypassing Astro middleware."*
+
+Remember the curl check earlier that "passed"? That was on the **dev server**. Dev and production serve prerendered pages differently — dev ran middleware on everything, production doesn't. So the header lived on the preview (which is why your Incognito pass looked clean) but **not on the real deployment** (which is why the scanner shows D). This is the nuglass prerender gap after all — it just hid in the dev/prod difference. Worth logging that lesson hard: **verify on the built production server, not dev.**
+
+Now — the fix. The agent's instinct (move headers to a raw-HTTP `server.mjs` wrapper) is *right*, but the specific approach it landed on is the shaky one: importing `dist/server/entry.mjs`, which **auto-starts its own server on port 4321**, then running a second server on 5000. That double-server/port-juggling is exactly what fought it for the last 15 minutes, and it's brittle in production too. There's a cleaner, standard way that avoids the whole mess.
+
+Give the agent this direction instead:
+
+> Don't wrap or import `dist/server/entry.mjs` — it auto-starts and causes the port collision. Instead, use `@astrojs/node` in **middleware mode** (`mode: 'middleware'` in the adapter config) so the build exports a **handler** with no auto-start. Then a minimal Express `server.mjs` sets the 5 security headers on every response and mounts Astro's handler last — one server, one port, headers on static + SSR + API alike. This is the documented pattern for exactly this.
+
+Two absolute rules before it goes near Republish:
+
+1. **Test the production build locally first** — `npm run build && npm start`, then `curl -sI` the homepage (prerendered), the worship page, and `/api/subscribe`. **All three must show the CSP.** If the agent can't get a clean local port to prove that, it does **not** publish — full stop. "It'll work in prod, I just can't test it here" is not good enough for a live site.
+2. **Report-Only, not enforce, on the first republish of this new server.** The agent already flipped to enforce in code. Since the *delivery mechanism* just changed (middleware → server.mjs wrapper), treat it as new and unverified: republish it **Report-Only**, scan + Incognito-check that the YouTube embed and forms still work with headers *actually present in production this time*, and only then flip to enforce.
+
+So the sequence:
+1. Switch adapter to middleware mode + minimal Express `server.mjs` (headers on every response, no auto-start collision).
+2. `npm run build && npm start` → curl all three page types → **confirm CSP present on the prerendered homepage.**
+3. Republish **Report-Only**.
+4. Scan production — headers should finally show. Incognito: video plays, forms submit.
+5. Clean → flip to enforce → republish → final scan → A+.
+
+The reason to slow down precisely here: this is the first site where the dev-vs-prod gap fooled the earlier check, the agent is frustrated and reaching for "just publish and see," and it's a **live** site. That combination is exactly when a careful person stops and tests before shipping. Tell the agent to switch to middleware-mode + Express wrapper and **prove the header on the production build locally** — what do the three curls show once it does?

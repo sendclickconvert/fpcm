@@ -10,7 +10,7 @@ export default defineConfig({
   site: 'https://fpcmontgomery.org',
   output: 'hybrid',
   trailingSlash: 'never',
-  adapter: node({ mode: 'standalone' }),
+  adapter: node({ mode: 'middleware' }),
   vite: {
     server: {
       // Required for Replit preview iframe

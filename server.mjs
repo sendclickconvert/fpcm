@@ -1,17 +1,16 @@
 /**
- * Production entry point for FPC Montgomery.
+ * Production server — FPC Montgomery
  *
- * Astro's standalone entry auto-starts on port 4321 when imported and also
- * exports a `handler` function that handles every request (static + SSR).
- * We create our own HTTP server on PORT (5000) using that same handler,
- * injecting security headers into every response before it leaves.
+ * Adapter is in middleware mode: dist/server/entry.mjs exports a handler
+ * with NO auto-start. This file is the single server on PORT (5000).
  *
- * Result: port 4321 runs headlessly (Replit doesn't expose it),
- * port 5000 is what the world sees — with all security headers present.
- * No HSTS in Express; Replit's edge layer provides it.
+ * Security headers are set by Express middleware on every response —
+ * static pages, SSR pages, and API routes alike.
+ * No HSTS: Replit's edge layer provides it.
  */
 
-import http from 'node:http';
+import express from 'express';
+import { handler as astroHandler } from './dist/server/entry.mjs';
 
 const HOST = process.env.HOST ?? '0.0.0.0';
 const PORT = parseInt(process.env.PORT ?? '5000', 10);
@@ -31,16 +30,24 @@ const CSP = [
   "upgrade-insecure-requests",
 ].join('; ');
 
-// Boot Astro standalone (auto-starts on 4321, exports handler)
-const { handler } = await import('./dist/server/entry.mjs');
+const app = express();
 
-http.createServer((req, res) => {
-  res.setHeader('Content-Security-Policy', CSP);
+// 1. Security headers on every response
+app.use((_req, res, next) => {
+  res.setHeader('Content-Security-Policy-Report-Only', CSP); // Report-Only until verified
   res.setHeader('X-Content-Type-Options', 'nosniff');
   res.setHeader('X-Frame-Options', 'DENY');
   res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
   res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=(), interest-cohort=()');
-  handler(req, res);
-}).listen(PORT, HOST, () => {
+  next();
+});
+
+// 2. Serve prerendered static assets (CSS, JS, images, prerendered HTML)
+app.use(express.static('dist/client/'));
+
+// 3. Astro handler for SSR routes and API endpoints
+app.use(astroHandler);
+
+app.listen(PORT, HOST, () => {
   console.log(`[@fpcmontgomery] Server listening on http://${HOST}:${PORT}`);
 });

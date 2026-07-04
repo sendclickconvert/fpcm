@@ -1,0 +1,21 @@
+This is real progress — the headers are now reaching production (that was the whole battle), and both scores make sense. But read them carefully, because the securityheaders **A has a red CSP**, and that tells you something specific: **you're still in Report-Only.**
+
+Look at image 1: five headers green, but **Content-Security-Policy is red (✕)**. That's not a failure — securityheaders only counts CSP as "present" when it's *enforcing*. You published the Report-Only build, so the CSP is there and logging but not enforced yet — exactly why it shows red while the other five are green, and why Observatory gives **70/B** (it sees the report-only CSP but doesn't award full credit).
+
+So this is the **halfway state, and it's correct** — headers finally in production, CSP still in its safe test mode. You're one step from done. But **do the Incognito verification now, in production, before flipping** — because this is the first time the CSP is actually live on the real site (every earlier "clean" pass was dev or preview). This is the moment that was fooling us.
+
+In Incognito on **fpcmontgomery.org** (the live domain, not preview), F12 → Console:
+
+1. **Homepage** → YouTube livestream **plays**?
+2. **Worship page** → thumbnails **render**?
+3. **Newsletter form** → submits → thank-you?
+4. **Contact form** → submits → thank-you?
+5. Console → any red *"violates Content Security Policy"* lines?
+
+If all four work and the console's clean → tell the agent **"clean — flip to enforce"**, republish once more, and:
+- securityheaders → **CSP flips green → A+**
+- Observatory → jumps from 70 to **~100+/A+** (enforced CSP + the edge HSTS bonus, same as nuglass/LOHV)
+
+**Do not skip the live Incognito check this round.** On every prior site the report-only pass was on dev/preview; here the dev check literally lied to us once already. So confirm the video + forms on the *published* domain in report-only, where a violation is logged but harmless, before you enforce. If the livestream plays live, you're safe to flip.
+
+Run the four checks on the live site — does the homepage video play, and is the console clean?

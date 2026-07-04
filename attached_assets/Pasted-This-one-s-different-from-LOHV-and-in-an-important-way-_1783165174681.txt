@@ -1,0 +1,45 @@
+This one's different from LOHV — and in an important way. FPC Montgomery has **real, wired third-party integrations**, not placeholders. Most notably: **YouTube livestream embeds right on the homepage** (`youtube.com/embed/…` for Sunday services), plus a **/giving donation page** and a **newsletter signup form**. So this is the first site where a too-tight CSP would actually break visible, in-use features. Let me check the giving page before I hand you the CSP, since a church's donate flow is the highest-stakes piece.Good — that clarifies the risk profile. Here's the full read on FPC Montgomery:
+
+**The donation page is NOT wired to a processor yet.** The /giving page says *"Coming soon — secure online giving"* and currently uses **QR code + mailed checks + a pledge-card request** (which just links to `/contact?topic=giving`). So there's **no ActBlue/PayPal/Tithe.ly iframe to worry about today** — same "future integration" flag as LOHV, not a live donation embed. Good.
+
+**The one integration that IS live and matters: the YouTube livestream embed on the homepage.** That's `youtube.com/embed/…` in an iframe, and it's the thing a tight CSP will blank out. So unlike LOHV (which needed no `frame-src` at all), this site's CSP **must** include YouTube or the Sunday-services livestream goes black on the homepage — for a church, that's the most-watched element on the site.
+
+**Also live:** a **newsletter signup form** (Full Name + Email → "Sign Up") on the homepage and giving page. Where it posts decides two things — static-vs-SSR and whether `connect-src` needs a provider domain.
+
+So the checks + CSP:
+
+**Have the agent confirm:**
+- **Newsletter form destination** → mailto? an external provider (Mailchimp/Constant Contact/Brevo)? or an `/api/` route? This is the static-vs-hybrid determiner *and* tells us the `connect-src`/`form-action` domain.
+- **Subdomain?** Not on your CRST/Timber/eForest list → almost certainly none (nuglass/LOHV path, let edge HSTS ride). Confirm no `www.`/subdomain.
+- **Fonts** (likely Google, same pattern).
+
+**Starting CSP** (nuglass base + YouTube, since the embed is live):
+
+```js
+const CSP = [
+  "default-src 'self'",
+  "base-uri 'self'",
+  "object-src 'none'",
+  "frame-ancestors 'none'",
+  "form-action 'self' mailto:",   // + newsletter provider domain if it POSTs externally
+  "img-src 'self' data: https://i.ytimg.com",   // ytimg = YouTube thumbnails
+  "font-src 'self' https://fonts.gstatic.com",
+  "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+  "script-src 'self'",
+  "connect-src 'self'",   // + newsletter provider if external
+  "frame-src https://www.youtube.com https://www.youtube-nocookie.com",  // livestream embed
+  "upgrade-insecure-requests",
+].join("; ");
+```
+
+**The Report-Only console pass matters more here than on LOHV** — you have a live embed and a live form to verify, not a bare surface. When you check in Incognito, specifically:
+
+1. **Homepage** → does the **YouTube livestream video actually play**? (This is the one most likely to throw a `frame-src` violation if I've got the wrong YouTube domain — some embeds use `youtube-nocookie.com`, which is why I included both.)
+2. **Newsletter form** → submit a test; watch for a `connect-src`/`form-action` violation revealing an external provider to whitelist.
+3. `/contact` and an interior page → general check.
+
+**Two flags to log for this site:**
+- **When online giving goes live** (the "coming soon" processor), that's a CSP update before launch — same donate-page rule as LOHV. Tell me the processor and I'll stage the lines.
+- **YouTube thumbnails:** if any video *thumbnails* render outside the iframe and look broken in Report-Only, that's the `i.ytimg.com` on `img-src` doing its job — I already included it.
+
+So: have the agent confirm the newsletter destination + no subdomain + fonts, deploy **Report-Only**, and do the Incognito pass with **special attention to the homepage YouTube video playing**. What does the agent find for the newsletter form — and does the livestream play clean under Report-Only?

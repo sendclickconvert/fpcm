@@ -41,7 +41,7 @@ export const CHURCH = {
   communityType: 'Village',
   social: {
     facebook: 'https://www.facebook.com/fpcmontgomery',
-    youtube: 'https://www.youtube.com/@fpcmontgomery',
+    youtube: 'https://www.youtube.com/@FirstPrebyterianchurchofmontg',
     twitter: 'https://twitter.com/fpcmontgomery',
     instagram: 'https://www.instagram.com/fpcmontgomery',
     linkedin: 'https://www.linkedin.com/company/fpcmontgomery',
@@ -173,16 +173,16 @@ export const COMMITTEES = [
 
 // Sunday Services Livestream — homepage video grid.
 export const LIVESTREAM = {
-  cta: { label: 'Watch More Sermons on YouTube', href: 'https://www.youtube.com/@fpcmontgomery' },
+  cta: { label: 'Watch More Sermons on YouTube', href: 'https://www.youtube.com/@FirstPrebyterianchurchofmontg' },
   main: {
     title: 'Sabbath Evening Worship',
     subtitle: 'First Pres Montgomery',
     image: '/images/livestream-sabbath-evening.jpg',
-    href: 'https://www.youtube.com/@fpcmontgomery',
+    href: 'https://www.youtube.com/@FirstPrebyterianchurchofmontg',
   },
   side: [
-    { title: 'Sabbath Morning Worship', subtitle: 'First Pres Montgomery', image: '/images/livestream-sabbath-morning.jpg', href: 'https://www.youtube.com/@fpcmontgomery' },
-    { title: 'Sunday School at', subtitle: 'First Pres Montgomery', image: '/images/livestream-sunday-school.jpg', href: 'https://www.youtube.com/@fpcmontgomery' },
+    { title: 'Sabbath Morning Worship', subtitle: 'First Pres Montgomery', image: '/images/livestream-sabbath-morning.jpg', href: 'https://www.youtube.com/@FirstPrebyterianchurchofmontg' },
+    { title: 'Sunday School at', subtitle: 'First Pres Montgomery', image: '/images/livestream-sunday-school.jpg', href: 'https://www.youtube.com/@FirstPrebyterianchurchofmontg' },
   ],
 };
 

@@ -11,7 +11,28 @@ import { homepageSchema } from '../lib/seo';
 const title = `First Presbyterian Church – Church Of Montgomery`;
 const description = `${CHURCH.shortName} — Sunday worship at 11:30 AM. ${CHURCH.address.street}, ${CHURCH.address.city}, ${CHURCH.address.region}. All are welcome.`;
 
-const YOUTUBE_ID = 'HJRzUQMhJMQ';
+// Fetch the two most recent uploads from the channel RSS feed (no API key needed)
+const YT_CHANNEL_ID = 'UC7M-1YBLjZl5MMtB13CLBXw';
+const YT_CHANNEL_URL = 'https://www.youtube.com/@FirstPresbyterianChurchofMontg';
+
+let youtubeVideos: Array<{ id: string; title: string }> = [
+  { id: 'LY1FjA6n1XA', title: 'Sunday Service' },
+  { id: 'JNovngbgMbw', title: 'Sunday Service' },
+];
+try {
+  const rss = await fetch(
+    `https://www.youtube.com/feeds/videos.xml?channel_id=${YT_CHANNEL_ID}`,
+    { signal: AbortSignal.timeout(4000) }
+  );
+  if (rss.ok) {
+    const xml = await rss.text();
+    const ids    = [...xml.matchAll(/<yt:videoId>([^<]+)<\/yt:videoId>/g)].map(m => m[1]);
+    const titles = [...xml.matchAll(/<media:title>([^<]+)<\/media:title>/g)].map(m => m[1]);
+    if (ids.length >= 2) {
+      youtubeVideos = ids.slice(0, 2).map((id, i) => ({ id, title: titles[i] ?? 'Sunday Service' }));
+    }
+  }
+} catch { /* use fallback IDs above */ }
 
 const infoBoxes = [
   { title: 'Inclusion Statement',            image: '/images/inc-statement-1.webp', href: '/about' },
@@ -134,32 +155,24 @@ const testimonials = [
 
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 mb-10">
         <h2 class="display-lg text-white">Sunday Services Livestream</h2>
-        <a href="https://www.youtube.com/@fpcmontgomery" target="_blank" rel="noopener" class="btn btn-crimson self-start md:self-auto">
+        <a href={YT_CHANNEL_URL} target="_blank" rel="noopener" class="btn btn-crimson self-start md:self-auto">
           Watch More Here
         </a>
       </div>
 
       <div class="grid md:grid-cols-2 gap-6 mb-10">
-        <div class="aspect-video w-full">
-          <iframe
-            class="w-full h-full"
-            src={`https://www.youtube.com/embed/${YOUTUBE_ID}?rel=0`}
-            title="First Presbyterian Church Sunday Service"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            loading="lazy"
-          ></iframe>
-        </div>
-        <div class="aspect-video w-full">
-          <iframe
-            class="w-full h-full"
-            src={`https://www.youtube.com/embed/${YOUTUBE_ID}?rel=0`}
-            title="First Presbyterian Church Sunday Service"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-            loading="lazy"
-          ></iframe>
-        </div>
+        {youtubeVideos.map((video) => (
+          <div class="aspect-video w-full">
+            <iframe
+              class="w-full h-full"
+              src={`https://www.youtube.com/embed/${video.id}?rel=0`}
+              title={video.title}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              loading="lazy"
+            ></iframe>
+          </div>
+        ))}
       </div>
 
     </div>

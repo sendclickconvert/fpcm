@@ -51,7 +51,7 @@ export function homepageSchema() {
         openingHoursSpecification: [
           {
             '@type': 'OpeningHoursSpecification',
-            dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+            dayOfWeek: ['Thursday'],
             opens: '09:00',
             closes: '13:00',
             description: 'Church office hours (reduced during pastoral search)',

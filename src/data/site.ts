@@ -29,9 +29,9 @@ export const CHURCH = {
     postalCode: '12549',
     country: 'US',
   },
-  // Office hours — 9 AM to 1 PM because no current pastor (per CYNTHIA-SEAN DOCX).
+  // Office hours — Thursdays only, 9 AM to 1 PM.
   hours: '9:00 AM – 1:00 PM',
-  hoursDays: 'Monday – Friday',
+  hoursDays: 'Thursday',
   presbytery: 'Hudson River',
   synod: 'The Northeast',
   founded: '1832',

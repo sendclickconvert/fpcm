@@ -5,6 +5,9 @@ import GetNotified from '../components/GetNotified.astro';
 import ContactForm from '../components/ContactForm.astro';
 import { CHURCH } from '../data/site';
 
+// This page reads the event topic from the URL, so it must be rendered per request.
+export const prerender = false;
+
 const title = `Contact | ${CHURCH.name}`;
 const description = `Contact First Presbyterian Church of Montgomery. 137 Clinton Street, Montgomery, NY 12549. Office hours ${CHURCH.hours}. ${CHURCH.phone}.`;
 
@@ -97,6 +100,41 @@ const topic = Astro.url.searchParams.get('topic') ?? undefined;
   <!-- ============ FORM (navy section, white card) ============ -->
   <section class="bg-navy text-white py-20 md:py-24">
     <div class="max-w-container mx-auto px-6 lg:px-8">
+      {topic === 'ready-and-rooted' && (
+        <div class="grid md:grid-cols-2 gap-10 lg:gap-16 items-center mb-14">
+          <div>
+            <p class="eyebrow-light text-white/85 mb-2">Sunday School 2026–2027</p>
+            <h2 class="display-lg text-white mb-4">Rooted &amp; Ready!</h2>
+            <p class="font-mono text-[0.92rem] leading-relaxed text-white/80 mb-5">
+              We are getting ready for a new year of Sunday School! Please review the registration form and share your child’s information, parent or guardian details, and any allergies or medical conditions.
+            </p>
+            <a
+              href="/images/rooted-and-ready-registration.jpg"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-crimson"
+            >
+              View Registration Form
+            </a>
+          </div>
+          <div class="flex justify-center">
+            <a
+              href="/images/rooted-and-ready-registration.jpg"
+              target="_blank"
+              rel="noopener"
+              aria-label="Open the Rooted and Ready Sunday School registration form"
+              class="block max-w-[230px] shadow-lg hover:shadow-xl transition-shadow"
+            >
+              <img
+                src="/images/rooted-and-ready-registration.jpg"
+                alt="Rooted and Ready 2026–2027 Sunday School registration form"
+                class="w-full h-auto"
+                loading="lazy"
+              />
+            </a>
+          </div>
+        </div>
+      )}
       <p class="font-mono text-sm text-white/85 text-center max-w-2xl mx-auto mb-10">
         Please fill out the form below, and we'll get back to you as soon as possible.
         We look forward to connecting with you!

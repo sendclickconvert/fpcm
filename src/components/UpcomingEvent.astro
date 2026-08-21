@@ -16,15 +16,15 @@ import { CHURCH } from '../data/site';
       <!-- Title + meta -->
       <div class="flex-1 min-w-0">
         <p class="eyebrow-light text-white/85 mb-1">Upcoming Event</p>
-        <h2 id="upcoming-event-title" class="display-md text-white mb-2 leading-tight font-semibold">Westminster Guild Meeting</h2>
+        <h2 id="upcoming-event-title" class="display-md text-white mb-2 leading-tight font-semibold">Outdoor Worship</h2>
         <ul class="flex flex-col sm:flex-row sm:flex-wrap gap-x-5 gap-y-1 font-mono text-[0.78rem] text-white/85">
           <li class="inline-flex items-center gap-2">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
-            After Worship — Lunch with Program
+            <span id="ev-time">10:30 AM</span>
           </li>
           <li class="inline-flex items-center gap-2">
             <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-            137 Clinton Street, Montgomery, NY 12549
+            <span id="ev-location">Montgomery Fire House, Montgomery, NY</span>
           </li>
         </ul>
       </div>
@@ -61,46 +61,58 @@ import { CHURCH } from '../data/site';
   const MONTHS = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
   const pad = (n: number) => String(n).padStart(2, '0');
 
-  function nextSunday(): Date {
-    // Pinned to Westminster Guild Meeting — August 9, 2026 after worship
-    const target = new Date(2026, 7, 9); // Month is 0-indexed: 7 = August
-    target.setHours(11, 30, 0, 0);
-    // If that date has passed, fall back to the next upcoming Sunday
-    if (target.getTime() <= Date.now()) {
-      const now = new Date();
-      const day = now.getDay();
-      const daysUntil = day === 0 ? 0 : 7 - day;
-      const fallback = new Date(now);
-      fallback.setDate(now.getDate() + daysUntil);
-      fallback.setHours(11, 30, 0, 0);
-      if (fallback.getTime() <= Date.now()) fallback.setDate(fallback.getDate() + 7);
-      return fallback;
-    }
-    return target;
+  const UPCOMING_EVENTS = [
+    {
+      date: new Date(2026, 7, 30, 10, 30), // Outdoor Worship
+      title: 'Outdoor Worship',
+      time: '10:30 AM',
+      location: 'Montgomery Fire House, Montgomery, NY',
+    },
+    {
+      date: new Date(2026, 8, 13, 10, 15), // Ready & Rooted
+      title: 'Ready & Rooted! Brunch & Registration',
+      time: '10:15 AM',
+      location: '137 Clinton Street, Montgomery, NY 12549',
+    },
+  ];
+
+  function nextEvent() {
+    return UPCOMING_EVENTS.find((event) => event.date.getTime() > Date.now()) ?? UPCOMING_EVENTS[UPCOMING_EVENTS.length - 1];
   }
 
   function init() {
     const elDay   = document.getElementById('ev-day');
     const elMonth = document.getElementById('ev-month');
+    const elTitle = document.getElementById('upcoming-event-title');
+    const elTime  = document.getElementById('ev-time');
+    const elLocation = document.getElementById('ev-location');
     const elD     = document.getElementById('cd-days');
     const elH     = document.getElementById('cd-hours');
     const elM     = document.getElementById('cd-mins');
     const elS     = document.getElementById('cd-secs');
-    if (!elDay || !elMonth || !elD || !elH || !elM || !elS) return;
+    if (!elDay || !elMonth || !elTitle || !elTime || !elLocation || !elD || !elH || !elM || !elS) return;
 
-    let target = nextSunday();
+    let event = nextEvent();
+    let target = event.date;
 
     // Set the date label
     elDay.textContent   = String(target.getDate());
     elMonth.textContent = MONTHS[target.getMonth()];
+    elTitle.textContent = event.title;
+    elTime.textContent = event.time;
+    elLocation.textContent = event.location;
 
     const tick = () => {
       const diff = target.getTime() - Date.now();
       if (diff <= 0) {
-        // Recalculate for the following Sunday
-        target = nextSunday();
+        // Move to the next event listed on the Events calendar.
+        event = nextEvent();
+        target = event.date;
         elDay.textContent   = String(target.getDate());
         elMonth.textContent = MONTHS[target.getMonth()];
+        elTitle.textContent = event.title;
+        elTime.textContent = event.time;
+        elLocation.textContent = event.location;
         return;
       }
       const totalSecs = Math.floor(diff / 1000);

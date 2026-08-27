@@ -57,6 +57,7 @@ export const NAV = [
   { label: 'Worship', href: '/worship' },
   { label: 'Ministries', href: '/ministries' },
   { label: 'Events & Gallery', href: '/events' },
+  { label: 'Newsletter', href: '/newsletter' },
   { label: 'Contact Us', href: '/contact' },
 ];
 
@@ -70,6 +71,7 @@ export const FOOTER = {
   more: [
     { label: 'Ministries', href: '/ministries' },
     { label: 'Events & Gallery', href: '/events' },
+    { label: 'Newsletter', href: '/newsletter' },
     { label: 'Giving', href: '/giving' },
     { label: 'Contact Us', href: '/contact' },
   ],

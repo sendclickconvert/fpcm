@@ -69,7 +69,11 @@ const OUTREACH_HIGHLIGHTS = [
       image={m.image}
       bg="cream"
       align={m.align as 'left' | 'right'}
-      primaryCta={{ label: 'Learn More Here', href: `/contact?topic=${m.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}` }}
+      primaryCta={
+        m.title === 'Sunday School'
+          ? { label: 'Register for Sunday School', href: '/sunday-school-registration' }
+          : { label: 'Learn More Here', href: `/contact?topic=${m.title.toLowerCase().replace(/[^a-z0-9]+/g, '-')}` }
+      }
       index={i}
     />
   ))}

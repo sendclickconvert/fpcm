@@ -1,0 +1,79 @@
+Build a new Sunday School Registration page for the FPCM Astro site with a hidden server-side webhook.
+
+1) CREATE `src/pages/sunday-school-registration.astro`
+
+Follow the same design language as the existing `/contact` page. Import BaseLayout, PageHero, GetNotified, and CHURCH from `../data/site`.
+
+Page structure:
+- PageHero at the top: title "Sunday School Registration", subtitle "Register your child for the 2026 program year", image "/images/sunday-school-hero.jpg", size "lg".
+- Triangle-pattern section with a short intro paragraph, then the form inside a card: `bg-white rounded-tl-[80px] rounded-br-[80px] p-6 md:p-10 max-w-4xl mx-auto`.
+- Form action: `/api/sunday-school-register` (our own server endpoint — NOT the GHL URL). Method POST.
+- Include hidden honeypot: `<input type="text" name="_hp" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />`
+- Group fields into visual sections, each with an eyebrow line and `display-md text-navy mb-4` heading.
+
+All inputs use the site's `.field !border-navy/30 w-full` class.
+
+Section "About the Child":
+- childFirstName (text, required, placeholder "Child's First Name *")
+- childLastName (text, required, placeholder "Child's Last Name *")
+- childDOB (date, required, label "Date of Birth *")
+- grade (select, required, options: Pre-K, Kindergarten, 1st, 2nd, 3rd, 4th, 5th, 6th, 7th, 8th)
+
+Section "Medical & Allergies":
+- allergies (textarea, 3 rows, placeholder "Please list any known allergies")
+- medicalNotes (textarea, 3 rows, placeholder "Any other medical information we should know")
+
+Section "Parent / Guardian":
+- parentFirstName (text, required)
+- parentLastName (text, required)
+- parentEmail (email, required)
+- parentPhone (tel, required)
+
+Section "Address":
+- address (text)
+- city (text)
+- state (select: NY, NJ, CT, PA, Other)
+- zip (text)
+
+Section "Emergency Contact":
+- emergencyContactName (text, required)
+- emergencyContactPhone (tel, required)
+
+Section "Additional Info":
+- photoPermission (radio group with Yes/No options, label "May we photograph your child for church use (bulletins, website, social media)?")
+- additionalChildren (textarea, 3 rows, placeholder "If registering additional children, please list their names, DOBs, and grades")
+- notes (textarea, 3 rows, placeholder "Anything else we should know?")
+
+Submit button: `<button type="submit" class="btn btn-crimson">Submit Registration</button>`
+
+Add a GetNotified section at the bottom.
+
+SEO: title `"Sunday School Registration | " + CHURCH.name`, description "Register your child for Sunday School at First Presbyterian Church of Montgomery. Weekly Christian education for Pre-K through 8th grade."
+
+2) CREATE `src/pages/api/sunday-school-register.ts`
+
+This is a server-side Astro API route. Follow the exact same pattern as `src/pages/api/submit-form.ts`.
+
+- `export const prerender = false;`
+- Handle POST
+- Read FormData from the request
+- Honeypot: if `_hp` field has any value, silently redirect to /thank-you (bot protection)
+- Build payload with all form fields above plus:
+    source: 'fpcmontgomery.org'
+    endpoint: '/api/sunday-school-register'
+    formType: 'sunday-school-registration'
+    submittedAt: new Date().toISOString()
+- HARDCODE the webhook URL directly in the file (not import.meta.env, not Replit Secrets). This URL must ONLY appear in this server-side file — never in the page template, never in the client-side HTML, never in any JS bundle:
+
+const webhookUrl = 'https://services.leadconnectorhq.com/hooks/4aqSFaFFHXf5vD5GdZUj/webhook-trigger/sauHxcxxjfs6j0cbWO1T';
+
+- Wrap the fetch to webhookUrl in try/catch — log errors server-side but never block the user
+- Redirect to /thank-you on success
+
+Because this file runs on the Node server (not the browser), the webhook URL is invisible to anyone viewing the page source, inspecting DevTools, or checking the network tab. The browser only ever sees requests to our own /api/sunday-school-register endpoint.
+
+3) LINK FROM THE MINISTRIES PAGE
+
+In `src/pages/ministries.astro`, find the loop that renders each ministry via AlternatingSection. For the "Sunday School" entry specifically, override its primaryCta to `{ label: 'Register for Sunday School', href: '/sunday-school-registration' }` instead of the default `/contact?topic=...` link.
+
+4) Rebuild and redeploy.

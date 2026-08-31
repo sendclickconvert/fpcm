@@ -1,0 +1,281 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import GetNotified from '../components/GetNotified.astro';
+import { CHURCH } from '../data/site';
+
+const title = `Sunday School Registration | ${CHURCH.name}`;
+const description = 'Register your child for Sunday School at First Presbyterian Church of Montgomery. Weekly Christian education for Pre-K through 8th grade.';
+---
+
+<BaseLayout title={title} description={description}>
+
+  <PageHero
+    title="Sunday School Registration"
+    subtitle="Register your child for the 2026 program year"
+    image="/images/Rectangle-25-1.jpg"
+    size="lg"
+  />
+
+  <!-- ============ INTRO + FORM ============ -->
+  <section class="triangle-pattern py-20 md:py-28">
+    <div class="max-w-container mx-auto px-6 lg:px-8">
+
+      <!-- Intro -->
+      <div class="max-w-2xl mb-12">
+        <p class="eyebrow-crimson mb-2">2026 Program Year</p>
+        <h2 class="display-xl mb-4">Register Your Child</h2>
+        <p class="font-mono text-[0.92rem] leading-relaxed text-ink-soft">
+          We are excited to welcome your family to Sunday School at First Presbyterian Church of Montgomery! Classes run weekly for children in Pre-K through 8th grade. Complete the form below and someone from the church will be in touch to confirm your registration. Questions? Call us at <a href="tel:+18454575383" class="text-crimson hover:underline">{CHURCH.phone}</a>.
+        </p>
+      </div>
+
+      <!-- Form card -->
+      <div class="bg-white rounded-tl-[80px] rounded-br-[80px] p-6 md:p-10 max-w-4xl mx-auto shadow-sm">
+        <form
+          action="/api/sunday-school-register"
+          method="POST"
+          class="space-y-12"
+        >
+          <!-- Honeypot — hidden from real users, traps bots -->
+          <input type="text" name="_hp" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
+
+          <!-- ── Section: About the Child ── -->
+          <fieldset class="space-y-4">
+            <div>
+              <p class="eyebrow-crimson mb-1">Section 1</p>
+              <h3 class="display-md text-navy mb-4">About the Child</h3>
+            </div>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <input
+                type="text"
+                name="childFirstName"
+                required
+                placeholder="Child's First Name *"
+                class="field !border-navy/30 w-full"
+              />
+              <input
+                type="text"
+                name="childLastName"
+                required
+                placeholder="Child's Last Name *"
+                class="field !border-navy/30 w-full"
+              />
+            </div>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <div class="flex flex-col gap-1">
+                <label for="childDOB" class="font-mono text-xs uppercase tracking-wider text-ink-soft">Date of Birth *</label>
+                <input
+                  type="date"
+                  id="childDOB"
+                  name="childDOB"
+                  required
+                  class="field !border-navy/30 w-full"
+                />
+              </div>
+              <div class="flex flex-col gap-1">
+                <label for="grade" class="font-mono text-xs uppercase tracking-wider text-ink-soft">Grade *</label>
+                <select
+                  id="grade"
+                  name="grade"
+                  required
+                  class="field !border-navy/30 w-full"
+                >
+                  <option value="" disabled selected>Select Grade *</option>
+                  <option value="Pre-K">Pre-K</option>
+                  <option value="Kindergarten">Kindergarten</option>
+                  <option value="1st">1st Grade</option>
+                  <option value="2nd">2nd Grade</option>
+                  <option value="3rd">3rd Grade</option>
+                  <option value="4th">4th Grade</option>
+                  <option value="5th">5th Grade</option>
+                  <option value="6th">6th Grade</option>
+                  <option value="7th">7th Grade</option>
+                  <option value="8th">8th Grade</option>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+
+          <hr class="border-rule" />
+
+          <!-- ── Section: Medical & Allergies ── -->
+          <fieldset class="space-y-4">
+            <div>
+              <p class="eyebrow-crimson mb-1">Section 2</p>
+              <h3 class="display-md text-navy mb-4">Medical &amp; Allergies</h3>
+            </div>
+            <textarea
+              name="allergies"
+              rows="3"
+              placeholder="Please list any known allergies"
+              class="field !border-navy/30 w-full resize-y"
+            ></textarea>
+            <textarea
+              name="medicalNotes"
+              rows="3"
+              placeholder="Any other medical information we should know"
+              class="field !border-navy/30 w-full resize-y"
+            ></textarea>
+          </fieldset>
+
+          <hr class="border-rule" />
+
+          <!-- ── Section: Parent / Guardian ── -->
+          <fieldset class="space-y-4">
+            <div>
+              <p class="eyebrow-crimson mb-1">Section 3</p>
+              <h3 class="display-md text-navy mb-4">Parent / Guardian</h3>
+            </div>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <input
+                type="text"
+                name="parentFirstName"
+                required
+                placeholder="Parent / Guardian First Name *"
+                class="field !border-navy/30 w-full"
+              />
+              <input
+                type="text"
+                name="parentLastName"
+                required
+                placeholder="Parent / Guardian Last Name *"
+                class="field !border-navy/30 w-full"
+              />
+            </div>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <input
+                type="email"
+                name="parentEmail"
+                required
+                placeholder="Email Address *"
+                class="field !border-navy/30 w-full"
+              />
+              <input
+                type="tel"
+                name="parentPhone"
+                required
+                placeholder="Phone Number *"
+                class="field !border-navy/30 w-full"
+              />
+            </div>
+          </fieldset>
+
+          <hr class="border-rule" />
+
+          <!-- ── Section: Address ── -->
+          <fieldset class="space-y-4">
+            <div>
+              <p class="eyebrow-crimson mb-1">Section 4</p>
+              <h3 class="display-md text-navy mb-4">Address</h3>
+            </div>
+            <input
+              type="text"
+              name="address"
+              placeholder="Street Address"
+              class="field !border-navy/30 w-full"
+            />
+            <div class="grid sm:grid-cols-3 gap-4">
+              <input
+                type="text"
+                name="city"
+                placeholder="City"
+                class="field !border-navy/30 w-full"
+              />
+              <select name="state" class="field !border-navy/30 w-full">
+                <option value="" disabled selected>State</option>
+                <option value="NY">NY</option>
+                <option value="NJ">NJ</option>
+                <option value="CT">CT</option>
+                <option value="PA">PA</option>
+                <option value="Other">Other</option>
+              </select>
+              <input
+                type="text"
+                name="zip"
+                placeholder="ZIP Code"
+                class="field !border-navy/30 w-full"
+              />
+            </div>
+          </fieldset>
+
+          <hr class="border-rule" />
+
+          <!-- ── Section: Emergency Contact ── -->
+          <fieldset class="space-y-4">
+            <div>
+              <p class="eyebrow-crimson mb-1">Section 5</p>
+              <h3 class="display-md text-navy mb-4">Emergency Contact</h3>
+            </div>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <input
+                type="text"
+                name="emergencyContactName"
+                required
+                placeholder="Emergency Contact Name *"
+                class="field !border-navy/30 w-full"
+              />
+              <input
+                type="tel"
+                name="emergencyContactPhone"
+                required
+                placeholder="Emergency Contact Phone *"
+                class="field !border-navy/30 w-full"
+              />
+            </div>
+          </fieldset>
+
+          <hr class="border-rule" />
+
+          <!-- ── Section: Additional Info ── -->
+          <fieldset class="space-y-6">
+            <div>
+              <p class="eyebrow-crimson mb-1">Section 6</p>
+              <h3 class="display-md text-navy mb-4">Additional Info</h3>
+            </div>
+
+            <!-- Photo permission radio group -->
+            <div>
+              <p class="font-mono text-[0.88rem] text-ink mb-3">
+                May we photograph your child for church use (bulletins, website, social media)?
+              </p>
+              <div class="flex flex-wrap gap-6">
+                <label class="inline-flex items-center gap-2 font-mono text-sm text-ink cursor-pointer">
+                  <input type="radio" name="photoPermission" value="Yes" class="accent-crimson w-4 h-4" />
+                  Yes
+                </label>
+                <label class="inline-flex items-center gap-2 font-mono text-sm text-ink cursor-pointer">
+                  <input type="radio" name="photoPermission" value="No" class="accent-crimson w-4 h-4" />
+                  No
+                </label>
+              </div>
+            </div>
+
+            <textarea
+              name="additionalChildren"
+              rows="3"
+              placeholder="If registering additional children, please list their names, DOBs, and grades"
+              class="field !border-navy/30 w-full resize-y"
+            ></textarea>
+
+            <textarea
+              name="notes"
+              rows="3"
+              placeholder="Anything else we should know?"
+              class="field !border-navy/30 w-full resize-y"
+            ></textarea>
+          </fieldset>
+
+          <!-- Submit -->
+          <div class="pt-2">
+            <button type="submit" class="btn btn-crimson">Submit Registration</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <GetNotified />
+
+</BaseLayout>

@@ -1,0 +1,244 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+import GetNotified from '../components/GetNotified.astro';
+import { CHURCH } from '../data/site';
+
+const title = `Springboard — September 2026 | ${CHURCH.name}`;
+const description = `Read the September 2026 Springboard newsletter from First Presbyterian Church of Montgomery, including worship, Sunday School, choir, community, and church news.`;
+
+const calendarItems = [
+  { date: 'September 3', detail: 'Choir Rehearsal — 7:00 PM' },
+  { date: 'September 6', detail: 'Worship / Communion — 11:30 AM; Commissioning of Christian Educators; Deacons Meeting — 1:00 PM' },
+  { date: 'September 7', detail: 'Labor Day' },
+  { date: 'September 10', detail: 'Choir Rehearsal — 7:00 PM' },
+  { date: 'September 12', detail: 'General Montgomery Day' },
+  { date: 'September 13', detail: 'Sunday School Registration — 10:15 AM; Worship / Senior Sunday — 11:30 AM; Westminster Guild' },
+  { date: 'September 17', detail: 'Choir Rehearsal — 7:00 PM' },
+  { date: 'September 20', detail: 'Sunday School — 10:15 AM; Worship — 11:30 AM' },
+  { date: 'September 23', detail: 'Presbytery Meeting at Holmes Camp' },
+  { date: 'September 24', detail: 'Choir Rehearsal — 7:00 PM' },
+  { date: 'September 25', detail: "Men's Fellowship — 6:00 PM at Maybrook Diner" },
+  { date: 'September 26', detail: 'PresbyBuild Talent Show — 3:00 PM' },
+  { date: 'September 27', detail: 'Worship; Coffee & Conversation; Session Meeting' },
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <PageHero
+    title="Springboard"
+    image="/images/bg-1-scaled.jpg"
+    size="lg"
+  />
+
+  <main>
+    <!-- Issue introduction -->
+    <section class="bg-cream py-16 md:py-24">
+      <div class="max-w-4xl mx-auto px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <p class="eyebrow-crimson mb-2">September 2026 Newsletter</p>
+          <h1 class="display-xl mb-4">First Presbyterian Church of Montgomery, NY</h1>
+          <p class="font-mono text-sm text-ink-soft">Christ Center · Community Driven · Worship</p>
+          <a href="/newsletter" class="inline-block font-mono text-sm text-crimson hover:underline mt-5">Latest issue: October 2026 →</a>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="bg-white p-7 md:p-8 shadow-sm border-t-4 border-crimson">
+            <h2 class="eyebrow-navy mb-3">Our Mission</h2>
+            <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft">
+              Our Mission is to open ourselves to God-seekers and to feed, nurture, and provide refuge for those in need.
+            </p>
+          </div>
+          <div class="bg-white p-7 md:p-8 shadow-sm border-t-4 border-navy">
+            <h2 class="eyebrow-navy mb-3">Our Purpose</h2>
+            <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft">
+              Our Purpose is to care about others and their well-being with love.
+            </p>
+          </div>
+        </div>
+
+        <div class="bg-navy text-white p-7 md:p-8 mt-6">
+          <h2 class="eyebrow-light text-white/75 mb-3">Our Values</h2>
+          <p class="font-mono text-[0.9rem] leading-relaxed text-white/85">
+            Commitment, Community, Compassion, Diversity, Integrity, Joy, Lead, Love, Nurture, Pursuit of Faith, and Social Consciousness.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Scripture and pastor's message -->
+    <section class="bg-white py-16 md:py-24">
+      <div class="max-w-3xl mx-auto px-6 lg:px-8">
+        <blockquote class="border-l-4 border-crimson pl-6 md:pl-8 mb-14">
+          <p class="font-display text-2xl md:text-3xl italic leading-relaxed text-navy">
+            Sing aloud, O daughter Zion; shout, O Israel!<br />
+            Rejoice and exult with all your heart, O daughter Jerusalem!<br />
+            The Lord has taken away the judgments against you; he has turned away your enemies.<br />
+            The king of Israel, the Lord, is in your midst; you shall fear disaster no more.
+          </p>
+          <cite class="block font-mono text-xs tracking-wider uppercase text-crimson not-italic mt-5">Zephaniah 3:14–15 NRSV</cite>
+        </blockquote>
+
+        <div class="prose-newsletter">
+          <p class="eyebrow-crimson mb-3">A message from Rev. Neill D. McKay</p>
+          <h2 class="display-lg mb-6">Friends and Family</h2>
+          <p>
+            There are times in every Christian journey when things just naturally seem to go wrong — one wrong step and we sprain our ankle, one wrong turn and we end up in a wreck, and into every household, a little drama finds its way. But this note isn't about dealing with life's speed bumps, or even the worst days of our lives, but rather celebrating the Living God of Israel in our very lives.
+          </p>
+          <p>
+            I led this newsletter with God's Word to us through the Prophet Zephaniah because it brings a great celebration to my heart. The Prophet's words uplift my soul, and I am reminded, even when the walls are tumbling down, that God has our back and we “shall fear disaster no more.” My message is simple: life is much better with God on our side, with Christ's grace in our lives, and the power of the Holy Spirit indwelling within us. A Godly life circles around the love of God, and that love emanates to all those around us. The flip side to a Christ-centered life is drama, conflict, ego, and an obsession with money, power, or vice. So we must ask ourselves: do we want a life of Godly love and hope, or a life striving to fill the God-void with earthly distractions?
+          </p>
+          <p>
+            The answer is simple: of course we want that saintly halo. But we also must be humble enough to accept that we are not perfect, our neighbor is not perfect, and our systems are equally imperfect. So we must love each other, flaws and all. Hold back judgment unless we can offer positive feedback and a helping hand.
+          </p>
+          <p class="font-display text-xl italic text-navy">“They will know we are Christians by our love, by our love.”</p>
+          <p class="mb-0">Peace in Christ,<br /><strong>Rev. Neill D. McKay</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Church announcements -->
+    <section class="triangle-pattern py-16 md:py-24">
+      <div class="max-w-container mx-auto px-6 lg:px-8">
+        <div class="max-w-3xl mb-10">
+          <p class="eyebrow-crimson mb-2">Church News</p>
+          <h2 class="display-xl">September at First Presbyterian</h2>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 lg:gap-8">
+          <article class="bg-white p-7 md:p-8 shadow-sm">
+            <h3 class="display-md text-navy mb-3">Senior Sunday</h3>
+            <p class="font-mono text-[0.88rem] leading-relaxed text-ink-soft">
+              On Sunday, September 13th, we will be honoring our 50-year members during worship, along with those who have been a member of a church or any combination of churches for 50 years, and those who are senior citizens.
+            </p>
+          </article>
+
+          <article class="bg-white p-7 md:p-8 shadow-sm border-t-4 border-crimson">
+            <h3 class="display-md text-navy mb-3">Christian Education</h3>
+            <p class="font-mono text-[0.88rem] leading-relaxed text-ink-soft">
+              Sunday School Registration &amp; Brunch will be Sunday, September 13th from 10:15–11:15 a.m. Sunday School will begin on Sunday, September 20th in the sanctuary at 10:15. We can’t wait for the children to join together in worship and fellowship! If you can’t be here on the 13th, registration forms are also enclosed, and you can register on our website.
+            </p>
+            <a href="/events" class="inline-block font-mono text-xs uppercase tracking-wider text-crimson hover:underline mt-4">See the event calendar →</a>
+          </article>
+
+          <article class="bg-white p-7 md:p-8 shadow-sm">
+            <h3 class="display-md text-navy mb-3">Choir</h3>
+            <p class="font-mono text-[0.88rem] leading-relaxed text-ink-soft">
+              Senior choir rehearsals will begin on Thursday, September 3, 2026, at 7:00 p.m. We hope that everyone who sang last year will come back. Anyone who loves music and wants to sing with us will be welcomed with open arms. No auditions are required — you only need to love music and be in 6th grade through 100 years old or more. Besides the singing, there is a lot of good fellowship generated through the sharing of music.
+            </p>
+          </article>
+
+          <article class="bg-white p-7 md:p-8 shadow-sm">
+            <h3 class="display-md text-navy mb-3">General Montgomery Day</h3>
+            <p class="font-mono text-[0.88rem] leading-relaxed text-ink-soft">
+              Saturday, September 12th is General Montgomery Day! We will be having a Bake Sale on the Lawn from 9 a.m. to 1 p.m. If you can bake something that would be great — drop off is Friday evening from 6–8 p.m. Anyone willing to help is welcome!
+            </p>
+          </article>
+
+          <article class="bg-white p-7 md:p-8 shadow-sm md:col-span-2">
+            <h3 class="display-md text-navy mb-3">PresbyBuild Talent Show</h3>
+            <p class="font-mono text-[0.88rem] leading-relaxed text-ink-soft">
+              The Presby Talent Show will be held Saturday, September 26th at 3:00 p.m. at Historic Calvary Presbyterian Church, 120 South St. in Newburgh. Some of our choir members will be performing and would appreciate your support. The event is free, but there will be a freewill offering during the show with all proceeds going towards the costs of the 13th PresbyBuild house. Checks may also be sent to Habitat for Humanity of Greater Newburgh (memo: PresbyBuild) at 125 Washington St., Newburgh, NY 12550.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- September calendar -->
+    <section class="bg-navy text-white py-16 md:py-24">
+      <div class="max-w-4xl mx-auto px-6 lg:px-8">
+        <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
+          <div>
+            <p class="eyebrow-light text-white/70 mb-2">Mark Your Calendar</p>
+            <h2 class="display-xl text-white">September Calendar</h2>
+          </div>
+          <a href="/events" class="font-mono text-xs uppercase tracking-wider text-white/75 hover:text-white">All events →</a>
+        </div>
+
+        <div class="divide-y divide-white/15 border-y border-white/15">
+          {calendarItems.map((item) => (
+            <div class="grid sm:grid-cols-[10rem_1fr] gap-2 sm:gap-6 py-4">
+              <time class="font-mono text-sm font-semibold text-white">{item.date}</time>
+              <p class="font-mono text-sm leading-relaxed text-white/75">{item.detail}</p>
+            </div>
+          ))}
+        </div>
+
+        <div class="mt-10 border-l-4 border-crimson pl-5">
+          <p class="eyebrow-light text-white/70 mb-1">Upcoming Event</p>
+          <p class="font-mono text-sm text-white/85"><strong class="text-white">October 10</strong> — Village Wide Yard Sale</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Food pantry and remembrance -->
+    <section class="bg-white py-16 md:py-24">
+      <div class="max-w-4xl mx-auto px-6 lg:px-8 grid md:grid-cols-2 gap-8 lg:gap-12">
+        <article>
+          <p class="eyebrow-crimson mb-2">Community Outreach</p>
+          <h2 class="display-lg mb-4">Food Pantry</h2>
+          <div class="prose-newsletter">
+            <p>
+              THANK YOU again to everyone who volunteered at the Pantry in July! Our church will be on staff again in November. During a typical month, we serve more than 300 households — fully a 100% increase over several years ago. After a huge spike in usage, we have not seen the expected decrease since the COVID pandemic subsided.
+            </p>
+            <p>
+              Local food drives and generous cash donations have helped limit what the Pantry has had to buy. The nonperishable items we can always use include canned fruit, veggies, tuna and pork &amp; beans, cereal, pasta &amp; sauce, boxed mac &amp; cheese, and boxed instant potatoes. When the Pantry does purchase food, it is generally from the Regional Food Bank here in Montgomery, where your donated dollars go farther.
+            </p>
+            <p>
+              All donations are greatly appreciated, and volunteers are always needed! We’re open to serve clients on Tuesdays 10:00 a.m.–12:00 p.m. and Wednesdays 6:30–8:00 p.m. We also pack nonperishable bags on Monday and Tuesday evenings from 6:00–7:00 p.m.
+            </p>
+            <p>
+              If you can help out — even if it’s only a shift here and there — or if you have questions, comments, or concerns, please call or text Robin McPhillips at 845-457-4194 or 845-978-6457, or email <a href="mailto:rmcphil1120@gmail.com" class="text-crimson hover:underline">rmcphil1120@gmail.com</a>.
+            </p>
+          </div>
+        </article>
+
+        <article class="bg-cream p-7 md:p-8 self-start">
+          <p class="eyebrow-crimson mb-2">In Memoriam</p>
+          <h2 class="display-lg mb-4">Remembering Carol Sweet</h2>
+          <p class="font-mono text-[0.88rem] leading-relaxed text-ink-soft">
+            We mourn the passing of Carol Sweet, a vital and deeply cherished member of our congregation. For many years, Carol poured her heart into our community, teaching Sunday School and serving faithfully on the Board of Deacons. Whether she was working hard at our Oyster Suppers, helping organize the Church Fairs, or welcoming people into the sanctuary, her dedication was unmatched. Carol’s bright smile and enduring spirit will be forever missed, but her legacy of faith and service lives on in all of us.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <GetNotified />
+
+  <style>
+    .prose-newsletter {
+      color: #596174;
+      font-family: var(--font-mono, ui-monospace, monospace);
+      font-size: 0.9rem;
+      line-height: 1.8;
+    }
+
+    .prose-newsletter p {
+      margin-bottom: 1.25rem;
+    }
+
+    @media print {
+      header,
+      footer,
+      #announcement-bar,
+      section:last-of-type {
+        display: none !important;
+      }
+
+      main,
+      section {
+        background: white !important;
+        color: black !important;
+      }
+
+      .text-white,
+      .text-white\/70,
+      .text-white\/75,
+      .text-white\/85 {
+        color: black !important;
+      }
+    }
+  </style>
+</BaseLayout>

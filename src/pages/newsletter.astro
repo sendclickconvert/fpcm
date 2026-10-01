@@ -4,240 +4,165 @@ import PageHero from '../components/PageHero.astro';
 import GetNotified from '../components/GetNotified.astro';
 import { CHURCH } from '../data/site';
 
-const title = `Springboard — September 2026 | ${CHURCH.name}`;
-const description = `Read the September 2026 Springboard newsletter from First Presbyterian Church of Montgomery, including worship, Sunday School, choir, community, and church news.`;
-
+const title = `Springboard — October 2026 | ${CHURCH.name}`;
+const description = 'Read the October 2026 Springboard newsletter: a letter from Pastor Neill, the October calendar, fellowship, community outreach, and church news.';
 const calendarItems = [
-  { date: 'September 3', detail: 'Choir Rehearsal — 7:00 PM' },
-  { date: 'September 6', detail: 'Worship / Communion — 11:30 AM; Commissioning of Christian Educators; Deacons Meeting — 1:00 PM' },
-  { date: 'September 7', detail: 'Labor Day' },
-  { date: 'September 10', detail: 'Choir Rehearsal — 7:00 PM' },
-  { date: 'September 12', detail: 'General Montgomery Day' },
-  { date: 'September 13', detail: 'Sunday School Registration — 10:15 AM; Worship / Senior Sunday — 11:30 AM; Westminster Guild' },
-  { date: 'September 17', detail: 'Choir Rehearsal — 7:00 PM' },
-  { date: 'September 20', detail: 'Sunday School — 10:15 AM; Worship — 11:30 AM' },
-  { date: 'September 23', detail: 'Presbytery Meeting at Holmes Camp' },
-  { date: 'September 24', detail: 'Choir Rehearsal — 7:00 PM' },
-  { date: 'September 25', detail: "Men's Fellowship — 6:00 PM at Maybrook Diner" },
-  { date: 'September 26', detail: 'PresbyBuild Talent Show — 3:00 PM' },
-  { date: 'September 27', detail: 'Worship; Coffee & Conversation; Session Meeting' },
+  { date: 'October 1', detail: 'Choir Rehearsal — 7:00 PM' },
+  { date: 'October 4', detail: 'Sunday School — 10:15 AM; Worship / World Communion Sunday — 11:30 AM; Deacons’ Meeting — 1:00 PM' },
+  { date: 'October 8', detail: 'Choir Rehearsal — 7:00 PM' },
+  { date: 'October 10', detail: 'Village Wide Yard Sale' },
+  { date: 'October 11', detail: 'Sunday School — 10:15 AM; Worship — 11:30 AM; Westminster Guild; BBQ Fundraiser at Hopewell — 5:00–7:00 PM' },
+  { date: 'October 15', detail: 'Choir Rehearsal — 7:30 PM' },
+  { date: 'October 18', detail: 'Sunday School — 10:15 AM; Worship — 11:30 AM; Fun & Fellowship — Sunshine Bags; Budget & Stewardship Meeting' },
+  { date: 'October 22', detail: 'Choir Rehearsal — 7:30 PM' },
+  { date: 'October 25', detail: 'Sunday School — 10:15 AM; Worship — 11:30 AM; Coffee & Conversation — Apple vs. Pumpkin; Session Meeting' },
+  { date: 'October 31', detail: 'Pastor Neill’s Halloween Party at the Manse — before trick-or-treating' },
 ];
 ---
 
 <BaseLayout title={title} description={description}>
-  <PageHero
-    title="Springboard"
-    image="/images/bg-1-scaled.jpg"
-    size="lg"
-  />
-
+  <PageHero title="Springboard" image="/images/bg-1-scaled.jpg" size="lg" />
   <main>
-    <!-- Issue introduction -->
     <section class="bg-cream py-16 md:py-24">
       <div class="max-w-4xl mx-auto px-6 lg:px-8">
         <div class="text-center mb-12">
-          <p class="eyebrow-crimson mb-2">September 2026 Newsletter</p>
+          <p class="eyebrow-crimson mb-2">October 2026 Newsletter</p>
           <h1 class="display-xl mb-4">First Presbyterian Church of Montgomery, NY</h1>
           <p class="font-mono text-sm text-ink-soft">Christ Center · Community Driven · Worship</p>
+          <a href="/newsletter-september-2026" class="inline-block font-mono text-sm text-crimson hover:underline mt-5">Previous issue: September 2026 →</a>
         </div>
-
         <div class="grid md:grid-cols-2 gap-6">
           <div class="bg-white p-7 md:p-8 shadow-sm border-t-4 border-crimson">
             <h2 class="eyebrow-navy mb-3">Our Mission</h2>
-            <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft">
-              Our Mission is to open ourselves to God-seekers and to feed, nurture, and provide refuge for those in need.
-            </p>
+            <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft">Our Mission is to open ourselves to God-seekers and to feed, nurture, and provide refuge for those in need.</p>
           </div>
           <div class="bg-white p-7 md:p-8 shadow-sm border-t-4 border-navy">
             <h2 class="eyebrow-navy mb-3">Our Purpose</h2>
-            <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft">
-              Our Purpose is to care about others and their well-being with love.
-            </p>
+            <p class="font-mono text-[0.9rem] leading-relaxed text-ink-soft">Our Purpose is to care about others and their well-being with love.</p>
           </div>
         </div>
-
         <div class="bg-navy text-white p-7 md:p-8 mt-6">
           <h2 class="eyebrow-light text-white/75 mb-3">Our Values</h2>
-          <p class="font-mono text-[0.9rem] leading-relaxed text-white/85">
-            Commitment, Community, Compassion, Diversity, Integrity, Joy, Lead, Love, Nurture, Pursuit of Faith, and Social Consciousness.
-          </p>
+          <p class="font-mono text-[0.9rem] leading-relaxed text-white/85">Commitment, Community, Compassion, Diversity, Integrity, Joy, Lead, Love, Nurture, Pursuit of Faith and Social Consciousness.</p>
         </div>
       </div>
     </section>
 
-    <!-- Scripture and pastor's message -->
-    <section class="bg-white py-16 md:py-24">
-      <div class="max-w-3xl mx-auto px-6 lg:px-8">
-        <blockquote class="border-l-4 border-crimson pl-6 md:pl-8 mb-14">
-          <p class="font-display text-2xl md:text-3xl italic leading-relaxed text-navy">
-            Sing aloud, O daughter Zion; shout, O Israel!<br />
-            Rejoice and exult with all your heart, O daughter Jerusalem!<br />
-            The Lord has taken away the judgments against you; he has turned away your enemies.<br />
-            The king of Israel, the Lord, is in your midst; you shall fear disaster no more.
-          </p>
-          <cite class="block font-mono text-xs tracking-wider uppercase text-crimson not-italic mt-5">Zephaniah 3:14–15 NRSV</cite>
+    <section id="pastors-letter" class="bg-white py-16 md:py-24">
+      <div class="max-w-3xl mx-auto px-6 lg:px-8 prose-newsletter">
+        <p class="eyebrow-crimson mb-3">A message from Rev. Neill D. McKay</p>
+        <h2 class="display-lg mb-6">Friends and Family</h2>
+        <p>It's OCTOBER, which means Pastor Neill gets to pull out my Halloween decorations and begin prepping for my personal favorite holiday of the year! The day when kids gather in small packs of merrymakers, all dressed up, knocking on total strangers' doors — who, with equal joy, give out sweets, treats, and other inventive treasures. One of my tricks in Alaska was to pass out little slips of scripture and a church invitation along with the candy — a simple way to reclaim and spread the Word of God on a day too many associate with paganism.</p>
+
+        <h3 id="bbq-fundraiser" class="display-md text-navy mt-10 mb-4">October 11th BBQ Fundraiser</h3>
+        <p class="font-semibold text-crimson">Hopewell Presbyterian Church · 5–7 PM</p>
+        <p>On Sunday, October 11th, I will be hosting an Eastern North Carolina BBQ fundraiser at Hopewell Presbyterian Church to support my upcoming November mission trip to the Middle East. No tickets to buy; just come, bring friends, and give as God leads. The total cost of the trip will be $6,000. God will provide. Now this is Eastern North Carolina pulled pork, vinegar-based BBQ — not Texas brisket, certainly not South Carolina mustard-based — served buffet style with my special baked beans, Hopewell's prized coleslaw, and a dessert bake sale. Everything we do is outreach and community building.</p>
+        <!-- SharePoint BBQ photographs can be placed here, beneath the fundraiser story. -->
+
+        <h3 class="display-md text-navy mt-10 mb-4">The Mission Trip</h3>
+        <p>This mission is an unapologetic focus on the suffering of Palestinian Christians, and not anti-Jewish. The approximately 1,200 Israelis killed during the cowardly October 7, 2023 Hamas attack were real people, and their grief is real. And yet the death toll since stands at nearly 75,000 Palestinians to approximately 2,000 Israelis — a 37 to 1 ratio that mirrors the historical pattern of this conflict. Israel controls all imports of food, fuel, and medicine into both Gaza and the West Bank which brings its own sense of oppression and insecurity. The call of the Gospel has always been to go where suffering is greatest, and voices are least heard. That is where we are going. Not to fight, denounce, or argue with anyone, but to let fellow Christians know they are seen.</p>
+        <p>For clarity, Gaza was controlled by Hamas, which launched the October 7 attack. Hamas does not control the West Bank, which has been administered by the Palestinian Authority for decades — it is a different territory, a different government, and a different reality. The West Bank, with its rise in Jewish Settler Violence, is where we are going.</p>
+
+        <h3 class="display-md text-navy mt-10 mb-4">Why Palestinian Christians?</h3>
+        <p>Palestinian Christians are descendants of the original followers of Jesus Christ — connected to this land since his birth, ministry, death, and resurrection, and they have never left. Today, like so many dispossessed peoples, they are struggling and slowly dying out. Our mission is simple: to go and be present. To let them know they are seen, not forgotten, and beloved children of God.</p>
+        <blockquote class="border-l-4 border-crimson pl-6 my-8">
+          <p class="font-display text-2xl italic text-navy">“There is no longer Jew or Greek, slave or free, male or female — for you are all one in Christ Jesus.”</p>
+          <cite class="font-mono text-xs uppercase tracking-wider text-crimson not-italic">Galatians 3:28</cite>
         </blockquote>
-
-        <div class="prose-newsletter">
-          <p class="eyebrow-crimson mb-3">A message from Rev. Neill D. McKay</p>
-          <h2 class="display-lg mb-6">Friends and Family</h2>
-          <p>
-            There are times in every Christian journey when things just naturally seem to go wrong — one wrong step and we sprain our ankle, one wrong turn and we end up in a wreck, and into every household, a little drama finds its way. But this note isn't about dealing with life's speed bumps, or even the worst days of our lives, but rather celebrating the Living God of Israel in our very lives.
-          </p>
-          <p>
-            I led this newsletter with God's Word to us through the Prophet Zephaniah because it brings a great celebration to my heart. The Prophet's words uplift my soul, and I am reminded, even when the walls are tumbling down, that God has our back and we “shall fear disaster no more.” My message is simple: life is much better with God on our side, with Christ's grace in our lives, and the power of the Holy Spirit indwelling within us. A Godly life circles around the love of God, and that love emanates to all those around us. The flip side to a Christ-centered life is drama, conflict, ego, and an obsession with money, power, or vice. So we must ask ourselves: do we want a life of Godly love and hope, or a life striving to fill the God-void with earthly distractions?
-          </p>
-          <p>
-            The answer is simple: of course we want that saintly halo. But we also must be humble enough to accept that we are not perfect, our neighbor is not perfect, and our systems are equally imperfect. So we must love each other, flaws and all. Hold back judgment unless we can offer positive feedback and a helping hand.
-          </p>
-          <p class="font-display text-xl italic text-navy">“They will know we are Christians by our love, by our love.”</p>
-          <p class="mb-0">Peace in Christ,<br /><strong>Rev. Neill D. McKay</strong></p>
-        </div>
+        <p>Peace in Christ,<br /><strong>Rev. Neill D. McKay</strong></p>
       </div>
     </section>
 
-    <!-- Church announcements -->
     <section class="triangle-pattern py-16 md:py-24">
       <div class="max-w-container mx-auto px-6 lg:px-8">
-        <div class="max-w-3xl mb-10">
-          <p class="eyebrow-crimson mb-2">Church News</p>
-          <h2 class="display-xl">September at First Presbyterian</h2>
-        </div>
-
+        <p class="eyebrow-crimson mb-2">Church News</p>
+        <h2 class="display-xl mb-10">October at First Presbyterian</h2>
         <div class="grid md:grid-cols-2 gap-6 lg:gap-8">
-          <article class="bg-white p-7 md:p-8 shadow-sm">
-            <h3 class="display-md text-navy mb-3">Senior Sunday</h3>
-            <p class="font-mono text-[0.88rem] leading-relaxed text-ink-soft">
-              On Sunday, September 13th, we will be honoring our 50-year members during worship, along with those who have been a member of a church or any combination of churches for 50 years, and those who are senior citizens.
-            </p>
+          <article id="fun-fellowship" class="bg-white p-7 md:p-8 shadow-sm border-t-4 border-crimson prose-newsletter">
+            <h3 class="display-md text-navy mb-4">Fun &amp; Fellowship</h3>
+            <p>Sunday, October 18th, we will be assembling Sunshine Bags with goodies to bring smiles to our friends in need.</p>
+            <p>Saturday, October 31st, is Pastor Neill’s Halloween Party at the Manse before Trick or Treating.</p>
+            <!-- Sunshine Bags or fellowship photographs can be placed here. -->
           </article>
-
-          <article class="bg-white p-7 md:p-8 shadow-sm border-t-4 border-crimson">
-            <h3 class="display-md text-navy mb-3">Christian Education</h3>
-            <p class="font-mono text-[0.88rem] leading-relaxed text-ink-soft">
-              Sunday School Registration &amp; Brunch will be Sunday, September 13th from 10:15–11:15 a.m. Sunday School will begin on Sunday, September 20th in the sanctuary at 10:15. We can’t wait for the children to join together in worship and fellowship! If you can’t be here on the 13th, registration forms are also enclosed, and you can register on our website.
-            </p>
-            <a href="/events" class="inline-block font-mono text-xs uppercase tracking-wider text-crimson hover:underline mt-4">See the event calendar →</a>
+          <article id="worship-committee" class="bg-white p-7 md:p-8 shadow-sm prose-newsletter">
+            <h3 class="display-md text-navy mb-4">Session Committee Highlights</h3>
+            <p><strong>Worship Committee — Chairman: Karla Ritter</strong></p>
+            <p><strong>Purpose:</strong> To provide for the worship of the people of God, including the preaching of the Word, the sharing of the Sacraments, and the music program.</p>
+            <p><strong>Responsibilities:</strong> To establish the time, place, and appropriate Order of Worship for regular Sunday worship service, as well as special services of worship. To supervise the celebration of the Sacraments. To provide the proper setting for the conduct of public worship. To oversee the music program of the church. To provide for the continuing education of our congregation regarding the rich worship life of the Presbyterian and Reformed tradition.</p>
           </article>
-
-          <article class="bg-white p-7 md:p-8 shadow-sm">
-            <h3 class="display-md text-navy mb-3">Choir</h3>
-            <p class="font-mono text-[0.88rem] leading-relaxed text-ink-soft">
-              Senior choir rehearsals will begin on Thursday, September 3, 2026, at 7:00 p.m. We hope that everyone who sang last year will come back. Anyone who loves music and wants to sing with us will be welcomed with open arms. No auditions are required — you only need to love music and be in 6th grade through 100 years old or more. Besides the singing, there is a lot of good fellowship generated through the sharing of music.
-            </p>
-          </article>
-
-          <article class="bg-white p-7 md:p-8 shadow-sm">
-            <h3 class="display-md text-navy mb-3">General Montgomery Day</h3>
-            <p class="font-mono text-[0.88rem] leading-relaxed text-ink-soft">
-              Saturday, September 12th is General Montgomery Day! We will be having a Bake Sale on the Lawn from 9 a.m. to 1 p.m. If you can bake something that would be great — drop off is Friday evening from 6–8 p.m. Anyone willing to help is welcome!
-            </p>
-          </article>
-
-          <article class="bg-white p-7 md:p-8 shadow-sm md:col-span-2">
-            <h3 class="display-md text-navy mb-3">PresbyBuild Talent Show</h3>
-            <p class="font-mono text-[0.88rem] leading-relaxed text-ink-soft">
-              The Presby Talent Show will be held Saturday, September 26th at 3:00 p.m. at Historic Calvary Presbyterian Church, 120 South St. in Newburgh. Some of our choir members will be performing and would appreciate your support. The event is free, but there will be a freewill offering during the show with all proceeds going towards the costs of the 13th PresbyBuild house. Checks may also be sent to Habitat for Humanity of Greater Newburgh (memo: PresbyBuild) at 125 Washington St., Newburgh, NY 12550.
-            </p>
+          <article id="earth-care" class="bg-white p-7 md:p-8 shadow-sm md:col-span-2 prose-newsletter">
+            <h3 class="display-md text-navy mb-4">Earth Care in Action</h3>
+            <p>Dear Carers of the Earth,</p>
+            <p>Time has come to take the next steps in our journey together! Please join us here at Holmes Camp &amp; Retreat Center on Oct. 10th for Earth Care in Action: Next steps for you and your congregation in stewarding creation.</p>
+            <p>We are planning an engaging and interesting day together with learning sessions, farm tours and maybe even getting a little dirt under your nails. This along with lunch and all free!</p>
+            <p>We would love to see you there and please forward this along to anyone else you think might be interested.</p>
+            <p>If you have questions, to sign up for lunch or if you'll need a ride from the train station email me at <a href="mailto:pat@holmescamp.org">pat@holmescamp.org</a>.</p>
+            <p>Yours, Pat Rossiter</p>
+            <p>You may also contact Pastor Neill at <a href="mailto:NM2442@yahoo.com">NM2442@yahoo.com</a>.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- September calendar -->
-    <section class="bg-navy text-white py-16 md:py-24">
+    <section id="october-calendar" class="bg-navy text-white py-16 md:py-24">
       <div class="max-w-4xl mx-auto px-6 lg:px-8">
         <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-10">
           <div>
             <p class="eyebrow-light text-white/70 mb-2">Mark Your Calendar</p>
-            <h2 class="display-xl text-white">September Calendar</h2>
+            <h2 class="display-xl text-white">October Calendar</h2>
           </div>
           <a href="/events" class="font-mono text-xs uppercase tracking-wider text-white/75 hover:text-white">All events →</a>
         </div>
-
         <div class="divide-y divide-white/15 border-y border-white/15">
           {calendarItems.map((item) => (
             <div class="grid sm:grid-cols-[10rem_1fr] gap-2 sm:gap-6 py-4">
-              <time class="font-mono text-sm font-semibold text-white">{item.date}</time>
+              <span class="font-mono text-sm font-semibold text-white">{item.date}</span>
               <p class="font-mono text-sm leading-relaxed text-white/75">{item.detail}</p>
             </div>
           ))}
         </div>
-
         <div class="mt-10 border-l-4 border-crimson pl-5">
-          <p class="eyebrow-light text-white/70 mb-1">Upcoming Event</p>
-          <p class="font-mono text-sm text-white/85"><strong class="text-white">October 10</strong> — Village Wide Yard Sale</p>
+          <p class="eyebrow-light text-white/70 mb-1">Looking Ahead</p>
+          <p class="font-mono text-sm text-white/85"><strong class="text-white">November 8</strong> — Westminster Guild Pie Contest</p>
         </div>
       </div>
     </section>
 
-    <!-- Food pantry and remembrance -->
     <section class="bg-white py-16 md:py-24">
-      <div class="max-w-4xl mx-auto px-6 lg:px-8 grid md:grid-cols-2 gap-8 lg:gap-12">
-        <article>
+      <div class="max-w-container mx-auto px-6 lg:px-8 grid md:grid-cols-2 gap-8 lg:gap-12">
+        <article id="food-pantry" class="prose-newsletter">
           <p class="eyebrow-crimson mb-2">Community Outreach</p>
           <h2 class="display-lg mb-4">Food Pantry</h2>
-          <div class="prose-newsletter">
-            <p>
-              THANK YOU again to everyone who volunteered at the Pantry in July! Our church will be on staff again in November. During a typical month, we serve more than 300 households — fully a 100% increase over several years ago. After a huge spike in usage, we have not seen the expected decrease since the COVID pandemic subsided.
-            </p>
-            <p>
-              Local food drives and generous cash donations have helped limit what the Pantry has had to buy. The nonperishable items we can always use include canned fruit, veggies, tuna and pork &amp; beans, cereal, pasta &amp; sauce, boxed mac &amp; cheese, and boxed instant potatoes. When the Pantry does purchase food, it is generally from the Regional Food Bank here in Montgomery, where your donated dollars go farther.
-            </p>
-            <p>
-              All donations are greatly appreciated, and volunteers are always needed! We’re open to serve clients on Tuesdays 10:00 a.m.–12:00 p.m. and Wednesdays 6:30–8:00 p.m. We also pack nonperishable bags on Monday and Tuesday evenings from 6:00–7:00 p.m.
-            </p>
-            <p>
-              If you can help out — even if it’s only a shift here and there — or if you have questions, comments, or concerns, please call or text Robin McPhillips at 845-457-4194 or 845-978-6457, or email <a href="mailto:rmcphil1120@gmail.com" class="text-crimson hover:underline">rmcphil1120@gmail.com</a>.
-            </p>
-          </div>
+          <p>First Presbyterian Church will be on staff again in November. During a typical month, we serve more than 300 households — fully a 100% increase over several years ago. After a huge spike in usage, we have not seen the expected decrease since the COVID pandemic subsided.</p>
+          <p>Local food drives and generous cash donations have helped limit what the Pantry has had to buy. Fortunately, supply chain issues have improved since the pandemic but the nonperishable items we can always use include canned fruit, veggies, tuna &amp; pork &amp; beans, cereal, pasta &amp; sauce, boxed mac &amp; cheese and boxed instant potatoes.</p>
+          <p>When the Pantry does purchase food, it is generally from the Regional Food Bank here in Montgomery, where your donated dollars go farther than at retail supermarkets and other food suppliers.</p>
+          <p>All donations are greatly appreciated, and volunteers are always needed! We’re open to serve clients on Tuesdays 10 AM–12 PM and Wednesdays 6:30–8 PM. We also pack nonperishable bags on Monday and Tuesday evenings from 6–7 PM so that bags are ready to go for serving clients the next day.</p>
+          <p>If you can help out — even if it’s only a shift here and there — or if you have questions/comments/concerns, please call/text/email Robin McPhillips: <a href="tel:8454574194">845-457-4194</a> / <a href="tel:8459786457">845-978-6457</a>, <a href="mailto:rmcphil1120@gmail.com">rmcphil1120@gmail.com</a>. THANK YOU!</p>
         </article>
-
-        <article class="bg-cream p-7 md:p-8 self-start">
-          <p class="eyebrow-crimson mb-2">In Memoriam</p>
-          <h2 class="display-lg mb-4">Remembering Carol Sweet</h2>
-          <p class="font-mono text-[0.88rem] leading-relaxed text-ink-soft">
-            We mourn the passing of Carol Sweet, a vital and deeply cherished member of our congregation. For many years, Carol poured her heart into our community, teaching Sunday School and serving faithfully on the Board of Deacons. Whether she was working hard at our Oyster Suppers, helping organize the Church Fairs, or welcoming people into the sanctuary, her dedication was unmatched. Carol’s bright smile and enduring spirit will be forever missed, but her legacy of faith and service lives on in all of us.
-          </p>
+        <article id="nursery-school" class="bg-cream p-7 md:p-8 self-start prose-newsletter">
+          <p class="eyebrow-crimson mb-2">Our Shared Spaces</p>
+          <h2 class="display-lg mb-4">Welcome, Montgomery Nursery School!</h2>
+          <p>Montgomery Nursery School is being warmly welcomed to Fellowship Hall!</p>
+          <p>To accommodate the community's needs following the closure of Most Precious Blood School in Walden, Valley Central made two preschool classes available. Montgomery Nursery School (MNS) stepped up to the challenge and partnered with the First Presbyterian Church of Montgomery to transform Fellowship Hall into an active classroom space.</p>
+          <h3 class="display-md text-navy mb-4">What This Means for Our Spaces</h3>
+          <p>Because our building is now a bustling, shared environment, please keep the following adjustments in mind:</p>
+          <p><strong>Coffee and Conversation:</strong> This gathering will now be a more closely attended, intimate time together to accommodate the new layout.</p>
+          <p><strong>Shared Community Groups:</strong> In addition to MNS, our spaces are actively utilized by AA, Al-Anon, and Girl Scouts.</p>
+          <p><strong>A Community Effort:</strong> With so many groups sharing the church, please show you care by cleaning up thoroughly after every event, so the space remains welcoming and ready for the next group.</p>
+          <!-- Nursery school or Fellowship Hall photographs can be placed here. -->
         </article>
       </div>
     </section>
   </main>
-
   <GetNotified />
-
   <style>
-    .prose-newsletter {
-      color: #596174;
-      font-family: var(--font-mono, ui-monospace, monospace);
-      font-size: 0.9rem;
-      line-height: 1.8;
-    }
-
-    .prose-newsletter p {
-      margin-bottom: 1.25rem;
-    }
-
+    .prose-newsletter { color: #596174; font-family: var(--font-mono, ui-monospace, monospace); font-size: 0.9rem; line-height: 1.8; overflow-wrap: anywhere; }
+    .prose-newsletter p { margin-bottom: 1.25rem; }
+    .prose-newsletter a { color: #af2333; text-decoration: underline; }
     @media print {
-      header,
-      footer,
-      #announcement-bar,
-      section:last-of-type {
-        display: none !important;
-      }
-
-      main,
-      section {
-        background: white !important;
-        color: black !important;
-      }
-
-      .text-white,
-      .text-white\/70,
-      .text-white\/75,
-      .text-white\/85 {
-        color: black !important;
-      }
+      :global(header), :global(footer), :global(#announcement-bar) { display: none !important; }
+      main, section { background: white !important; color: black !important; }
+      .text-white, .text-white\/70, .text-white\/75, .text-white\/85 { color: black !important; }
     }
   </style>
 </BaseLayout>

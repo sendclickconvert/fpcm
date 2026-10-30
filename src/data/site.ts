@@ -319,7 +319,7 @@ export const MINISTRIES_LIST = [
   },
   {
     title: 'Town of Montgomery Food Pantry',
-    body: 'The Town of Montgomery Food Pantry is our hands-on ministry of compassion, providing essential food resources to families and individuals in need right in our community. We stock the pantry in March, July, and November — and every contribution made during these months goes directly to feeding our neighbors.',
+    body: "Our church will be staffing the food pantry again in November. During a typical month, we serve about 350 households, a 100% increase over several years ago, and the need continues. Local food drives and cash donations help limit what the Pantry has to buy. When we do purchase food, it is generally from the Regional Food Bank here in Montgomery, where your donated dollars go farther than at retail supermarkets and other food suppliers. However, our retail buying has increased dramatically because the Food Bank is having a harder time providing what we need, so our funds aren't lasting as long as they used to. (About 90% of our operating budget is provided by community donations!) Nonperishable items we can always use include canned fruit, canned veggies, tuna, pork & beans, cereal, pasta & sauce, boxed mac & cheese and boxed instant potatoes. All donations are greatly appreciated and volunteers are always needed! We're open to serve clients on Tuesdays 10am-12pm and Wednesdays 6:30-8pm. We also pack nonperishable bags on Monday and Tuesday evenings from 6-7pm so that bags are ready to go for serving clients the next day. If you can help out, even if it's only a shift here and there, or if you have questions, comments or concerns, please call, text or email Robin McPhillips: 845-457-4194 / 845-978-6457.",
     image: '/images/Rectangle-29.jpg',
     align: 'right',
   },
@@ -328,6 +328,12 @@ export const MINISTRIES_LIST = [
     body: 'The women of the First Presbyterian Church of Montgomery are made up of all women in the church. They are part of a community with big sales, yard sales, cookie exchange, pie contest, and meet monthly on the second Sunday after worship. Come join the ladies for a late lunch and a program from a fellow member.',
     image: '/images/westminster-guild.jpg',
     align: 'left',
+  },
+  {
+    title: 'Prayer Shawl Ministry',
+    body: "Prayer Shawls are made to be a reminder of God's love. It is a gift for every occasion: joyful or sorrowful; at the start of life and at the end of life; in sickness or grief; and on special occasions. Who can have one? Anyone. Know that the knitter prayed while knitting it. A donated shawl has a prayer said over it while all present lay on hands. How can I get one? Ask a Deacon, as this ministry is part of their mission activities. You can also find some hanging in the narthex of the church. If you take one from there, please sign the sheet letting us know who received the shawl and who took one. A card and a gift bag can be provided on request. Want to make a shawl and donate it? Generally our shawls are rectangular, and 15 inches by 55 inches is a minimum size. Donations of shawls, yarn and craft store gift cards are gratefully accepted. Don't knit? We can teach you. One of our members is a great teacher and she has the patience of Job. There are other things you can do too. Do you crochet? Make Prayer Patches. Do you quilt? Make a lap robe. Are you a scrapper? Make gift cards and decorate gift bags. Or pick up shawls that are being donated or deliver yarn to our shut-in knitters. More questions? Contact Karla Ritter at 914-213-8473. Our next meeting is November 22, 2026 here at the church.",
+    image: '/images/congregation-2026.jpg',
+    align: 'right',
   },
 ];
 
